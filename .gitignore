@@ -4,7 +4,6 @@
 *~
 .deps
 Makefile
-Makefile
 Makefile.in
 autom4te.cache
 build-aux
