@@ -1,0 +1,16 @@
+*.la
+*.m4
+*.o
+*~
+.deps
+Makefile
+Makefile
+Makefile.in
+autom4te.cache
+build-aux
+config.*
+configure
+gtk/gtk-update-icon-cache
+libtool
+m4
+stamp-h1
