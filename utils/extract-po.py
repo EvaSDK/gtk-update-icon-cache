@@ -24,7 +24,7 @@ def extract_translations():
                 continue
 
             if line.startswith('#:'):
-                if './gtk/updateiconcache.c' in line:
+                if 'gtk/updateiconcache.c' in line:
                     relevant = True
 
         if relevant:
