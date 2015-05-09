@@ -11,10 +11,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk"
-"%2b&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-10-19 04:22+0000\n"
-"PO-Revision-Date: 2014-10-19 19:21+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-02 05:09+0000\n"
+"PO-Revision-Date: 2015-04-02 10:55+0100\n"
 "Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
 "Language-Team: Slovak <gnome-sk-list@gnome.org>\n"
 "Language: sk\n"
@@ -22,120 +21,119 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.7.4\n"
 
-#: ../gtk/updateiconcache.c:1386
+#: gtk/updateiconcache.c:1386
 #, c-format
 msgid "Failed to write header\n"
 msgstr "Zlyhalo zapísanie hlavičky\n"
 
-#: ../gtk/updateiconcache.c:1392
+#: gtk/updateiconcache.c:1392
 #, c-format
 msgid "Failed to write hash table\n"
 msgstr "Zlyhalo zapísanie hešovacej tabuľky\n"
 
-#: ../gtk/updateiconcache.c:1398
+#: gtk/updateiconcache.c:1398
 #, c-format
 msgid "Failed to write folder index\n"
 msgstr "Zlyhalo zapísanie indexu priečinka\n"
 
-#: ../gtk/updateiconcache.c:1406
+#: gtk/updateiconcache.c:1406
 #, c-format
 msgid "Failed to rewrite header\n"
 msgstr "Zlyhalo prepísanie hlavičky\n"
 
-#: ../gtk/updateiconcache.c:1500
+#: gtk/updateiconcache.c:1500
 #, c-format
 msgid "Failed to open file %s : %s\n"
 msgstr "Zlyhalo otvorenie súboru %s : %s\n"
 
-#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
+#: gtk/updateiconcache.c:1508 gtk/updateiconcache.c:1538
 #, c-format
 msgid "Failed to write cache file: %s\n"
 msgstr "Zlyhalo zapísanie súboru vyrovnávacieho úložiska: %s\n"
 
-#: ../gtk/updateiconcache.c:1548
+#: gtk/updateiconcache.c:1548
 #, c-format
 msgid "The generated cache was invalid.\n"
 msgstr "Vygenerované vyrovnávacie úložisko bolo neplatné.\n"
 
-#: ../gtk/updateiconcache.c:1562
+#: gtk/updateiconcache.c:1562
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
 msgstr "Nepodarilo sa premenovať %s na %s: %s, takže %s bude odstránený.\n"
 
-#: ../gtk/updateiconcache.c:1576
+#: gtk/updateiconcache.c:1576
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "Nepodarilo sa premenovať %s na %s: %s\n"
 
-#: ../gtk/updateiconcache.c:1586
+#: gtk/updateiconcache.c:1586
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "Nepodarilo sa premenovať %s naspäť na %s: %s\n"
 
-#: ../gtk/updateiconcache.c:1613
+#: gtk/updateiconcache.c:1613
 #, c-format
 msgid "Cache file created successfully.\n"
 msgstr "Vyrovnávacie úložisko ikon úspešne vytvorené.\n"
 
 # cmd desc
-#: ../gtk/updateiconcache.c:1652
+#: gtk/updateiconcache.c:1652
 msgid "Overwrite an existing cache, even if up to date"
 msgstr "Prepíše existujúce vyrovnávacie úložisko, aj keď je aktuálne"
 
 # cmd desc
-#: ../gtk/updateiconcache.c:1653
+#: gtk/updateiconcache.c:1653
 msgid "Don't check for the existence of index.theme"
 msgstr "Neoverí existenciu index.theme"
 
 # cmd desc
-#: ../gtk/updateiconcache.c:1654
+#: gtk/updateiconcache.c:1654
 msgid "Don't include image data in the cache"
 msgstr "Do vyrovnávacieho úložiska nezahrnie obrázkové údaje"
 
 # cmd desc
-#: ../gtk/updateiconcache.c:1655
+#: gtk/updateiconcache.c:1655
 msgid "Include image data in the cache"
 msgstr "Do vyrovnávacieho úložiska zahrnie obrázkové údaje"
 
 # cmd desc
-#: ../gtk/updateiconcache.c:1656
+#: gtk/updateiconcache.c:1656
 msgid "Output a C header file"
 msgstr "Vytvorí hlavičkový súbor jazyka C"
 
 # cmd desc
-#: ../gtk/updateiconcache.c:1657
+#: gtk/updateiconcache.c:1657
 msgid "Turn off verbose output"
 msgstr "Vypne podrobný výstup"
 
 # cmd desc
-#: ../gtk/updateiconcache.c:1658
+#: gtk/updateiconcache.c:1658
 msgid "Validate existing icon cache"
 msgstr "Overí existujúce úložisko ikon"
 
-#: ../gtk/updateiconcache.c:1725
+#: gtk/updateiconcache.c:1725
 #, c-format
 msgid "File not found: %s\n"
 msgstr "Súbor nenájdený: %s\n"
 
-#: ../gtk/updateiconcache.c:1731
+#: gtk/updateiconcache.c:1731
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "Neplatná vyrovnávacia pamäť ikon: %s\n"
 
-#: ../gtk/updateiconcache.c:1744
+#: gtk/updateiconcache.c:1744
 #, c-format
 msgid "No theme index file.\n"
 msgstr "Žiaden indexový súbor témy.\n"
 
-#: ../gtk/updateiconcache.c:1748
+#: gtk/updateiconcache.c:1748
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"
 "If you really want to create an icon cache here, use --ignore-theme-index.\n"
 msgstr ""
 "Žiaden indexový súbor témy v „%s“.\n"
-"Ak tu naozaj chcete vytvoriť vyrovnávaciu pamäť ikon, použite voľbu --ignore-"
-"theme-index.\n"
+"Ak tu naozaj chcete vytvoriť vyrovnávaciu pamäť ikon, použite voľbu --ignore-theme-index.\n"
 

@@ -10,15 +10,15 @@
 # Nishibori Kiyotaka <ml.nishibori.kiyotaka@gmail.com>, 2009-2010.
 # Masato Hashimoto <cabezon.hashimoto@gmail.com>, 2010.
 # IWAI, Masaharu <iwaim.sub@gmail.com>, 2010.
-# Jiro Matsuzawa <jmatsuzawa@gnome.org>, 2011, 2012, 2013, 2014.
+# Jiro Matsuzawa <jmatsuzawa@gnome.org>, 2011, 2012, 2013, 2014, 2015.
 # Shushi KUROSE <md81bird@hitaki.net>, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+ master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk%2b&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-05-11 02:02+0000\n"
-"PO-Revision-Date: 2014-08-24 16:40+0900\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-22 09:54+0000\n"
+"PO-Revision-Date: 2015-03-23 00:31+0900\n"
 "Last-Translator: Jiro Matsuzawa <jmatsuzawa@gnome.rog>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "Language: ja\n"
@@ -27,101 +27,105 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../gtk/updateiconcache.c:1386
+#: gtk/updateiconcache.c:1386
 #, c-format
 msgid "Failed to write header\n"
 msgstr "ヘッダーの書き込みに失敗しました\n"
 
-#: ../gtk/updateiconcache.c:1392
+#: gtk/updateiconcache.c:1392
 #, c-format
 msgid "Failed to write hash table\n"
 msgstr "ハッシュテーブルの書き込みに失敗しました\n"
 
-#: ../gtk/updateiconcache.c:1398
+#: gtk/updateiconcache.c:1398
 #, c-format
 msgid "Failed to write folder index\n"
 msgstr "フォルダーインデックスの書き込みに失敗しました\n"
 
-#: ../gtk/updateiconcache.c:1406
+#: gtk/updateiconcache.c:1406
 #, c-format
 msgid "Failed to rewrite header\n"
 msgstr "ヘッダーの再書き込みに失敗しました\n"
 
-#: ../gtk/updateiconcache.c:1500
+#: gtk/updateiconcache.c:1500
 #, c-format
 msgid "Failed to open file %s : %s\n"
 msgstr "%s というファイルのオープンに失敗しました: %s\n"
 
-#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
+#: gtk/updateiconcache.c:1508 gtk/updateiconcache.c:1538
 #, c-format
 msgid "Failed to write cache file: %s\n"
 msgstr "キャッシュファイルの書き込みに失敗しました: %s\n"
 
-#: ../gtk/updateiconcache.c:1548
+#: gtk/updateiconcache.c:1548
 #, c-format
 msgid "The generated cache was invalid.\n"
 msgstr "生成したキャッシュは正しくありません\n"
 
-#: ../gtk/updateiconcache.c:1562
+#: gtk/updateiconcache.c:1562
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
 msgstr "%s の名前を %s に変更できませんでした: %s (その後に %s を削除します)\n"
 
-#: ../gtk/updateiconcache.c:1576
+#: gtk/updateiconcache.c:1576
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "%s の名前を %s に変更できませんでした: %s\n"
 
-#: ../gtk/updateiconcache.c:1586
+#: gtk/updateiconcache.c:1586
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "%s の名前を %s に戻せませんでした: %s\n"
 
-#: ../gtk/updateiconcache.c:1613
+#: gtk/updateiconcache.c:1613
 #, c-format
 msgid "Cache file created successfully.\n"
 msgstr "キャッシュファイルの生成が完了しました\n"
 
-#: ../gtk/updateiconcache.c:1652
+#: gtk/updateiconcache.c:1652
 msgid "Overwrite an existing cache, even if up to date"
 msgstr "既存のキャッシュを上書きする (最新の状態でも)"
 
-#: ../gtk/updateiconcache.c:1653
+#: gtk/updateiconcache.c:1653
 msgid "Don't check for the existence of index.theme"
 msgstr "index.theme ファイルの有無を確認しない"
 
-#: ../gtk/updateiconcache.c:1654
+#: gtk/updateiconcache.c:1654
 msgid "Don't include image data in the cache"
 msgstr "キャッシュに画像データを含めない"
 
-#: ../gtk/updateiconcache.c:1655
+#: gtk/updateiconcache.c:1655
+msgid "Include image data in the cache"
+msgstr "キャッシュに画像データを含める"
+
+#: gtk/updateiconcache.c:1656
 msgid "Output a C header file"
 msgstr "C言語のヘッダーファイルを出力する"
 
-#: ../gtk/updateiconcache.c:1656
+#: gtk/updateiconcache.c:1657
 msgid "Turn off verbose output"
 msgstr "詳細な出力を無効にする"
 
-#: ../gtk/updateiconcache.c:1657
+#: gtk/updateiconcache.c:1658
 msgid "Validate existing icon cache"
 msgstr "既存のアイコンキャッシュを検証する"
 
-#: ../gtk/updateiconcache.c:1724
+#: gtk/updateiconcache.c:1725
 #, c-format
 msgid "File not found: %s\n"
 msgstr "ファイルが見つかりませんでした: %s\n"
 
-#: ../gtk/updateiconcache.c:1730
+#: gtk/updateiconcache.c:1731
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "妥当なアイコンキャッシュではありません: %s\n"
 
-#: ../gtk/updateiconcache.c:1743
+#: gtk/updateiconcache.c:1744
 #, c-format
 msgid "No theme index file.\n"
 msgstr "テーマの index ファイルがありません。\n"
 
-#: ../gtk/updateiconcache.c:1747
+#: gtk/updateiconcache.c:1748
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"

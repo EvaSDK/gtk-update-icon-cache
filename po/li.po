@@ -14,3 +14,113 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: gtk/updateiconcache.c:492 gtk/updateiconcache.c:552
+#, c-format
+msgid "different idatas found for symlinked '%s' and '%s'\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1374
+#, fuzzy, c-format
+msgid "Failed to write header\n"
+msgstr "Kós TIFF-aafbiljing neet äöpene"
+
+#: gtk/updateiconcache.c:1380
+#, fuzzy, c-format
+msgid "Failed to write hash table\n"
+msgstr "Kós TIFF-aafbiljing neet äöpene"
+
+#: gtk/updateiconcache.c:1386
+#, fuzzy, c-format
+msgid "Failed to write folder index\n"
+msgstr ""
+"Neet mäögelik om nao tiedelik besjtandj te sjrieve bie 't laje van XBM-"
+"aafbiljing"
+
+#: gtk/updateiconcache.c:1394
+#, fuzzy, c-format
+msgid "Failed to rewrite header\n"
+msgstr "Kós TIFF-aafbiljing neet äöpene"
+
+#: gtk/updateiconcache.c:1463
+#, fuzzy, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "Äöpene van besjtandj '%s' mislök: %s"
+
+#: gtk/updateiconcache.c:1471
+#, fuzzy, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "Äöpene van besjtandj '%s' mislök: %s"
+
+#: gtk/updateiconcache.c:1507
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1521
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1535
+#, fuzzy, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "Faeler bie 't make van map \"%s\": %s\n"
+
+#: gtk/updateiconcache.c:1545
+#, fuzzy, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "Faeler bie 't make van map \"%s\": %s\n"
+
+#: gtk/updateiconcache.c:1572
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1611
+msgid "Overwrite an existing cache, even if up to date"
+msgstr ""
+
+#: gtk/updateiconcache.c:1612
+msgid "Don't check for the existence of index.theme"
+msgstr ""
+
+#: gtk/updateiconcache.c:1613
+msgid "Don't include image data in the cache"
+msgstr ""
+
+#: gtk/updateiconcache.c:1614
+msgid "Output a C header file"
+msgstr ""
+
+#: gtk/updateiconcache.c:1615
+msgid "Turn off verbose output"
+msgstr ""
+
+#: gtk/updateiconcache.c:1616
+msgid "Validate existing icon cache"
+msgstr ""
+
+#: gtk/updateiconcache.c:1683
+#, fuzzy, c-format
+msgid "File not found: %s\n"
+msgstr ""
+"Faeler bie 't make van map \"%s\": %s\n"
+"%s"
+
+#: gtk/updateiconcache.c:1689
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1702
+#, c-format
+msgid "No theme index file.\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1706
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+

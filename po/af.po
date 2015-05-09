@@ -1,15 +1,15 @@
 # Afrikaans translation of gtk+.
-# Copyright (C) 2004 Zuza Software Foundation
 # This file is distributed under the same license as the gtk+ package.
+# Copyright (C)
 # Zuza Software Foundation <info@translate.org.za>, 2004
-# F Wolff <friedel@translate.org.za>, 2008, 2009, 2010, 2011, 2013.
+# F Wolff <friedel@translate.org.za>, 2008, 2009, 2010, 2011, 2013, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+ 2.6-branch\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk%"
-"2b&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-09-23 20:16+0000\n"
-"PO-Revision-Date: 2013-10-01 07:48+0200\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk%2b&"
+"keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-02-27 22:17+0000\n"
+"PO-Revision-Date: 2015-02-28 18:42+0200\n"
 "Last-Translator: F Wolff <friedel@translate.org.za>\n"
 "Language-Team: translate-discuss-af@lists.sourceforge.net\n"
 "Language: af\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
+"X-Generator: Virtaal 0.9.0-beta1\n"
 "X-Project-Style: gnome\n"
 
 #: ../gtk/updateiconcache.c:1386
@@ -88,33 +88,37 @@ msgid "Don't include image data in the cache"
 msgstr "Moenie beelddata insluit in die kas nie"
 
 #: ../gtk/updateiconcache.c:1655
+msgid "Include image data in the cache"
+msgstr "Sluit beelddata in by die kas"
+
+#: ../gtk/updateiconcache.c:1656
 msgid "Output a C header file"
 msgstr ""
 
-#: ../gtk/updateiconcache.c:1656
+#: ../gtk/updateiconcache.c:1657
 msgid "Turn off verbose output"
 msgstr "Skakel spraaksame afvoer af"
 
-#: ../gtk/updateiconcache.c:1657
+#: ../gtk/updateiconcache.c:1658
 msgid "Validate existing icon cache"
 msgstr "Valideer bestaande ikoonkas"
 
-#: ../gtk/updateiconcache.c:1724
+#: ../gtk/updateiconcache.c:1725
 #, c-format
 msgid "File not found: %s\n"
 msgstr "Lêer nie gevind nie: %s\n"
 
-#: ../gtk/updateiconcache.c:1730
+#: ../gtk/updateiconcache.c:1731
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "Nie 'n geldige ikoonkas nie: %s\n"
 
-#: ../gtk/updateiconcache.c:1743
+#: ../gtk/updateiconcache.c:1744
 #, c-format
 msgid "No theme index file.\n"
 msgstr "Geen indekslêer vir tema nie.\n"
 
-#: ../gtk/updateiconcache.c:1747
+#: ../gtk/updateiconcache.c:1748
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"

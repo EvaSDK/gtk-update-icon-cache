@@ -22,3 +22,115 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: KBabel 1.9.1\n"
 
+#: gtk/updateiconcache.c:492 gtk/updateiconcache.c:552
+#, c-format
+msgid "different idatas found for symlinked '%s' and '%s'\n"
+msgstr ""
+"dj' a trové des idata diferinnes po les fitchîs «%s» eyet «%s» ki sont loyîs "
+"simbolicmint\n"
+
+#: gtk/updateiconcache.c:1374
+#, c-format
+msgid "Failed to write header\n"
+msgstr "Li scrijhaedje del tiestire a fwait berwete\n"
+
+#: gtk/updateiconcache.c:1380
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "Li scrijhaedje del tåve di hashaedje a fwait berwete\n"
+
+#: gtk/updateiconcache.c:1386
+#, fuzzy, c-format
+msgid "Failed to write folder index\n"
+msgstr "Li scrijhaedje di l' indecse do ridant a fwait berwete\n"
+
+#: gtk/updateiconcache.c:1394
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "Li riscrijhaedje del tiestire a fwait berwete\n"
+
+#: gtk/updateiconcache.c:1463
+#, fuzzy, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "Dji n' a savou drovi li fitchî «%s»: %s"
+
+#: gtk/updateiconcache.c:1471
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "Li scrijhaedje do fitchî d' muchete a fwait berwete: %s\n"
+
+#: gtk/updateiconcache.c:1507
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1521
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "Dji n' a nén savou rlomer %s viè %s: %s, ça fwait ki dji oistêye %s.\n"
+
+#: gtk/updateiconcache.c:1535
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "Dji n' a nén savou rlomer %s viè %s: %s.\n"
+
+#: gtk/updateiconcache.c:1545
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "Dji n' a nén savou rlomer %s viè %s come divant: %s.\n"
+
+#: gtk/updateiconcache.c:1572
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "Li fitchî d' muchete a stî ahivé comifåt.\n"
+
+#: gtk/updateiconcache.c:1611
+#, fuzzy
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "Sipotchî on fitchî k' egzistêye dedja, mins s' il est a djoû"
+
+#: gtk/updateiconcache.c:1612
+msgid "Don't check for the existence of index.theme"
+msgstr "Èn nén loukî s' i gn a ddja on «index.theme»"
+
+#: gtk/updateiconcache.c:1613
+msgid "Don't include image data in the cache"
+msgstr "Èn nén mete les dnêyes des imådjes dins l' muchete"
+
+#: gtk/updateiconcache.c:1614
+msgid "Output a C header file"
+msgstr "Rexhe on fitchî d' tiestire C"
+
+#: gtk/updateiconcache.c:1615
+msgid "Turn off verbose output"
+msgstr "Dismete li badjawe rexhowe"
+
+#: gtk/updateiconcache.c:1616
+msgid "Validate existing icon cache"
+msgstr ""
+
+#: gtk/updateiconcache.c:1683
+#, fuzzy, c-format
+msgid "File not found: %s\n"
+msgstr "Dji n' a nén savou monter %s"
+
+#: gtk/updateiconcache.c:1689
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1702
+#, c-format
+msgid "No theme index file.\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1706
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"Nou fitchî d' indecse des tinmes e «%s».\n"
+"Si vos vloz vormint ahiver ene muchete des imådjetes chal, eployîz --ignore-"
+"theme-index.\n"
+

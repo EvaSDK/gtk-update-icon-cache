@@ -18,3 +18,114 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n==2) ? 1 : 0;\n"
 "X-Generator: Virtaal 0.5.0\n"
 
+#: gtk/updateiconcache.c:492 gtk/updateiconcache.c:552
+#, c-format
+msgid "different idatas found for symlinked '%s' and '%s'\n"
+msgstr ""
+"idatas gwahanol wedi'u canfod ar gyfer '%s' a '%s' sydd â chyswllt "
+"symbolaidd rhyngddynt\n"
+
+#: gtk/updateiconcache.c:1374
+#, c-format
+msgid "Failed to write header\n"
+msgstr "Methu ysgrifennu pennyn\n"
+
+#: gtk/updateiconcache.c:1380
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "Methu ysgrifennu tabl stwnsh\n"
+
+#: gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "Methu ysgrifennu mynegai ffolder\n"
+
+#: gtk/updateiconcache.c:1394
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "Methu ail-ysgrifennu pennyn\n"
+
+#: gtk/updateiconcache.c:1463
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "Methu agor y ffeil %s: %s\n"
+
+#: gtk/updateiconcache.c:1471
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "Methu ysgrifennu'r ffeil storfa: %s\n"
+
+#: gtk/updateiconcache.c:1507
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "Roedd y storfa a grëwyd yn annilys.\n"
+
+#: gtk/updateiconcache.c:1521
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "Methu ail-enwi %s yn %s: %s, felly'n tynnu %s.\n"
+
+#: gtk/updateiconcache.c:1535
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "Methu ail-enwi %s yn %s: %s\n"
+
+#: gtk/updateiconcache.c:1545
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "Methu ail-enwi %s yn ôl i %s: %s\n"
+
+#: gtk/updateiconcache.c:1572
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "Ffeil storfa wedi'i chynhyrchu'n llwyddiannus.\n"
+
+#: gtk/updateiconcache.c:1611
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "Trosysgrifo'r storfa sy'n bodoli, hyd yn oed os yw hi'n gyfoes"
+
+#: gtk/updateiconcache.c:1612
+msgid "Don't check for the existence of index.theme"
+msgstr "Peidio â gwirio am fodolaeth index.theme"
+
+#: gtk/updateiconcache.c:1613
+msgid "Don't include image data in the cache"
+msgstr "Peidio â chynnwys data delwedd yn y storfa"
+
+#: gtk/updateiconcache.c:1614
+msgid "Output a C header file"
+msgstr "Cynhyrchu ffeil bennyn C"
+
+#: gtk/updateiconcache.c:1615
+msgid "Turn off verbose output"
+msgstr "Diffodd allbwn amleiriog"
+
+#: gtk/updateiconcache.c:1616
+msgid "Validate existing icon cache"
+msgstr "Gwirio'r storfa eiconau sy'n bodoli"
+
+#: gtk/updateiconcache.c:1683
+#, c-format
+msgid "File not found: %s\n"
+msgstr "Methu canfod ffeil: %s\n"
+
+#: gtk/updateiconcache.c:1689
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "Ddim yn storfa eiconau ddilys: %s\n"
+
+#: gtk/updateiconcache.c:1702
+#, c-format
+msgid "No theme index file.\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1706
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"Dim ffeil fynegai themâu yn '%s'.\n"
+"Os ydych chi wir am greu storfa eiconau fan yna, defnyddiwch --ignore-theme-"
+"index.\n"
+

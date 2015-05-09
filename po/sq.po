@@ -18,3 +18,113 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: gtk/updateiconcache.c:492 gtk/updateiconcache.c:552
+#, c-format
+msgid "different idatas found for symlinked '%s' and '%s'\n"
+msgstr "Janë gjetur idata të ndryshme për lidhjet simbolike '%s' dhe '%s'\n"
+
+#: gtk/updateiconcache.c:1374
+#, c-format
+msgid "Failed to write header\n"
+msgstr "Shkrimi i kreut dështoi\n"
+
+#: gtk/updateiconcache.c:1380
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "Shkrimi i tabelës hash dështoi\n"
+
+#: gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "Shkrimi i treguesit të kartelës dështoi\n"
+
+#: gtk/updateiconcache.c:1394
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "Rishkrimi i kreut dështoi\n"
+
+#: gtk/updateiconcache.c:1463
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "E pamundur hapja e file %s : %s\n"
+
+#: gtk/updateiconcache.c:1471
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "I pamundur shkrimi i file të cache: %s\n"
+
+#: gtk/updateiconcache.c:1507
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "Cache e gjeneruar është e pavlefshme.\n"
+
+#: gtk/updateiconcache.c:1521
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "I pamundur riemërtimi i %s në %s: %s, prandaj %s do të hiqet.\n"
+
+#: gtk/updateiconcache.c:1535
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "I pamundur riemërtimi i %s në %s: %s\n"
+
+#: gtk/updateiconcache.c:1545
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "I pamundur rikthimi i emrit %s në %s: %s.\n"
+
+#: gtk/updateiconcache.c:1572
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "File cache u krijua me sukses.\n"
+
+#: gtk/updateiconcache.c:1611
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "Mbishkruaj cache ekzistuese, edhe po të jetë më e re"
+
+#: gtk/updateiconcache.c:1612
+msgid "Don't check for the existence of index.theme"
+msgstr "Mos kontrollo për ekzistimin e index.theme"
+
+#: gtk/updateiconcache.c:1613
+msgid "Don't include image data in the cache"
+msgstr "Mos përfshi të dhënat e figurës në cache"
+
+#: gtk/updateiconcache.c:1614
+msgid "Output a C header file"
+msgstr "Gjenero një header file C"
+
+#: gtk/updateiconcache.c:1615
+msgid "Turn off verbose output"
+msgstr "Çaktivo output e hollësishëm"
+
+#: gtk/updateiconcache.c:1616
+msgid "Validate existing icon cache"
+msgstr "Vleftëso cache ekzistuese të ikonave"
+
+#: gtk/updateiconcache.c:1683
+#, c-format
+msgid "File not found: %s\n"
+msgstr "File nuk u gjet: %s\n"
+
+#: gtk/updateiconcache.c:1689
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "Cache e pavlefshme ikone: %s\n"
+
+#: gtk/updateiconcache.c:1702
+#, fuzzy, c-format
+msgid "No theme index file.\n"
+msgstr "Asnjë file tregues teme."
+
+#: gtk/updateiconcache.c:1706
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"File tregues i temës nuk ekziston në '%s'.\n"
+"Për të krijuar një cache të ikonave në këtë pozicion, përdor --ignore-theme-"
+"index.\n"
+

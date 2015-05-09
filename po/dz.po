@@ -19,3 +19,113 @@ msgstr ""
 "X-Poedit-Country: BHUTAN\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
+#: gtk/updateiconcache.c:492 gtk/updateiconcache.c:552
+#, c-format
+msgid "different idatas found for symlinked '%s' and '%s'\n"
+msgstr "སིམ་ལིངཀ་ '%s' དང་'%s'གི་དོན་ལུ་ ཨའི་གནས་སྡུད་མ་འདྲཝ་ཐོབ་ཅི།\n"
+
+#: gtk/updateiconcache.c:1374
+#, c-format
+msgid "Failed to write header\n"
+msgstr "མགོ་ཡིག་སྡུད་འབྲི་མ་ཚུགས།\n"
+
+#: gtk/updateiconcache.c:1380
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "དྲྭ་རྟགས་ཐིག་ཁྲམ་འབྲི་མ་ཚུགས།\n"
+
+#: gtk/updateiconcache.c:1386
+#, fuzzy, c-format
+msgid "Failed to write folder index\n"
+msgstr "ཚིག་མཛོད་ཟུར་ཐོ་ འབྲི་མ་ཚུགས།\n"
+
+#: gtk/updateiconcache.c:1394
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "མགོ་ཡིག་འབྲི་མ་ཚུགས།\n"
+
+#: gtk/updateiconcache.c:1463
+#, fuzzy, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "ཡིག་སྣོད་ '%s': %s ཁ་ཕྱེ་མ་ཚུགས།"
+
+#: gtk/updateiconcache.c:1471
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "འདྲ་མཛོད་ཡིག་སྣོད་:%s འབྲི་མ་ཚུགས།\n"
+
+#: gtk/updateiconcache.c:1507
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1521
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "%sལས་%s: %s,ལུ་བསྐྱར་མིང་བཏགས་མ་ཚུགསཔ་ལས་%sརྩ་བསྐྲད་གཏང་དོ།\n"
+
+#: gtk/updateiconcache.c:1535
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "%s ལས་ %s: %s ལུ་ བསྐྱར་མིང་བཏགས་མ་ཚུགས།\n"
+
+#: gtk/updateiconcache.c:1545
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "%s དེ་ ལོག་སྟེ་ %s: %s ལུ་ བསྐྱར་མིང་བཏགས་མ་ཚུགས།\n"
+
+#: gtk/updateiconcache.c:1572
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "འདྲ་མཛོད་ཡིག་སྣོད་ མཐར་འཁྱོལ་སྦེ་ གསར་བསྐྲུན་འབད་ཡི།\n"
+
+#: gtk/updateiconcache.c:1611
+#, fuzzy
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "དུས་མཐུན་ཡོད་དེ་འབད་རུང་ ད་ལྟོའི་འདྲ་མཛོད་ཅིག་ལུ་ ཚབ་སྲུང་འབད།"
+
+#: gtk/updateiconcache.c:1612
+msgid "Don't check for the existence of index.theme"
+msgstr "ཟུར་ཐོའི་བརྗོད་དོན་ཡོད་མེད་ཀྱི་དོན་ལུ་ ཞིབ་དཔྱད་མ་འབད།"
+
+#: gtk/updateiconcache.c:1613
+msgid "Don't include image data in the cache"
+msgstr "འདྲ་མཛོད་ནང་ལུ་ གཟུགས་བརྙན་གྱི་གནས་སྡུད་ གྲངས་སུ་མ་བཙུགས།"
+
+#: gtk/updateiconcache.c:1614
+msgid "Output a C header file"
+msgstr "སི་མགོ་ཡིག་གི་ཡིག་སྣོད་ཅིག་ ཨའུཊི་པུཊི་འབད།"
+
+#: gtk/updateiconcache.c:1615
+msgid "Turn off verbose output"
+msgstr "ཚིག་མང་ཨའུཊི་པུཊི་ ཨོཕ་རྐྱབས།"
+
+#: gtk/updateiconcache.c:1616
+msgid "Validate existing icon cache"
+msgstr ""
+
+#: gtk/updateiconcache.c:1683
+#, fuzzy, c-format
+msgid "File not found: %s\n"
+msgstr "%s སྦྱར་བརྩེགས་འབད་མ་ཚུགས། "
+
+#: gtk/updateiconcache.c:1689
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1702
+#, c-format
+msgid "No theme index file.\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1706
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"'%s'ནང་ལུ་ བརྗོད་དོན་གྱི་ཟུར་ཐོའི་ཡིག་སྣོད་མིན་འདུག།\n"
+"ཁྱོད་ཀྱིས་ནཱ་ལུ་ འདྲ་མཛོེད་ཅིག་ ངེས་པར་བཟོ་འདོད་ཡོད་པ་ཅིན་ --བརྗོད་དོན་ཟུར་ཐོ་སྣང་མེད་བཞག་ ཟེར་མི་དེ་ "
+"ལག་ལེན་འཐབ།\n"
+

@@ -21,3 +21,113 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: KBabel 1.9.1\n"
 
+#: gtk/updateiconcache.c:492 gtk/updateiconcache.c:552
+#, c-format
+msgid "different idatas found for symlinked '%s' and '%s'\n"
+msgstr ""
+"Տարբեր իդենտիֆիկատորներ են գտնվել հետևյալ հղումների համար՝ '%s' և '%s'\n"
+
+#: gtk/updateiconcache.c:1374
+#, c-format
+msgid "Failed to write header\n"
+msgstr "Չհաջողվեց գրել վերնագիրը\n"
+
+#: gtk/updateiconcache.c:1380
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "Չհաջողվեց գրել Հաշ-աղյուսակ\n"
+
+#: gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "Չհաջողվեց գրել պանակի ինդեքսը\n"
+
+#: gtk/updateiconcache.c:1394
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "Չհաջողվեց վերագրել վերնագիրը\n"
+
+#: gtk/updateiconcache.c:1463
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "Չհաջողվեց բացել '%s ֆայլը․ %s\n"
+
+#: gtk/updateiconcache.c:1471
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "Չհաջողվեց փոխել քեշ ֆայլը․ %s\n"
+
+#: gtk/updateiconcache.c:1507
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "Գեներացված քեշը սխալ է.\n"
+
+#: gtk/updateiconcache.c:1521
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "Չհաջողվեց անվանափոխել %s -ը  %s -ով․ %s, հետո հեռացնելով %s.\n"
+
+#: gtk/updateiconcache.c:1535
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "Չհաջողվեց անվանափոխել %s -ը %s -ով․ %s\n"
+
+#: gtk/updateiconcache.c:1545
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "Չհաջողվեց հետ անվանափոխել %s -ը %s -ով․ %s.\n"
+
+#: gtk/updateiconcache.c:1572
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "Քեշ ֆայլը հաջողությամբ ստեղծված է.\n"
+
+#: gtk/updateiconcache.c:1611
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "Վերագրանցել առկա քեշը, նույնիսկ եթե այն թարմ է"
+
+#: gtk/updateiconcache.c:1612
+msgid "Don't check for the existence of index.theme"
+msgstr "Չստուգել index.theme -ի գոյությունը"
+
+#: gtk/updateiconcache.c:1613
+msgid "Don't include image data in the cache"
+msgstr "Չներառել պատկերային տվյալ քեշում"
+
+#: gtk/updateiconcache.c:1614
+msgid "Output a C header file"
+msgstr "Արտածել C գլխամասային ֆայլը"
+
+#: gtk/updateiconcache.c:1615
+msgid "Turn off verbose output"
+msgstr "Անջատել ընդլայնված արտածումը"
+
+#: gtk/updateiconcache.c:1616
+msgid "Validate existing icon cache"
+msgstr "Հաստատել պատկերակների առկա քեշը"
+
+#: gtk/updateiconcache.c:1683
+#, c-format
+msgid "File not found: %s\n"
+msgstr "Չհաջողվեց գտնել ֆայլը․ %s\n"
+
+#: gtk/updateiconcache.c:1689
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "Անվավեր պատկերակների քեշ․ %s\n"
+
+#: gtk/updateiconcache.c:1702
+#, c-format
+msgid "No theme index file.\n"
+msgstr "Թեմայի ինդեքսներով ֆայլ գոյություն չունի.\n"
+
+#: gtk/updateiconcache.c:1706
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"Թեմայի ինդեքսներով ֆայլ գոյություն չունի '%s' -ում։\n"
+"Եթե դուք իսկապես ուզում եք ստեղծել պատկերակների քեշ այստեղ, ապա օգտագործեք --"
+"ignore-theme-index.\n"
+

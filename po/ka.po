@@ -22,3 +22,111 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0\n"
 "X-Generator: KBabel 1.11.4\n"
 
+#: gtk/updateiconcache.c:492 gtk/updateiconcache.c:552
+#, c-format
+msgid "different idatas found for symlinked '%s' and '%s'\n"
+msgstr "სიმბოლური ბმებისთვის '%s' და '%s' სხვადასხვა idata მოიძებნა\n"
+
+#: gtk/updateiconcache.c:1374
+#, c-format
+msgid "Failed to write header\n"
+msgstr "თავსართის ჩაწერა ვერ მოხერხდ\n"
+
+#: gtk/updateiconcache.c:1380
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "დანაწილების ცხრილის ჩაწერა ვერ მოხერხდა\n"
+
+#: gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "ვერ განხორციელდა დასტის ინდექსის ჩაწერა\n"
+
+#: gtk/updateiconcache.c:1394
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "თავსართის ჩანაცვლება ვერ მოხერხდა\n"
+
+#: gtk/updateiconcache.c:1463
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "შეუძლებელი გახდა ფაილის გახსნა %s: %s\n"
+
+#: gtk/updateiconcache.c:1471
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "ქეშის ფაილის ჩაწერა ვერ მოხერხდა: %s\n"
+
+#: gtk/updateiconcache.c:1507
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "გენერირებული ქეშ ფაილი დაზიანებულია.\n"
+
+#: gtk/updateiconcache.c:1521
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "ვერ ხერხდება %s - %s გადარქმევა: %s, ამოღება %s შემდეგ.\n"
+
+#: gtk/updateiconcache.c:1535
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "გადარქმევის შეცდომა %s - %s: %s\n"
+
+#: gtk/updateiconcache.c:1545
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "უკუგადარქმევის შეცდომა %s - %s: %s.\n"
+
+#: gtk/updateiconcache.c:1572
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "ქეშ-ფაილი წარმატებით შეიქმნა.\n"
+
+#: gtk/updateiconcache.c:1611
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "არსებული ქეშ ფაილის თავზე გადაწერა, მიუხედავად იმისა თუ ის უახლესია"
+
+#: gtk/updateiconcache.c:1612
+msgid "Don't check for the existence of index.theme"
+msgstr "index.them-ის არსებობის შემოწმების გარეშე"
+
+#: gtk/updateiconcache.c:1613
+msgid "Don't include image data in the cache"
+msgstr "გამოსახულების მონაცემების ქეშსში შენახვის გარეშე"
+
+#: gtk/updateiconcache.c:1614
+msgid "Output a C header file"
+msgstr "C თავსართის ფაილის გამოტანა"
+
+#: gtk/updateiconcache.c:1615
+msgid "Turn off verbose output"
+msgstr "სრული გამოტანის ამორთვა"
+
+#: gtk/updateiconcache.c:1616
+msgid "Validate existing icon cache"
+msgstr "მიმდინარე ქეშ ხატულას შემოწმება"
+
+#: gtk/updateiconcache.c:1683
+#, c-format
+msgid "File not found: %s\n"
+msgstr "ფაილი არ არის ნაპოვნი: %s\n"
+
+#: gtk/updateiconcache.c:1689
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "არამართებული ქეში: %s\n"
+
+#: gtk/updateiconcache.c:1702
+#, fuzzy, c-format
+msgid "No theme index file.\n"
+msgstr "შეუძლებელია გაფორმების ინდექს ფაილის პოვნა."
+
+#: gtk/updateiconcache.c:1706
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"თემის ინდექსის ფაილი ვერ მოიძებნა - '%s'.\n"
+"თუ ნამდვილად გსურთ ხატულას ბუფერის შექმნა გამოიყენეთ --ignore-theme-index.\n"
+

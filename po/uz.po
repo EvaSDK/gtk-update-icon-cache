@@ -17,3 +17,109 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 
+#: gtk/updateiconcache.c:492 gtk/updateiconcache.c:552
+#, c-format
+msgid "different idatas found for symlinked '%s' and '%s'\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1374
+#, c-format
+msgid "Failed to write header\n"
+msgstr "Sarlavha yozishda xatolik yuz berdi\n"
+
+#: gtk/updateiconcache.c:1380
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "Xesh-jadvalini yozishda xatolik yuz berdi\n"
+
+#: gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "Jild indeksini yozishda xatolik yuz berdi\n"
+
+#: gtk/updateiconcache.c:1394
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "Sarlavhani qayta yozishda xatolik yuz berdi\n"
+
+#: gtk/updateiconcache.c:1463
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "%s faylini ochib boʻlmadi : %s\n"
+
+#: gtk/updateiconcache.c:1471
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "Kesh fayliga yozib boʻlmadi: %s\n"
+
+#: gtk/updateiconcache.c:1507
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "Yaratilgan kesh xato.\n"
+
+#: gtk/updateiconcache.c:1521
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1535
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "%s fayli %s sifatida qayta nomlanmadi: %s\n"
+
+#: gtk/updateiconcache.c:1545
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "%s faylini %s sifatida qayta nomlab boʻlmadi: %s\n"
+
+#: gtk/updateiconcache.c:1572
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "Kesh fayli muvaffaqiyatli yaratildi.\n"
+
+#: gtk/updateiconcache.c:1611
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "Mavjud kesh faylini yangilangan boʻlsa ham, ustidan yozish"
+
+#: gtk/updateiconcache.c:1612
+msgid "Don't check for the existence of index.theme"
+msgstr "index.theme fayli mavjudligi tekshirilmasin"
+
+#: gtk/updateiconcache.c:1613
+msgid "Don't include image data in the cache"
+msgstr ""
+
+#: gtk/updateiconcache.c:1614
+msgid "Output a C header file"
+msgstr ""
+
+#: gtk/updateiconcache.c:1615
+msgid "Turn off verbose output"
+msgstr "Kengaytirilgan kiritishni oʻchirish"
+
+#: gtk/updateiconcache.c:1616
+msgid "Validate existing icon cache"
+msgstr "Mavjud nishoncha keshini tekshirish"
+
+#: gtk/updateiconcache.c:1683
+#, c-format
+msgid "File not found: %s\n"
+msgstr "Fayl topilmadi: %s\n"
+
+#: gtk/updateiconcache.c:1689
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "Yaroqsiz nishoncha keshi: %s\n"
+
+#: gtk/updateiconcache.c:1702
+#, c-format
+msgid "No theme index file.\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1706
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+

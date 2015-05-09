@@ -25,3 +25,111 @@ msgstr ""
 "\n"
 "\n"
 
+#: gtk/updateiconcache.c:492 gtk/updateiconcache.c:552
+#, c-format
+msgid "different idatas found for symlinked '%s' and '%s'\n"
+msgstr "विभिन्न idatas जे '%s' आ '%s' सांकेतिक लिंक क' लेल पएलक गेल छल\n"
+
+#: gtk/updateiconcache.c:1374
+#, c-format
+msgid "Failed to write header\n"
+msgstr "हेडर लिखबामे विफल\n"
+
+#: gtk/updateiconcache.c:1380
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "हैश तालिका लिखबामे असफल\n"
+
+#: gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "फोल्डर सूची लिखबामे विफल\n"
+
+#: gtk/updateiconcache.c:1394
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "हेडर फिनु लिखबामे असफल\n"
+
+#: gtk/updateiconcache.c:1463
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "%s फाइल खोलबामे विफल : %s\n"
+
+#: gtk/updateiconcache.c:1471
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "कैश फाइल लिखबामे असफल: %s\n"
+
+#: gtk/updateiconcache.c:1507
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "बनाएल कैश अमान्य छल.\n"
+
+#: gtk/updateiconcache.c:1521
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "%s केँ फिनु %s नाम नहि दए सकल: %s, तखन %s हटाए रहल छै.\n"
+
+#: gtk/updateiconcache.c:1535
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "%s केँ फिनु %s नाम नहि दए सकल: %s\n"
+
+#: gtk/updateiconcache.c:1545
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "%s केँ फिनु सँ %s नाम नहि दए सकल: %s.\n"
+
+#: gtk/updateiconcache.c:1572
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "कैश फाइल सफलतापूर्वक बनाएल गेल.\n"
+
+#: gtk/updateiconcache.c:1611
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "मोजुदा कैश पर लिखू, मुदा ई अद्यतनो अछि"
+
+#: gtk/updateiconcache.c:1612
+msgid "Don't check for the existence of index.theme"
+msgstr "index.theme क मोजुदगी क' लेल नहि जाँचू"
+
+#: gtk/updateiconcache.c:1613
+msgid "Don't include image data in the cache"
+msgstr "कैशमे चित्र आँकड़ा शामिल नहि करू"
+
+#: gtk/updateiconcache.c:1614
+msgid "Output a C header file"
+msgstr "एकटा C हेडर फाइल आउटपुट दिअ'"
+
+#: gtk/updateiconcache.c:1615
+msgid "Turn off verbose output"
+msgstr "वर्बोस आउटपुट बन्न करू"
+
+#: gtk/updateiconcache.c:1616
+msgid "Validate existing icon cache"
+msgstr "मोजुदा प्रतीक कैश मान्य करू"
+
+#: gtk/updateiconcache.c:1683
+#, c-format
+msgid "File not found: %s\n"
+msgstr "फाइल नहि भेटल: %s\n"
+
+#: gtk/updateiconcache.c:1689
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "कोनो वैध प्रतीक कैश नहि: %s\n"
+
+#: gtk/updateiconcache.c:1702
+#, c-format
+msgid "No theme index file.\n"
+msgstr "कोनो प्रसंग सूची फाइल नहीं.\n"
+
+#: gtk/updateiconcache.c:1706
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"कोनो थीम सूची फाइल '%s' मे नहि.\n"
+"जँ अहाँ सच्चेमे एकटा प्रतीक कैश बनबै चाहैत छी, --ignore-theme-index क' प्रयोग करू.\n"
+

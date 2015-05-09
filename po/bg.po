@@ -1,140 +1,146 @@
 # Bulgarian translation of gtk+ po-file.
 # Copyright (C) 2002, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
-# Copyright (C) 2009, 2010, 2011, 2012, 2013 Free Software Foundation, Inc.
+# Copyright (C) 2009, 2010, 2011, 2012, 2013, 2015 Free Software Foundation, Inc.
+# Copyright (C) 2015 Zahari Yurukov <zahari.yurukov@gmail.com>.
 # Borislav Aleksandrov <B.Aleksandrov@CNsys.bg>, 2002.
 # Yanko Kaneti <yaneti@declera.com>, 2002.
 # Vladimir Petkov <kaladan@gmail.com>, 2004, 2005.
-# Alexander Shopov <ash@kambanaria.org>, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013.
+# Alexander Shopov <ash@kambanaria.org>, 2005, 2006, 2007, 2008, 2009, 2010, 2011.
+# Alexander Shopov <ash@kambanaria.org>, 2012, 2013.
 # Damyan Ivanov <dam+gnome@ktnx.net>, 2010.
+# Zahari Yurukov <zahari.yurukov@gmail.com>, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+ master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-12 07:07+0200\n"
-"PO-Revision-Date: 2013-01-12 07:07+0200\n"
-"Last-Translator: Alexander Shopov <ash@kambanaria.org>\n"
+"POT-Creation-Date: 2015-03-17 22:57+0200\n"
+"PO-Revision-Date: 2015-03-17 23:02+0200\n"
+"Last-Translator: Zahari Yurukov <zahari.yurukov@gmail.com>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Poedit 1.5.4\n"
 
-#: ../gtk/updateiconcache.c:1368
+#: gtk/updateiconcache.c:1386
 #, c-format
 msgid "Failed to write header\n"
-msgstr "Неуспех при запазване на заглавната част\n"
+msgstr "Неуспешно запазване на заглавната част\n"
 
-#: ../gtk/updateiconcache.c:1374
+#: gtk/updateiconcache.c:1392
 #, c-format
 msgid "Failed to write hash table\n"
-msgstr "Неуспех при запазване на таблицата с извадките\n"
+msgstr "Неуспешно запазване на таблицата с извадките\n"
 
-#: ../gtk/updateiconcache.c:1380
+#: gtk/updateiconcache.c:1398
 #, c-format
 msgid "Failed to write folder index\n"
-msgstr "Неуспех при записването на индекса на папка\n"
+msgstr "Неуспешно записване на индекса на папката\n"
 
-#: ../gtk/updateiconcache.c:1388
+#: gtk/updateiconcache.c:1406
 #, c-format
 msgid "Failed to rewrite header\n"
-msgstr "Неуспех при замяната на заглавната част\n"
+msgstr "Неуспешна замяна на заглавната част\n"
 
-#: ../gtk/updateiconcache.c:1482
+#: gtk/updateiconcache.c:1500
 #, c-format
 msgid "Failed to open file %s : %s\n"
-msgstr "Неуспех при отваряне на файла „%s“: %s\n"
+msgstr "Неуспешно отваряне на файла „%s“: %s\n"
 
-#: ../gtk/updateiconcache.c:1490 ../gtk/updateiconcache.c:1520
+#: gtk/updateiconcache.c:1508 gtk/updateiconcache.c:1538
 #, c-format
 msgid "Failed to write cache file: %s\n"
-msgstr "Неуспех при запазване на файла за временно съхранение на икони: %s\n"
+msgstr "Неуспешно запазване на файла за временно съхранение: %s\n"
 
-#: ../gtk/updateiconcache.c:1530
+#: gtk/updateiconcache.c:1548
 #, c-format
 msgid "The generated cache was invalid.\n"
-msgstr "Генерираният файл за временно съхранение на икони е неправилен.\n"
+msgstr "Генерираният файл за временно съхранение е неправилен.\n"
 
-#: ../gtk/updateiconcache.c:1544
+#: gtk/updateiconcache.c:1562
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
 msgstr ""
 "Грешка при преименуването на „%s“ към „%s“: %s, затова „%s“ ще се изтрие.\n"
 
-#: ../gtk/updateiconcache.c:1558
+#: gtk/updateiconcache.c:1576
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "Грешка при преименуването на „%s“ към „%s“: %s\n"
 
-#: ../gtk/updateiconcache.c:1568
+#: gtk/updateiconcache.c:1586
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "Грешка при преименуването на „%s“ обратно към „%s“: %s\n"
 
-#: ../gtk/updateiconcache.c:1595
+#: gtk/updateiconcache.c:1613
 #, c-format
 msgid "Cache file created successfully.\n"
-msgstr "Файлът за временно съхранение на икони е създаден успешно.\n"
+msgstr "Файлът за временно съхранение е създаден успешно.\n"
 
-#: ../gtk/updateiconcache.c:1634
+#: gtk/updateiconcache.c:1652
 msgid "Overwrite an existing cache, even if up to date"
 msgstr ""
 "Презаписване на файла за временно\n"
-"                                        съхранение на икони дори и да е "
-"актуален"
+"                                        съхранение, дори и да е актуален"
 
-#: ../gtk/updateiconcache.c:1635
+#: gtk/updateiconcache.c:1653
 msgid "Don't check for the existence of index.theme"
 msgstr ""
 "Да не се проверява за съществуването\n"
 "                                        на файл „index.theme“"
 
-#: ../gtk/updateiconcache.c:1636
+#: gtk/updateiconcache.c:1654
 msgid "Don't include image data in the cache"
 msgstr ""
 "Данните за изображения да не се за-\n"
 "                                        писват във файл за временно "
-"съхранение на\n"
-"                                        икони"
+"съхранение"
 
-#: ../gtk/updateiconcache.c:1637
+#: gtk/updateiconcache.c:1655
+msgid "Include image data in the cache"
+msgstr "Включване на данните за изображения във файла за временно съхранение"
+
+#: gtk/updateiconcache.c:1656
 msgid "Output a C header file"
 msgstr "Генериране на заглавен файл на C"
 
-#: ../gtk/updateiconcache.c:1638
+#: gtk/updateiconcache.c:1657
 msgid "Turn off verbose output"
 msgstr "Изключване на подробния изход"
 
-#: ../gtk/updateiconcache.c:1639
+#: gtk/updateiconcache.c:1658
 msgid "Validate existing icon cache"
 msgstr ""
 "Проверка на съществуващия файл за\n"
 "                                        временно съхранение на икони"
 
-#: ../gtk/updateiconcache.c:1706
+#: gtk/updateiconcache.c:1725
 #, c-format
 msgid "File not found: %s\n"
 msgstr "Файлът не е открит: %s\n"
 
-#: ../gtk/updateiconcache.c:1712
+#: gtk/updateiconcache.c:1731
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "Неправилен файл за временно съхранение на икони: %s\n"
 
-#: ../gtk/updateiconcache.c:1725
+#: gtk/updateiconcache.c:1744
 #, c-format
 msgid "No theme index file.\n"
 msgstr "Няма файл с индекс за темите.\n"
 
-#: ../gtk/updateiconcache.c:1729
+#: gtk/updateiconcache.c:1748
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"
 "If you really want to create an icon cache here, use --ignore-theme-index.\n"
 msgstr ""
 "В „%s“ не е открит индексен файл за тема.\n"
-"Ако наистина искате да създадете временен файл за икони тук, използвате "
+"Ако наистина искате да създадете временен файл за икони тук, използвайте "
 "опцията\n"
 "„--ignore-theme-index“.\n"
 

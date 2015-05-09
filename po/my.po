@@ -16,3 +16,111 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+#: gtk/updateiconcache.c:492 gtk/updateiconcache.c:552
+#, c-format
+msgid "different idatas found for symlinked '%s' and '%s'\n"
+msgstr "ချိတ်ဆက်အမှတ် '%s' နဲ့ '%s' အတွက် ကွဲပြားတဲ့ အိုင်အချက်အလက်ကြမ်များကို တွေ့ရှိတယ်\n"
+
+#: gtk/updateiconcache.c:1374
+#, c-format
+msgid "Failed to write header\n"
+msgstr "ခေါင်းစီးကို ရေးဖို့ မအောင်မြင်ဘူး\n"
+
+#: gtk/updateiconcache.c:1380
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "ဟတ်ဇယားကို ရေးဖို့ မအောင်မြင်ဘူး\n"
+
+#: gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "ဖိုင်တွဲ အညွှန်းကို ရေးဖို့ မအောင်မြင်ဘူး\n"
+
+#: gtk/updateiconcache.c:1394
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "ခေါင်းစီးကို ပြန်ရေးဖို့ မအောင်မြင်ဘူး\n"
+
+#: gtk/updateiconcache.c:1463
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "%s ဖိုင်ကို ဖွင့်ဖို့ မအောင်မြင်ဘူး %s\n"
+
+#: gtk/updateiconcache.c:1471
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "ယာယီသိမ်းဆည်းခန်းကို ရေးဖို့ မအောင်မြင်ဘူး %s\n"
+
+#: gtk/updateiconcache.c:1507
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "ထုတ်လုပ်ထားတဲံ ယာယီသိမ်းဆည်းခန်းဟာ မမှန်ဘူး။\n"
+
+#: gtk/updateiconcache.c:1521
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "%s ကို %s: %s အဖြစ် အမည်​မပြောင်းနိုင်ဘူး၊ နောက် %s ကို မဖယ်ရှားနိုင်ဘူး။\n"
+
+#: gtk/updateiconcache.c:1535
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "%s ကို %s: %s အဖြစ် အမည် မပြောင်းနိုင်ဘူး\n"
+
+#: gtk/updateiconcache.c:1545
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "%s ကို %s: %s အဖြစ် ပြန်ပြီး အမည်မပြောင်းနိုင်ဘူး\n"
+
+#: gtk/updateiconcache.c:1572
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "ယာယီသိမ်းဆည်းခန်းကို အောင်မြင်စွာ ဖန်တီးခဲ့တယ်။\n"
+
+#: gtk/updateiconcache.c:1611
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "လက်ရှိ ယာယီသိမ်းဆည်းခန်း တခုကို နောက်ဆုံးနေ့အထ် ပယ်ဖျက်လိုက်တယ်၊ "
+
+#: gtk/updateiconcache.c:1612
+msgid "Don't check for the existence of index.theme"
+msgstr "ndex.theme တည်ရှိတာကို မစစ်ဆေးပါနဲ့"
+
+#: gtk/updateiconcache.c:1613
+msgid "Don't include image data in the cache"
+msgstr "ယာယီသိမ်းဆည်းခန်းထဲမှာ ရုပ်ပုံ အချက်အလက်ကြမ်းကို မထည့်သွင်းနဲ့"
+
+#: gtk/updateiconcache.c:1614
+msgid "Output a C header file"
+msgstr "C ခေါင်းစီးဖိုင် တခု ရလဒ်"
+
+#: gtk/updateiconcache.c:1615
+msgid "Turn off verbose output"
+msgstr "ရှည်လျားတဲ့ ရလဒ်ကို ပိတ်ပါ"
+
+#: gtk/updateiconcache.c:1616
+msgid "Validate existing icon cache"
+msgstr "တည်ရှိ​တဲ့ ပုံသ​င်္ကေတ ယာယီသိမ်းဆည်းခန်းကို အတည်ပြုပါ"
+
+#: gtk/updateiconcache.c:1683
+#, c-format
+msgid "File not found: %s\n"
+msgstr "မတွေ့ရှိတဲ့ ဖိုင် - %s\n"
+
+#: gtk/updateiconcache.c:1689
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "မမှန်တဲ့ ပုံသင်္ကေတ ယာယီသိမ်းဆည်းခန်း တခု - %s\n"
+
+#: gtk/updateiconcache.c:1702
+#, c-format
+msgid "No theme index file.\n"
+msgstr "အခင်းအကျင်း အညွှန်း ဖိုင် မဟုတ်ဘူး။\n"
+
+#: gtk/updateiconcache.c:1706
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"'%s' ထဲမှာ အခင်းအကျင်း အညွှန်းဖိုင် မရှိဘူး။\n"
+"ဒီမှာ ပုံသင်္ကေတ ယာယီသိမ်းဆည်းခန်းက တခုကို သင်တကယ် ဖန်တီးလိုရင်၊ --ignore-theme-index ကို သုံးစွဲပါ။\n"
+

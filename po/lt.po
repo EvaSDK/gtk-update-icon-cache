@@ -14,10 +14,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: lt\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk"
-"%2b&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-03-21 09:52+0000\n"
-"PO-Revision-Date: 2015-03-21 17:18+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-25 19:56+0000\n"
+"PO-Revision-Date: 2015-03-25 23:51+0200\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
@@ -28,105 +27,105 @@ msgstr ""
 "%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Gtranslator 2.91.6\n"
 
-#: ../gtk/updateiconcache.c:1386
+#: gtk/updateiconcache.c:1386
 #, c-format
 msgid "Failed to write header\n"
 msgstr "Nepavyko įrašyti antraštės\n"
 
-#: ../gtk/updateiconcache.c:1392
+#: gtk/updateiconcache.c:1392
 #, c-format
 msgid "Failed to write hash table\n"
 msgstr "Nepavyko įrašyti maišos lentelės\n"
 
-#: ../gtk/updateiconcache.c:1398
+#: gtk/updateiconcache.c:1398
 #, c-format
 msgid "Failed to write folder index\n"
 msgstr "Nepavyko įrašyti aplanko indekso\n"
 
-#: ../gtk/updateiconcache.c:1406
+#: gtk/updateiconcache.c:1406
 #, c-format
 msgid "Failed to rewrite header\n"
 msgstr "Nepavyko perrašyti antraštės\n"
 
-#: ../gtk/updateiconcache.c:1500
+#: gtk/updateiconcache.c:1500
 #, c-format
 msgid "Failed to open file %s : %s\n"
 msgstr "Nepavyko atverti failo „%s“: %s\n"
 
-#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
+#: gtk/updateiconcache.c:1508 gtk/updateiconcache.c:1538
 #, c-format
 msgid "Failed to write cache file: %s\n"
 msgstr "Nepavyko įrašyti podėlio failo: %s\n"
 
-#: ../gtk/updateiconcache.c:1548
+#: gtk/updateiconcache.c:1548
 #, c-format
 msgid "The generated cache was invalid.\n"
 msgstr "Sugeneruotas podėlis buvo netinkamas.\n"
 
-#: ../gtk/updateiconcache.c:1562
+#: gtk/updateiconcache.c:1562
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
 msgstr "Nepavyko pervadinti %s į %s: %s, taigi %s pašalinama.\n"
 
-#: ../gtk/updateiconcache.c:1576
+#: gtk/updateiconcache.c:1576
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "Nepavyko pervadinti %s į %s: %s\n"
 
-#: ../gtk/updateiconcache.c:1586
+#: gtk/updateiconcache.c:1586
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "Nepavyko pervadinti %s atgal į %s: %s.\n"
 
-#: ../gtk/updateiconcache.c:1613
+#: gtk/updateiconcache.c:1613
 #, c-format
 msgid "Cache file created successfully.\n"
 msgstr "Podėlio failas sukurtas sėkmingai.\n"
 
-#: ../gtk/updateiconcache.c:1652
+#: gtk/updateiconcache.c:1652
 msgid "Overwrite an existing cache, even if up to date"
 msgstr "Perrašyti esamą podėlį, netgi jei nepasenęs"
 
-#: ../gtk/updateiconcache.c:1653
+#: gtk/updateiconcache.c:1653
 msgid "Don't check for the existence of index.theme"
 msgstr "Netikrinti, ar egzistuoja index.theme"
 
-#: ../gtk/updateiconcache.c:1654
+#: gtk/updateiconcache.c:1654
 msgid "Don't include image data in the cache"
 msgstr "Neįtraukti paveikslėlio duomenų į podėlį"
 
-#: ../gtk/updateiconcache.c:1655
+#: gtk/updateiconcache.c:1655
 msgid "Include image data in the cache"
 msgstr "Įtraukti paveikslėlio duomenis į podėlį"
 
-#: ../gtk/updateiconcache.c:1656
+#: gtk/updateiconcache.c:1656
 msgid "Output a C header file"
 msgstr "Išvesti C antraštės failą"
 
-#: ../gtk/updateiconcache.c:1657
+#: gtk/updateiconcache.c:1657
 msgid "Turn off verbose output"
 msgstr "Išjungti išsamią išvestį"
 
-#: ../gtk/updateiconcache.c:1658
+#: gtk/updateiconcache.c:1658
 msgid "Validate existing icon cache"
 msgstr "Patvirtinti esantį piktogramų podėlį"
 
-#: ../gtk/updateiconcache.c:1725
+#: gtk/updateiconcache.c:1725
 #, c-format
 msgid "File not found: %s\n"
 msgstr "Failas nerastas: %s\n"
 
-#: ../gtk/updateiconcache.c:1731
+#: gtk/updateiconcache.c:1731
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "Netinkamas piktogramų podėlis: %s\n"
 
-#: ../gtk/updateiconcache.c:1744
+#: gtk/updateiconcache.c:1744
 #, c-format
 msgid "No theme index file.\n"
 msgstr "Nėra temos indekso failo.\n"
 
-#: ../gtk/updateiconcache.c:1748
+#: gtk/updateiconcache.c:1748
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"

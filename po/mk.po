@@ -23,3 +23,112 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural= n==1 || n%10==1 ? 0 : 1\n"
 "X-Generator: KBabel 1.11.4\n"
 
+#: gtk/updateiconcache.c:492 gtk/updateiconcache.c:552
+#, c-format
+msgid "different idatas found for symlinked '%s' and '%s'\n"
+msgstr "пронајдени се различни idatas за симболичките врзани „%s“ и „%s“\n"
+
+#: gtk/updateiconcache.c:1374
+#, c-format
+msgid "Failed to write header\n"
+msgstr "Не можам да го запишам заглавието\n"
+
+#: gtk/updateiconcache.c:1380
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "Не успеав да ја запишам hash табелата\n"
+
+#: gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "Не успеав да го запишам индексирањето на папката\n"
+
+#: gtk/updateiconcache.c:1394
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "Не можам одново да го запишам заглавието\n"
+
+#: gtk/updateiconcache.c:1463
+#, fuzzy, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "Не успеав да ја отворам датотеката „%s“: %s"
+
+#: gtk/updateiconcache.c:1471
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "Не успеав да ја запишам кеш датотеката: %s\n"
+
+#: gtk/updateiconcache.c:1507
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "Генерираниот кеш беше невалиден.\n"
+
+#: gtk/updateiconcache.c:1521
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "Не можам да го преименувам %s во %s: %s, тогаш го отстранувам %s.\n"
+
+#: gtk/updateiconcache.c:1535
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "Не можам да го преименувам %s во %s: %s\n"
+
+#: gtk/updateiconcache.c:1545
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "Не можам да го преименувам %s повторно во %s: %s.\n"
+
+#: gtk/updateiconcache.c:1572
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "Кеш датотеката е успешно креирана.\n"
+
+#: gtk/updateiconcache.c:1611
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "Запиши над постоечкиот кеш, дури и ако е ажуриран"
+
+#: gtk/updateiconcache.c:1612
+msgid "Don't check for the existence of index.theme"
+msgstr "Не проверувај дали постои index.theme"
+
+#: gtk/updateiconcache.c:1613
+msgid "Don't include image data in the cache"
+msgstr "Не вклучувај податоци од фотографии во кешот"
+
+#: gtk/updateiconcache.c:1614
+msgid "Output a C header file"
+msgstr "Произведи датотека-C хедер"
+
+#: gtk/updateiconcache.c:1615
+msgid "Turn off verbose output"
+msgstr "Исклучи ги текстуалните излезни податоци"
+
+#: gtk/updateiconcache.c:1616
+msgid "Validate existing icon cache"
+msgstr "Провери ја валидноста на постоечкиот кеш на икони"
+
+#: gtk/updateiconcache.c:1683
+#, c-format
+msgid "File not found: %s\n"
+msgstr "Датотеката не е пронајдена: %s\n"
+
+#: gtk/updateiconcache.c:1689
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "Не е валиден кеш на икона: %s\n"
+
+#: gtk/updateiconcache.c:1702
+#, c-format
+msgid "No theme index file.\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1706
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"Нема индекс датотека за тема во „%s“.\n"
+"Ако навистина сакате да креирате кеш за икони овде, тогаш користете --ignore-"
+"theme-index.\n"
+

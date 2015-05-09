@@ -22,3 +22,112 @@ msgstr ""
 "X-Launchpad-Export-Date: 2010-01-11 12:44+0000\n"
 "X-Poedit-Language: asturian\n"
 
+#: gtk/updateiconcache.c:492 gtk/updateiconcache.c:552
+#, c-format
+msgid "different idatas found for symlinked '%s' and '%s'\n"
+msgstr ""
+"alcontráronse diferentes idatas pal «%s» enllazáu simbólicamente y «%s»\n"
+
+#: gtk/updateiconcache.c:1374
+#, c-format
+msgid "Failed to write header\n"
+msgstr "Fallu escribiendo cabecera\n"
+
+#: gtk/updateiconcache.c:1380
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "Nun se pudo escribir la tabla hash\n"
+
+#: gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "Nun se pudo escribir l'índiz de la carpeta\n"
+
+#: gtk/updateiconcache.c:1394
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "Fallu reescribiendo cabecera\n"
+
+#: gtk/updateiconcache.c:1463
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "Nun se pudo abrir el ficheru %s : %s\n"
+
+#: gtk/updateiconcache.c:1471
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "Fallu al abrir el ficheru: '%s'\n"
+
+#: gtk/updateiconcache.c:1507
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "La caché xenerada nun ye válida.\n"
+
+#: gtk/updateiconcache.c:1521
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "Nun se pudo renomar %s a %s: %s, desaniciando %s entós.\n"
+
+#: gtk/updateiconcache.c:1535
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "Nun se pudo renomar %s a %s: %s\n"
+
+#: gtk/updateiconcache.c:1545
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "Nun se pudo renomar %s de nuevu a %s: %s.\n"
+
+#: gtk/updateiconcache.c:1572
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "Ficheru de caché criáu con éxitu.\n"
+
+#: gtk/updateiconcache.c:1611
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "Sobroscribir un caché esistente, inclusu si ta anováu"
+
+#: gtk/updateiconcache.c:1612
+msgid "Don't check for the existence of index.theme"
+msgstr "Nun comprobar la esistencia de index.theme"
+
+#: gtk/updateiconcache.c:1613
+msgid "Don't include image data in the cache"
+msgstr "Nun incluyir los datos de la imaxe nel caché"
+
+#: gtk/updateiconcache.c:1614
+msgid "Output a C header file"
+msgstr "Sacar un ficheru de cabecera C"
+
+#: gtk/updateiconcache.c:1615
+msgid "Turn off verbose output"
+msgstr "Desactivar la salida prolixa"
+
+#: gtk/updateiconcache.c:1616
+msgid "Validate existing icon cache"
+msgstr "Validar la caché d'iconos esistente"
+
+#: gtk/updateiconcache.c:1683
+#, c-format
+msgid "File not found: %s\n"
+msgstr "Ficheru non atopáu: %s\n"
+
+#: gtk/updateiconcache.c:1689
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "Nun ye una caché d'iconos válida: %s\n"
+
+#: gtk/updateiconcache.c:1702
+#, c-format
+msgid "No theme index file.\n"
+msgstr "Nun esiste'l ficheru índiz del tema.\n"
+
+#: gtk/updateiconcache.c:1706
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"Nun hai ficheru d'índiz del tema en «%s».\n"
+"Si daveres quier criar un caché d'iconos equí, calque --ignore-theme-index.\n"
+

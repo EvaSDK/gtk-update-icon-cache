@@ -19,3 +19,112 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
+#: gtk/updateiconcache.c:492 gtk/updateiconcache.c:552
+#, c-format
+msgid "different idatas found for symlinked '%s' and '%s'\n"
+msgstr ""
+"znojdzienyja roznyja iźviestki dla symbalična paviazanych \"%s\" i \"%s\"\n"
+
+#: gtk/updateiconcache.c:1374
+#, c-format
+msgid "Failed to write header\n"
+msgstr "Niemahčyma zapisać zahałovak\n"
+
+#: gtk/updateiconcache.c:1380
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "Niemahčyma zapisać tablicu hashu\n"
+
+#: gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "Niemahčyma zapisać indeks katalohu\n"
+
+#: gtk/updateiconcache.c:1394
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "Niemahčyma pierapisać zahałovak\n"
+
+#: gtk/updateiconcache.c:1463
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "Nie ŭdałosia adčynić fajł %s : %s\n"
+
+#: gtk/updateiconcache.c:1471
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "Niemahčyma zapisać fajł buferu: %s\n"
+
+#: gtk/updateiconcache.c:1507
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "Zhieneravany cache byŭ chibnym.\n"
+
+#: gtk/updateiconcache.c:1521
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "Niemahčyma źmianić nazvu %s na %s: %s, vydaleńnie %s.\n"
+
+#: gtk/updateiconcache.c:1535
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "Niemahčyma źmianić nazvu %s na %s: %s\n"
+
+#: gtk/updateiconcache.c:1545
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "Niemahčyma źmianić nazvu %s viartańnie da %s: %s.\n"
+
+#: gtk/updateiconcache.c:1572
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "Paśpiachova stvorany fajł buferu.\n"
+
+#: gtk/updateiconcache.c:1611
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "Nadpisańnie dziejnaha buferu, navat kali jon aktualny"
+
+#: gtk/updateiconcache.c:1612
+msgid "Don't check for the existence of index.theme"
+msgstr "Biez pravierki jsnavańnia index.theme"
+
+#: gtk/updateiconcache.c:1613
+msgid "Don't include image data in the cache"
+msgstr "Nie ŭklučajučy źviestak vyjavaŭ u bufer"
+
+#: gtk/updateiconcache.c:1614
+msgid "Output a C header file"
+msgstr "Vyjście ŭ fajł zahałoŭka C"
+
+#: gtk/updateiconcache.c:1615
+msgid "Turn off verbose output"
+msgstr "Vyklučeńnie zavialikaha vyjścia"
+
+#: gtk/updateiconcache.c:1616
+msgid "Validate existing icon cache"
+msgstr "Spraŭdź najaŭny cache ikon"
+
+#: gtk/updateiconcache.c:1683
+#, c-format
+msgid "File not found: %s\n"
+msgstr "Fajł nia znojdzieny: %s\n"
+
+#: gtk/updateiconcache.c:1689
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "Chibny cache ikony: %s\n"
+
+#: gtk/updateiconcache.c:1702
+#, fuzzy, c-format
+msgid "No theme index file.\n"
+msgstr "Niama indeksavaha fajłu dla matyvu."
+
+#: gtk/updateiconcache.c:1706
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"Niama fajłu indeksu matyvu ŭ \"%s\".\n"
+"Kali ty sapraŭdy chočaš stvaryć tut bufar ikon, užyj --ignore-theme-index.\n"
+

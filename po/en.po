@@ -17,3 +17,109 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: gtk/updateiconcache.c:492 gtk/updateiconcache.c:552
+#, c-format
+msgid "different idatas found for symlinked '%s' and '%s'\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1370
+#, c-format
+msgid "Failed to write header\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1376
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1382
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1390
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1484
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1492 gtk/updateiconcache.c:1522
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1533
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1547
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1561
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1571
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1598
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1637
+msgid "Overwrite an existing cache, even if up to date"
+msgstr ""
+
+#: gtk/updateiconcache.c:1638
+msgid "Don't check for the existence of index.theme"
+msgstr ""
+
+#: gtk/updateiconcache.c:1639
+msgid "Don't include image data in the cache"
+msgstr ""
+
+#: gtk/updateiconcache.c:1640
+msgid "Output a C header file"
+msgstr ""
+
+#: gtk/updateiconcache.c:1641
+msgid "Turn off verbose output"
+msgstr ""
+
+#: gtk/updateiconcache.c:1642
+msgid "Validate existing icon cache"
+msgstr ""
+
+#: gtk/updateiconcache.c:1709
+#, c-format
+msgid "File not found: %s\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1715
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1728
+#, c-format
+msgid "No theme index file.\n"
+msgstr ""
+
+#: gtk/updateiconcache.c:1732
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+
