@@ -3,18 +3,131 @@
 # Copyright (C) 2005 THE gtk+'S COPYRIGHT HOLDER.
 # Erdal Ronahi <erdal dot ronahi at gmail dot com>, 2008.
 # Erdal Ronahi <erdal dot ronahi at gmail dot com>, 2009
+# Erdal Ronahî <erdal dot ronahi at gmail dot com>, 2010.
+# Erdal Ronahî <erdal dot ronahi at gmail dot com>, 2011.
+# Erdal Ronahî <erdal dot ronahi at gmail dot com>, 2011.
+# Erdal Ronahî <erdal dot ronahi at gmail dot com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: ku\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-10 11:56-0400\n"
-"PO-Revision-Date: 2009-02-24 01:08+0200\n"
-"Last-Translator: Erdal Ronahi <erdal dot ronahi at gmail dot com>\n"
-"Language-Team: http;//pckurd.net\n"
+"POT-Creation-Date: 2010-12-23 13:45+0100\n"
+"PO-Revision-Date: 2011-03-13 21:51+0200\n"
+"Last-Translator: Erdal Ronahî <erdal dot ronahi at gmail dot com>\n"
+"Language-Team: Kurdish Team http://pckurd.net\n"
+"Language: None\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: None\n"
 "Plural-Forms: nplurals=2; plural= n != 1\n"
-"X-Generator: Virtaal 0.3.0\n"
+"X-Generator: Virtaal 0.6.1\n"
+
+#: ../gtk/updateiconcache.c:492 ../gtk/updateiconcache.c:552
+#, c-format
+msgid "different idatas found for symlinked '%s' and '%s'\n"
+msgstr "Gelek idata ji bo symlinka '%s' û '%s' hatin dîtin\n"
+
+#: ../gtk/updateiconcache.c:1374
+#, c-format
+msgid "Failed to write header\n"
+msgstr "Di sernivîsê de têkçûn\n"
+
+#: ../gtk/updateiconcache.c:1380
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "Çewtî di nivisandina hash tabloyê de\n"
+
+#: ../gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "Nivisîna pêrista peldankê biserneket\n"
+
+#: ../gtk/updateiconcache.c:1394
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "Ji nû nivisîna sernivîsê biserneket\n"
+
+#: ../gtk/updateiconcache.c:1488
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "Vekirina pelê %s biserneket: %s\n"
+
+#: ../gtk/updateiconcache.c:1496 ../gtk/updateiconcache.c:1526
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "Nivisîna pelê pêşbîrê biserneket: %s\n"
+
+#: ../gtk/updateiconcache.c:1537
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "Pêşbîra afirandî nederbasdar bû.\n"
+
+#: ../gtk/updateiconcache.c:1551
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "Nikare ji nû nav li pelê %s bike ji bo %s: %s, wê gavê %s jê dibe\n"
+
+#: ../gtk/updateiconcache.c:1565
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "Nikare ji nû nav li pelê %s bike ji bo %s: %s\n"
+
+#: ../gtk/updateiconcache.c:1575
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "Nikare %s ji nû nav lê bike, vegere  %s: %s.\n"
+
+#: ../gtk/updateiconcache.c:1602
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "Pelê pêşbîr bi rengekî serkeftî hate afirandin.\n"
+
+#: ../gtk/updateiconcache.c:1641
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "Wê li ser pêşbîreke heyî were nivîsîn, ew rojane be jî"
+
+#: ../gtk/updateiconcache.c:1642
+msgid "Don't check for the existence of index.theme"
+msgstr "Kontrol neke bê ka index.theme heye yan jî tuneye"
+
+#: ../gtk/updateiconcache.c:1643
+msgid "Don't include image data in the cache"
+msgstr "Di pêşbîrê de daneya wêne tuneye"
+
+#: ../gtk/updateiconcache.c:1644
+msgid "Output a C header file"
+msgstr "Derana pelekî C header"
+
+#: ../gtk/updateiconcache.c:1645
+msgid "Turn off verbose output"
+msgstr "Derana kîtekît bigire"
+
+#: ../gtk/updateiconcache.c:1646
+msgid "Validate existing icon cache"
+msgstr "Pêşbîra îkonan a heyî kontrol bike"
+
+#: ../gtk/updateiconcache.c:1713
+#, c-format
+msgid "File not found: %s\n"
+msgstr "Pel nehat dîtin: %s\n"
+
+#: ../gtk/updateiconcache.c:1719
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "Pêşbîra îkonan a nederbasdar: %s\n"
+
+#: ../gtk/updateiconcache.c:1732
+#, c-format
+msgid "No theme index file.\n"
+msgstr "Pelê endeksa dirbê tune.\n"
+
+#: ../gtk/updateiconcache.c:1736
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"Pelê îndeksa dirban di hundirê '%s' de tuneye.\n"
+"Heke bi rastî jî tu dixwazî li vir pêşbîreke îkonan çêbike, --ignore-theme-"
+"index bikar bîne.\n"
 

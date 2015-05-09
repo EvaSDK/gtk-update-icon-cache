@@ -1,130 +1,124 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# Sahran <sahran@live.com>,2010
-# 
+# Uighur translation for gtk+2.0
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the gtk+2.0 package.
+# Ömerjan Tursunqasim <omarjan14@qq.com>, 2008.
+# Sahran <sahran@live.com>, 2010
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+2.0\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk%"
-"2b&component=general\n"
-"POT-Creation-Date: 2010-09-13 19:48+0000\n"
-"PO-Revision-Date: 2010-08-01 23:22+0600\n"
-"Last-Translator: Sahran <sahran@live.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk%2b&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-01-19 19:42+0000\n"
+"PO-Revision-Date: 2013-02-02 11:55+0900\n"
+"Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Language: Uighur\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"X-Launchpad-Export-Date: 2010-05-06 04:15+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
 
-#: ../gtk/updateiconcache.c:492 ../gtk/updateiconcache.c:552
-#, c-format
-msgid "different idatas found for symlinked '%s' and '%s'\n"
-msgstr "ھەرپ بەلگە ئۇلىنىش “%s”بىلەن“%s” ئىشلەتكەن idatas ئوخشىمايدۇ\n"
-
-#: ../gtk/updateiconcache.c:1374
+#: ../gtk/updateiconcache.c:1368
 #, c-format
 msgid "Failed to write header\n"
 msgstr "بېشىغا يازالمىدى\n"
 
-#: ../gtk/updateiconcache.c:1380
+#: ../gtk/updateiconcache.c:1374
 #, c-format
 msgid "Failed to write hash table\n"
 msgstr "مۇكەممەللىك جەدۋىلىگە يازالمىدى\n"
 
-#: ../gtk/updateiconcache.c:1386
+#: ../gtk/updateiconcache.c:1380
 #, c-format
 msgid "Failed to write folder index\n"
 msgstr "قىسقۇچ ئىندېكسقا يازالمىدى\n"
 
-#: ../gtk/updateiconcache.c:1394
+#: ../gtk/updateiconcache.c:1388
 #, c-format
 msgid "Failed to rewrite header\n"
-msgstr "باشىغا قايتا يازالمىدى\n"
+msgstr "بېشىغا قايتا يازالمىدى\n"
 
-#: ../gtk/updateiconcache.c:1463
+#: ../gtk/updateiconcache.c:1482
 #, c-format
 msgid "Failed to open file %s : %s\n"
 msgstr "%s ھۆججەتنى ئاچالمىدى: %s\n"
 
-#: ../gtk/updateiconcache.c:1471
+#: ../gtk/updateiconcache.c:1490 ../gtk/updateiconcache.c:1520
 #, c-format
 msgid "Failed to write cache file: %s\n"
 msgstr "غەملەك ھۆججىتىگە يازالمىدى: %s\n"
 
-#: ../gtk/updateiconcache.c:1507
+#: ../gtk/updateiconcache.c:1530
 #, c-format
 msgid "The generated cache was invalid.\n"
 msgstr "قۇرغان غەملەك ئىناۋەتسىز.\n"
 
-#: ../gtk/updateiconcache.c:1521
+#: ../gtk/updateiconcache.c:1544
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
 msgstr "%s نى %s غا ئات ئۆزگەرتەلمىدى:%s،  %s چىقىرىۋاتىدۇ\n"
 
-#: ../gtk/updateiconcache.c:1535
+#: ../gtk/updateiconcache.c:1558
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "%s نى %s غا ئات ئۆزگەرتەلمىدى:%s\n"
 
-#: ../gtk/updateiconcache.c:1545
+#: ../gtk/updateiconcache.c:1568
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "%s نى %s غا قايتۇرۇپ ئات ئۆزگەرتەلمىدى:%s\n"
 
-#: ../gtk/updateiconcache.c:1572
+#: ../gtk/updateiconcache.c:1595
 #, c-format
 msgid "Cache file created successfully.\n"
 msgstr "غەملەك ھۆججىتى مۇۋەپپەقىيەتلىك قۇرۇلدى.\n"
 
-#: ../gtk/updateiconcache.c:1611
+#: ../gtk/updateiconcache.c:1634
 msgid "Overwrite an existing cache, even if up to date"
 msgstr "نۆۋەتتىكى غەملەك ئەڭ يېڭى بولسىمۇ قاپلىۋەت"
 
-#: ../gtk/updateiconcache.c:1612
+#: ../gtk/updateiconcache.c:1635
 msgid "Don't check for the existence of index.theme"
-msgstr "مەۋجۇد index.theme نى تەكشۈرمە"
+msgstr "مەۋجۇت index.theme نى تەكشۈرمە"
 
-#: ../gtk/updateiconcache.c:1613
+#: ../gtk/updateiconcache.c:1636
 msgid "Don't include image data in the cache"
-msgstr "غەملەكتە سۈرەت سانلىق مەلۇماتىنى ساقلىما"
+msgstr "غەملەكتە سۈرەت سانلىق-مەلۇماتىنى ساقلىما"
 
-#: ../gtk/updateiconcache.c:1614
+#: ../gtk/updateiconcache.c:1637
 msgid "Output a C header file"
 msgstr "C باش ھۆججەتنى چىقار"
 
-#: ../gtk/updateiconcache.c:1615
+#: ../gtk/updateiconcache.c:1638
 msgid "Turn off verbose output"
 msgstr "تەپسىلىي چىقىرىشنى ياپ"
 
-#: ../gtk/updateiconcache.c:1616
+#: ../gtk/updateiconcache.c:1639
 msgid "Validate existing icon cache"
-msgstr "مەۋجۇد سىنبەلگە غەملىكىنى دەلىللە"
+msgstr "مەۋجۇت سىنبەلگە غەملىكىنى دەلىللە"
 
-#: ../gtk/updateiconcache.c:1683
+#: ../gtk/updateiconcache.c:1706
 #, c-format
 msgid "File not found: %s\n"
 msgstr "ھۆججەتنى تاپالمىدى: %s\n"
 
-#: ../gtk/updateiconcache.c:1689
+#: ../gtk/updateiconcache.c:1712
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "ئىناۋەتلىك سىنبەلگە غەملەك ئەمەس: %s\n"
 
-#: ../gtk/updateiconcache.c:1702
+#: ../gtk/updateiconcache.c:1725
 #, c-format
 msgid "No theme index file.\n"
 msgstr "باش تېما ئىندېكس ھۆججىتى يوق.\n"
 
-#: ../gtk/updateiconcache.c:1706
+#: ../gtk/updateiconcache.c:1729
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"
 "If you really want to create an icon cache here, use --ignore-theme-index.\n"
-msgstr ""
-"“%s دا باش تېما ئىندېكس ھۆججىتى يوق.\n"
-"ئەگەر بۇ جايغا راستىنلا سىنبەلگە غەملەك قۇرماقچى بولسىڭىز --ignore-theme-"
-"index ئىشلىتىڭ\n"
+msgstr "‹%s› دا باش تېما ئىندېكس ھۆججىتى يوق.\n"
+"ئەگەر بۇ جايغا راستىنىلا سىنبەلگە غەملەك قۇرماقچى بولسىڭىز --ignore-theme-index ئىشلىتىڭ\n"
 

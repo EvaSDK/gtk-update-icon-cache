@@ -1,20 +1,134 @@
 # translation of gtk+.HEAD.po to Latvian
 # Copyright (C) 2006, 2007, 2009 Free Software Foundation, Inc.
 #
+#
 # Raivis Dejus <orvils@gmail.com>, 2006, 2007, 2009.
 # Anita Reitere <nitalynx@gmail.com>, 2010.
+# Rūdofls Mazurs <rudolfs.mazurs@gmail.com>, 2011.
+# Peteris Krisjanis <pecisk@gmail.com>, 2012.
+# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2012, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+.HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-10 11:56-0400\n"
-"PO-Revision-Date: 2010-04-21 14:58+0300\n"
-"Last-Translator: Anita Reitere <nitalynx@gmail.com>\n"
-"Language-Team: Latviešu <kde-i18n-doc@kde.org>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk"
+"%2b&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-09-28 09:11+0000\n"
+"PO-Revision-Date: 2014-09-28 12:34+0300\n"
+"Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
+"Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
+"Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: ../gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write header\n"
+msgstr "Neizdevās ierakstīt galveni\n"
+
+#: ../gtk/updateiconcache.c:1392
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "Neizdevās ierakstīt jaucējtabulu\n"
+
+#: ../gtk/updateiconcache.c:1398
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "Neizdevās ierakstīt mapes rādītāju\n"
+
+#: ../gtk/updateiconcache.c:1406
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "Neizdevās pārrakstīt galveni\n"
+
+#: ../gtk/updateiconcache.c:1500
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "Neizdevās atvērt datni %s — %s\n"
+
+#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "Neizdevās ierakstīt kešatmiņas datni — %s\n"
+
+#: ../gtk/updateiconcache.c:1548
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "Izveidotā kešatmiņa nav derīga.\n"
+
+#: ../gtk/updateiconcache.c:1562
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "Neizdevās pārsaukt %s par %s — %s, tāpēc izmests %s.\n"
+
+#: ../gtk/updateiconcache.c:1576
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "Neizdevās pārsaukt %s par %s — %s\n"
+
+#: ../gtk/updateiconcache.c:1586
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "Neizdevās pārsaukt %s atpakaļ par %s — %s.\n"
+
+#: ../gtk/updateiconcache.c:1613
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "Kešatmiņas datne ir sekmīgi izveidota.\n"
+
+#: ../gtk/updateiconcache.c:1652
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "Pārrakstīt esošo kešatmiņu, pat ja tā ir aktuāla"
+
+#: ../gtk/updateiconcache.c:1653
+msgid "Don't check for the existence of index.theme"
+msgstr "Nepārbaudīt, vai eksistē index.theme"
+
+#: ../gtk/updateiconcache.c:1654
+msgid "Don't include image data in the cache"
+msgstr "Neiekļaut attēla datus kešatmiņā"
+
+#: ../gtk/updateiconcache.c:1655
+msgid "Include image data in the cache"
+msgstr "Iekļaut attēla datus kešatmiņā"
+
+#: ../gtk/updateiconcache.c:1656
+msgid "Output a C header file"
+msgstr "Izveidot C galvenes datni"
+
+#: ../gtk/updateiconcache.c:1657
+msgid "Turn off verbose output"
+msgstr "Izslēgt detalizēto izvadi"
+
+#: ../gtk/updateiconcache.c:1658
+msgid "Validate existing icon cache"
+msgstr "Pārbaudīt esošo ikonu kešatmiņu"
+
+#: ../gtk/updateiconcache.c:1725
+#, c-format
+msgid "File not found: %s\n"
+msgstr "Datne nav atrasta — %s\n"
+
+#: ../gtk/updateiconcache.c:1731
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "Nav derīga ikonu kešatmiņa — %s\n"
+
+#: ../gtk/updateiconcache.c:1744
+#, c-format
+msgid "No theme index file.\n"
+msgstr "Nav motīva indeksa datnes.\n"
+
+#: ../gtk/updateiconcache.c:1748
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"“%s” nav motīva indeksa datnes.\n"
+"Ja tiešām vēlaties šeit izveidot ikonu kešatmiņu, lietojiet --ignore-theme-"
+"index.\n"
 

@@ -1,26 +1,138 @@
 # translation of gtk+.master.te.po to Telugu
 # Telugu translation of gtk+
-# Copyright (C) 2005,2007 Free Software Foundation, Andhra Pradesh.
+# Copyright (C) 2012 Swecha Localization Team
 # This file is distributed under the same license as the gtk+ package.
+#
 #
 # Prajasakti Localisation Team <localisation@prajasakti.com>, 2005.
 # Sunil Mohan Adapa <sunilmohan@gnu.org.in>, 2007.
-# Krishna Babu K <kkrothap@redhat.com>, 2008, 2009.
+# Krishna Babu K <kkrothap@redhat.com>, 2008, 2009, 2012, 2014.
+# Sasi Bhushan Boddepalli <sasi@swecha.net>, 2012.
+# Naveen Kandimalla <naveen@swecha.net>, 2012.
+# GVS.Giri <gvs.giri947@gmail.com>,2012.
+# Praveen Illa <mail2ipn@gmail.com>, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+.master.te\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-10 11:56-0400\n"
-"PO-Revision-Date: 2009-08-31 18:31+0530\n"
-"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
-"Language-Team: Telugu <en@li.org>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk"
+"%2b&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-09-23 21:09+0000\n"
+"PO-Revision-Date: 2014-09-24 04:48+0530\n"
+"Last-Translator: Krishnababu Krothapalli <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
+"Language: te\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Launchpad-Export-Date: 2010-10-15 12:44+0000\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: ../gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write header\n"
+msgstr "పీఠికకు వ్రాయుటలో విఫలమైంది\n"
+
+#: ../gtk/updateiconcache.c:1392
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "హాష్ పట్టికకు వ్రాయుటలో విఫలమైంది\n"
+
+#: ../gtk/updateiconcache.c:1398
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "సంచయపు ఇండెక్స్ కు వ్రాయుటలో విఫలమైంది\n"
+
+#: ../gtk/updateiconcache.c:1406
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "పీఠికకు తిరిగివ్రాయుటలో విఫలమైంది\n"
+
+#: ../gtk/updateiconcache.c:1500
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "%s ఫైలు తెరుచుటలో విఫలమైంది : %s\n"
+
+#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "క్యాచి ఫైలుకి వ్రాయుటలో విఫలమైంది: %s\n"
+
+#: ../gtk/updateiconcache.c:1548
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "ఉద్భవించిన క్యాచి చెల్లనిది.\n"
+
+#: ../gtk/updateiconcache.c:1562
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "%s ను %s కు పేరుమార్చలేము: %s, అలాగైతే %s ను తీసివేయండి.\n"
+
+#: ../gtk/updateiconcache.c:1576
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "%s ను %s కు పేరుమార్చలేము: %s\n"
+
+#: ../gtk/updateiconcache.c:1586
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "%s ను మరలా వెనుకకు %s కు పేరుమార్చలేము: %s.\n"
+
+#: ../gtk/updateiconcache.c:1613
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "క్యాచి ఫైలు విజయవంతంగా సృష్టించబడింది.\n"
+
+#: ../gtk/updateiconcache.c:1652
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "ఉన్న క్యాచిని దిద్దివ్రాయి, ఇప్పటివరకు ఖచ్చితంగా ఉన్నా కూడా"
+
+#: ../gtk/updateiconcache.c:1653
+msgid "Don't check for the existence of index.theme"
+msgstr "index.theme ఉందేమోనని పరిశీలించవద్దు"
+
+#: ../gtk/updateiconcache.c:1654
+msgid "Don't include image data in the cache"
+msgstr "బొమ్మ డేటాను క్యాచినందు చేర్చవద్దు"
+
+#: ../gtk/updateiconcache.c:1655
+msgid "Include image data in the cache"
+msgstr "బొమ్మ డాటాను క్యాచినందు చేర్చు"
+
+#: ../gtk/updateiconcache.c:1656
+msgid "Output a C header file"
+msgstr "C పీఠిక ఫైలును అవుట్‌పుట్‌గా ఉంచు"
+
+#: ../gtk/updateiconcache.c:1657
+msgid "Turn off verbose output"
+msgstr "వెర్బోస్ అవట్‌పుట్‌ను ఆపివేయి"
+
+#: ../gtk/updateiconcache.c:1658
+msgid "Validate existing icon cache"
+msgstr "ఉన్న ప్రతీక క్యాచీని సరిచూడు"
+
+#: ../gtk/updateiconcache.c:1725
+#, c-format
+msgid "File not found: %s\n"
+msgstr "ఫైలు కనబడలేదు: %s\n"
+
+#: ../gtk/updateiconcache.c:1731
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "చెల్లునటువంటి ప్రతీక క్యాచీ కాదు: %s\n"
+
+#: ../gtk/updateiconcache.c:1744
+#, c-format
+msgid "No theme index file.\n"
+msgstr "ఏ థీమ్ విషయసూచిక ఫైలు లేదు.\n"
+
+#: ../gtk/updateiconcache.c:1748
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"'%s' నందు ఏ థీమ్ విషయసూచీ ఫైలు లేదు.\n"
+"మీరు ఇక్కడ ఖచ్చితంగా ప్రతీక క్యాచీని సృష్టిద్దామనుకుంటే, "
+"--ignore-theme-index.\n"
 

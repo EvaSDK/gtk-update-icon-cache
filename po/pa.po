@@ -4,18 +4,128 @@
 #
 # Amanpreet Singh Alam <amanlinux@netscape.net>, 2004.
 # Amanpreet Singh Alam <aalam@users.sf.net>, 2005,2006,2007, 2008, 2009.
-# A S Alam <aalam@users.sf.net>, 2009, 2010.
+# A S Alam <aalam@users.sf.net>, 2009, 2010, 2011, 2012, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+.HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-10 11:56-0400\n"
-"PO-Revision-Date: 2010-03-19 07:37+0530\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk"
+"%2b&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-09-08 20:59+0000\n"
+"PO-Revision-Date: 2014-09-08 22:13-0500\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
-"Language-Team: Punjabi/Panjabi <kde-i18n-doc@kde.org>\n"
+"Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
+"Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write header\n"
+msgstr "ਹੈਡਰ ਲਿਖਣ ਵਿੱਚ ਗਲਤੀ\n"
+
+#: ../gtk/updateiconcache.c:1392
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "ਹੈਂਸ਼ ਟੇਬਲ ਲਿਖਣ ਲਈ ਅਸਫ਼ਲ ਹੈ\n"
+
+#: ../gtk/updateiconcache.c:1398
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "ਫੋਲਡਰ ਇੰਡੈਕਸ ਲਿਖਣ ਦੌਰਾਨ ਫੇਲ੍ਹ\n"
+
+#: ../gtk/updateiconcache.c:1406
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "ਹੈਂਡਰ ਮੁੜ-ਲਿਖਣ ਦੌਰਾਨ ਗਲਤੀ\n"
+
+#: ../gtk/updateiconcache.c:1500
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "ਫਾਇਲ %s ਖੋਲ੍ਹਣ ਵਿੱਚ ਫੇਲ੍ਹ: %s\n"
+
+#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "ਫਾਇਲ ਕੈਸ਼ੇ ਲਿਖਣ ਦੌਰਾਨ ਅਸਫ਼ਲ: %s\n"
+
+#: ../gtk/updateiconcache.c:1548
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "ਤਿਆਰ ਕੀਤੀ ਕੈਸ਼ੇ ਗਲਤ ਹੈ।\n"
+
+#: ../gtk/updateiconcache.c:1562
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "%s ਦਾ ਨਾਂ %s ਬਦਲਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ: %s, ਹੁਣ %s ਨੂੰ ਹਟਾਇਆ ਜਾ ਰਿਹਾ ਹੈ।\n"
+
+#: ../gtk/updateiconcache.c:1576
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "%s ਦਾ ਨਾਂ %s ਬਦਲਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ: %s\n"
+
+#: ../gtk/updateiconcache.c:1586
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "%s ਦਾ ਨਾਂ ਮੁੜ %s ਬਦਲਿਆ ਨਹੀਂ ਸਕਦਾ ਹੈ: %s\n"
+
+#: ../gtk/updateiconcache.c:1613
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "ਕੈਸ਼ੇ ਫਾਇਲ ਸਫ਼ਲਤਾਪੂਰਕ ਬਣਾਈ ਗਈ ਹੈ।\n"
+
+#: ../gtk/updateiconcache.c:1652
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "ਇੱਕ ਮੌਜੂਦਾ ਕੈਸ਼ੇ ਉੱਤੇ ਲਿਖੋ, ਭਾਵੇਂ ਅੱਪ-ਟੂ-ਡੇਟ ਹੋਵੇ"
+
+#: ../gtk/updateiconcache.c:1653
+msgid "Don't check for the existence of index.theme"
+msgstr "ਮੌਜੂਦਾ index.theme ਦੀ ਮੌਜੂਦਗੀ ਦੀ ਜਾਂਚ ਨਾ ਕਰੋ"
+
+#: ../gtk/updateiconcache.c:1654
+msgid "Don't include image data in the cache"
+msgstr "ਕੈਸ਼ੇ ਵਿੱਚ ਚਿੱਤਰ ਡਾਟਾ ਸ਼ਾਮਿਲ ਨਾ ਕਰੋ"
+
+#: ../gtk/updateiconcache.c:1655
+#| msgid "Don't include image data in the cache"
+msgid "Include image data in the cache"
+msgstr "ਕੈਸ਼ ਵਿੱਚ ਚਿੱਤਰ ਡਾਟੇ ਸਮੇਤ"
+
+#: ../gtk/updateiconcache.c:1656
+msgid "Output a C header file"
+msgstr "C header ਫਾਇਲ ਆਉਟਪੁੱਟ"
+
+#: ../gtk/updateiconcache.c:1657
+msgid "Turn off verbose output"
+msgstr "ਵਧੇਰੇ ਜਾਣਕਾਰੀ ਆਉਟਪੁੱਟ ਬੰਦ ਕਰੋ"
+
+#: ../gtk/updateiconcache.c:1658
+msgid "Validate existing icon cache"
+msgstr "ਮੌਜੂਦਾ ਆਈਕਾਨ ਕੈਸ਼ ਦੀ ਵੈਧਤਾ"
+
+#: ../gtk/updateiconcache.c:1725
+#, c-format
+msgid "File not found: %s\n"
+msgstr "ਫਾਇਲ ਨਹੀਂ ਲੱਭੀ: %s\n"
+
+#: ../gtk/updateiconcache.c:1731
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "ਇੱਕ ਠੀਕ ਆਈਕਾਨ ਕੈਸ਼ੇ ਨਹੀਂ ਹੈ: %s\n"
+
+#: ../gtk/updateiconcache.c:1744
+#, c-format
+msgid "No theme index file.\n"
+msgstr "ਕੋਈ ਥੀਮ ਇੰਡੈਕਸ ਫਾਇਲ ਨਹੀਂ।\n"
+
+#: ../gtk/updateiconcache.c:1748
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"'%s' ਵਿੱਚ ਕੋਈ ਸਰੂਪ ਇੰਡੈਕਸ ਫਾਇਲ ਨਹੀਂ ਹੈ।\n"
+"ਜੇਕਰ ਤੁਸੀਂ ਇੱਥੇ ਆਈਕਾਨ ਕੈਸ਼ੇ ਬਣਾਉਣੀ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ --ignore-theme-index ਵਰਤੋਂ\n"
 

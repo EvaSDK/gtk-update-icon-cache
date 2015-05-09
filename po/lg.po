@@ -1,0 +1,126 @@
+# Translation of gtk+ into Luganda.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gtk+ package.
+# Kizito Birabwa <kbirabwa@yahoo.co.uk>, 2011.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: gtk+-2.22\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk"
+"%2b&component=general\n"
+"POT-Creation-Date: 2011-01-05 17:26+0000\n"
+"PO-Revision-Date: 2011-04-28 20:28+0000\n"
+"Last-Translator: Kizito Birabwa <kbirabwa@yahoo.co.uk>\n"
+"Language-Team: Luganda <kbirabwa@yahoo.co.uk>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../gtk/updateiconcache.c:492 ../gtk/updateiconcache.c:552
+#, c-format
+msgid "different idatas found for symlinked '%s' and '%s'\n"
+msgstr ""
+
+#: ../gtk/updateiconcache.c:1374
+#, c-format
+msgid "Failed to write header\n"
+msgstr ""
+
+#: ../gtk/updateiconcache.c:1380
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr ""
+
+#: ../gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr ""
+
+#: ../gtk/updateiconcache.c:1394
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr ""
+
+#: ../gtk/updateiconcache.c:1488
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr ""
+
+#: ../gtk/updateiconcache.c:1496 ../gtk/updateiconcache.c:1526
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr ""
+
+#: ../gtk/updateiconcache.c:1537
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr ""
+
+#: ../gtk/updateiconcache.c:1551
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr ""
+
+#: ../gtk/updateiconcache.c:1565
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr ""
+
+#: ../gtk/updateiconcache.c:1575
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr ""
+
+#: ../gtk/updateiconcache.c:1602
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr ""
+
+#: ../gtk/updateiconcache.c:1641
+msgid "Overwrite an existing cache, even if up to date"
+msgstr ""
+
+#: ../gtk/updateiconcache.c:1642
+msgid "Don't check for the existence of index.theme"
+msgstr ""
+
+#: ../gtk/updateiconcache.c:1643
+msgid "Don't include image data in the cache"
+msgstr ""
+
+#: ../gtk/updateiconcache.c:1644
+msgid "Output a C header file"
+msgstr ""
+
+#: ../gtk/updateiconcache.c:1645
+msgid "Turn off verbose output"
+msgstr ""
+
+#: ../gtk/updateiconcache.c:1646
+msgid "Validate existing icon cache"
+msgstr ""
+
+#: ../gtk/updateiconcache.c:1713
+#, c-format
+msgid "File not found: %s\n"
+msgstr ""
+
+#: ../gtk/updateiconcache.c:1719
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr ""
+
+#: ../gtk/updateiconcache.c:1732
+#, c-format
+msgid "No theme index file.\n"
+msgstr ""
+
+#: ../gtk/updateiconcache.c:1736
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+

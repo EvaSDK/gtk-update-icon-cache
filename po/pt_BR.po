@@ -1,143 +1,146 @@
-# Brazilian Portuguese translation of GTK+.
-# Copyright (C) 1999,2004-2009 the GTK+ authors.
+# Brazilian Portuguese translation of GTK+ (UI).
+# Copyright (C) 2014 the GTK+ authors.
 # This file is distributed under the same license as the gtk+ package
 # Alex Sandro Queiroz e Silva <asandro@lcg.dc.ufc.br>, 1999.
 # Gustavo Noronha Silva <kov@debian.org>, 2004.
 # Alex Camacho Castilho <gnomebr@uol.com.br>, 2004.
 # Afonso Celso Medina <medina@maua.br>, 2004, 2005.
 # Raphael Higino <In Memoriam>, 2006.
-# Og Maciel <ogmaciel@gnome.org>, 2007.
+# Og Maciel <ogmaciel@gnome.org>, 2007, 2011.
 # Pedro Vaz Mello de Medeiros <pedrovmm@gmail.com>, 2007.
 # Henrique P Machado <zehrique@gmail.com>, 2008.
 # Fábio Nogueira <deb-user-ba@ubuntu.com>, 2008.
 # Leonardo Ferreira Fontenelle <leonardof@gnome.org>, 2006-2009.
 # Vladimir Melo <vmelo@gnome.org>, 2009.
-# André Gondim <andregondim@ubuntu.com>, 2009.
+# André Gondim <In Memoriam>, 2009, 2011.
 # Rodrigo L. M. Flores <mail@rodrigoflores.org>
 # Fabrício Godoy <skarllot@gmail.com>, 2010.
-# Jonh Wendell <jwendell@gnome.org>, 2009, 2010.
+# Gabriel F. Vilar <cogumm@gmail.com>, 2011.
+# Jonh Wendell <jwendell@gnome.org>, 2009, 2010, 2012.
+# Enrico Nicoletto <liverig@gmail.com>, 2013.
+# Rafael Ferreira <rafael.f.f1@gmail.com>, 2013, 2014.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gtk+\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-21 21:07-0300\n"
-"PO-Revision-Date: 2010-09-21 21:07-0300\n"
-"Last-Translator: Jonh Wendell <jwendell@gnome.org>\n"
+"Project-Id-Version: Gtk+\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk"
+"%2b&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-09-22 23:41+0000\n"
+"PO-Revision-Date: 2014-09-22 21:15-0300\n"
+"Last-Translator: Rafael Ferreira <rafael.f.f1@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Virtaal 0.2\n"
+"X-Generator: Poedit 1.6.9\n"
 
-#: ../gtk/updateiconcache.c:492 ../gtk/updateiconcache.c:552
-#, c-format
-msgid "different idatas found for symlinked '%s' and '%s'\n"
-msgstr ""
-"idatas diferentes localizados para \"%s\" e \"%s\" ligados simbolicamente\n"
-
-#: ../gtk/updateiconcache.c:1374
+#: ../gtk/updateiconcache.c:1386
 #, c-format
 msgid "Failed to write header\n"
 msgstr "Falha ao gravar cabeçalho\n"
 
-#: ../gtk/updateiconcache.c:1380
+#: ../gtk/updateiconcache.c:1392
 #, c-format
 msgid "Failed to write hash table\n"
 msgstr "Falha ao gravar tabela hash\n"
 
-#: ../gtk/updateiconcache.c:1386
+#: ../gtk/updateiconcache.c:1398
 #, c-format
 msgid "Failed to write folder index\n"
 msgstr "Falha ao gravar índice da pasta\n"
 
-#: ../gtk/updateiconcache.c:1394
+#: ../gtk/updateiconcache.c:1406
 #, c-format
 msgid "Failed to rewrite header\n"
 msgstr "Falha ao regravar cabeçalho\n"
 
-#: ../gtk/updateiconcache.c:1463
+#: ../gtk/updateiconcache.c:1500
 #, c-format
 msgid "Failed to open file %s : %s\n"
 msgstr "Falha ao abrir o arquivo \"%s\": %s\n"
 
-#: ../gtk/updateiconcache.c:1471
+#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
 #, c-format
 msgid "Failed to write cache file: %s\n"
 msgstr "Falha ao gravar arquivo de cache: %s\n"
 
-#: ../gtk/updateiconcache.c:1507
+#: ../gtk/updateiconcache.c:1548
 #, c-format
 msgid "The generated cache was invalid.\n"
-msgstr "O cache gerado era inválido.\n"
+msgstr "O cache gerado estava inválido.\n"
 
-#: ../gtk/updateiconcache.c:1521
+#: ../gtk/updateiconcache.c:1562
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
-msgstr "Não foi possível renomear %s para %s: %s, então removendo %s.\n"
+msgstr "Não foi possível renomear %s para %s: %s, removendo %s.\n"
 
-#: ../gtk/updateiconcache.c:1535
+#: ../gtk/updateiconcache.c:1576
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "Não foi possível renomear %s para %s: %s\n"
 
-#: ../gtk/updateiconcache.c:1545
+#: ../gtk/updateiconcache.c:1586
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "Não foi possível renomear %s de volta para %s: %s.\n"
 
-#: ../gtk/updateiconcache.c:1572
+#: ../gtk/updateiconcache.c:1613
 #, c-format
 msgid "Cache file created successfully.\n"
-msgstr "Arquivo de criado com sucesso.\n"
+msgstr "Arquivo de cache criado com sucesso.\n"
 
-#: ../gtk/updateiconcache.c:1611
+#: ../gtk/updateiconcache.c:1652
 msgid "Overwrite an existing cache, even if up to date"
 msgstr "Sobrescrever um cache existente, mesmo que atualizado"
 
-#: ../gtk/updateiconcache.c:1612
+#: ../gtk/updateiconcache.c:1653
 msgid "Don't check for the existence of index.theme"
 msgstr "Não verificar a existência de index.theme"
 
-#: ../gtk/updateiconcache.c:1613
+#: ../gtk/updateiconcache.c:1654
 msgid "Don't include image data in the cache"
 msgstr "Não incluir dados da imagem no cache"
 
-#: ../gtk/updateiconcache.c:1614
+#: ../gtk/updateiconcache.c:1655
+msgid "Include image data in the cache"
+msgstr "Incluir dados da imagem no cache"
+
+#: ../gtk/updateiconcache.c:1656
 msgid "Output a C header file"
 msgstr "Exibir um arquivo de cabeçalho C"
 
-#: ../gtk/updateiconcache.c:1615
+#: ../gtk/updateiconcache.c:1657
 msgid "Turn off verbose output"
-msgstr "Desligar saída detalhada"
+msgstr "Desativar saída detalhada"
 
-#: ../gtk/updateiconcache.c:1616
+#: ../gtk/updateiconcache.c:1658
 msgid "Validate existing icon cache"
-msgstr "Validar o cache de ícones atual"
+msgstr "Validar o cache de ícones existente"
 
-#: ../gtk/updateiconcache.c:1683
+#: ../gtk/updateiconcache.c:1725
 #, c-format
 msgid "File not found: %s\n"
 msgstr "Arquivo não localizado: %s\n"
 
-#: ../gtk/updateiconcache.c:1689
+#: ../gtk/updateiconcache.c:1731
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "Não é um cache de ícones válido: %s\n"
 
-#: ../gtk/updateiconcache.c:1702
+#: ../gtk/updateiconcache.c:1744
 #, c-format
 msgid "No theme index file.\n"
 msgstr "Nenhum arquivo de índice de tema.\n"
 
-#: ../gtk/updateiconcache.c:1706
+#: ../gtk/updateiconcache.c:1748
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"
 "If you really want to create an icon cache here, use --ignore-theme-index.\n"
 msgstr ""
-"Sem arquivo de índice do tema em \"%s\".\n"
-"Se você realmente quiser criar um cache de ícone aqui, use --ignore-theme-"
+"Sem arquivo de índice de tema em \"%s\".\n"
+"Se você realmente quiser criar um cache de ícones aqui, use --ignore-theme-"
 "index.\n"
 

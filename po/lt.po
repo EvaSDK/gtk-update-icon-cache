@@ -1,5 +1,6 @@
 # Lithuanian translation of GTK+
-# Copyright (C) 2000-2010 Free Software Foundation, Inc.
+# Copyright © 2000-2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gtk+ package.
 # Gediminas Paulauskas <menesis@delfi.lt>, 2000-2004.
 # Tomas Kuliavas <tokul@users.sourceforge.net>, 2004.
 # Žygimantas Beručka <zygis@gnome.org>, 2004-2007, 2010.
@@ -7,19 +8,131 @@
 # Gintautas Miliauskas <gintas@akl.lt>, 2007.
 # Rimas Kudelis <rq@akl.lt>, 2008, 2010.
 # Gintautas Miliauskas <gintautas@miliauskas.lt>, 2009.
+# Algimantas Margevičius <margevicius.algimantas@gmail.com>, 2012.
+# Aurimas Černius <aurisc4@gmail.com>, 2010, 2013, 2014, 2015.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: lt\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-10 11:56-0400\n"
-"PO-Revision-Date: 2010-02-23 23:14+0300\n"
-"Last-Translator: Rimas Kudelis <rq@akl.lt>\n"
-"Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk"
+"%2b&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-03-21 09:52+0000\n"
+"PO-Revision-Date: 2015-03-21 17:18+0200\n"
+"Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
+"Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
+"Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: lt\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
-"100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Virtaal 0.5.2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Gtranslator 2.91.6\n"
+
+#: ../gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write header\n"
+msgstr "Nepavyko įrašyti antraštės\n"
+
+#: ../gtk/updateiconcache.c:1392
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "Nepavyko įrašyti maišos lentelės\n"
+
+#: ../gtk/updateiconcache.c:1398
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "Nepavyko įrašyti aplanko indekso\n"
+
+#: ../gtk/updateiconcache.c:1406
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "Nepavyko perrašyti antraštės\n"
+
+#: ../gtk/updateiconcache.c:1500
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "Nepavyko atverti failo „%s“: %s\n"
+
+#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "Nepavyko įrašyti podėlio failo: %s\n"
+
+#: ../gtk/updateiconcache.c:1548
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "Sugeneruotas podėlis buvo netinkamas.\n"
+
+#: ../gtk/updateiconcache.c:1562
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "Nepavyko pervadinti %s į %s: %s, taigi %s pašalinama.\n"
+
+#: ../gtk/updateiconcache.c:1576
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "Nepavyko pervadinti %s į %s: %s\n"
+
+#: ../gtk/updateiconcache.c:1586
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "Nepavyko pervadinti %s atgal į %s: %s.\n"
+
+#: ../gtk/updateiconcache.c:1613
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "Podėlio failas sukurtas sėkmingai.\n"
+
+#: ../gtk/updateiconcache.c:1652
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "Perrašyti esamą podėlį, netgi jei nepasenęs"
+
+#: ../gtk/updateiconcache.c:1653
+msgid "Don't check for the existence of index.theme"
+msgstr "Netikrinti, ar egzistuoja index.theme"
+
+#: ../gtk/updateiconcache.c:1654
+msgid "Don't include image data in the cache"
+msgstr "Neįtraukti paveikslėlio duomenų į podėlį"
+
+#: ../gtk/updateiconcache.c:1655
+msgid "Include image data in the cache"
+msgstr "Įtraukti paveikslėlio duomenis į podėlį"
+
+#: ../gtk/updateiconcache.c:1656
+msgid "Output a C header file"
+msgstr "Išvesti C antraštės failą"
+
+#: ../gtk/updateiconcache.c:1657
+msgid "Turn off verbose output"
+msgstr "Išjungti išsamią išvestį"
+
+#: ../gtk/updateiconcache.c:1658
+msgid "Validate existing icon cache"
+msgstr "Patvirtinti esantį piktogramų podėlį"
+
+#: ../gtk/updateiconcache.c:1725
+#, c-format
+msgid "File not found: %s\n"
+msgstr "Failas nerastas: %s\n"
+
+#: ../gtk/updateiconcache.c:1731
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "Netinkamas piktogramų podėlis: %s\n"
+
+#: ../gtk/updateiconcache.c:1744
+#, c-format
+msgid "No theme index file.\n"
+msgstr "Nėra temos indekso failo.\n"
+
+#: ../gtk/updateiconcache.c:1748
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"„%s“ nėra temos indekso failo.\n"
+"Jei tikrai čia norite sukurti piktogramos podėlį, naudokite --ignore-theme-"
+"index.\n"
 

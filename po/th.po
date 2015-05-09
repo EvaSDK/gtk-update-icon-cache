@@ -1,16 +1,16 @@
 # Thai translation for gtk+.
-# Copyright (C) 2003-2013 Free Software Foundation, Inc.
+# Copyright (C) 2003-2014 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gtk+ package.
 # Paisa Seeluangsawat <paisa@users.sf.net>, 2003, 2004.
-# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2005-2010, 2013.
+# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2005-2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk"
 "%2b&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-09-09 16:08+0000\n"
-"PO-Revision-Date: 2013-09-11 17:28+0700\n"
+"POT-Creation-Date: 2014-03-03 09:51+0000\n"
+"PO-Revision-Date: 2014-03-03 18:00+0700\n"
 "Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
 "Language: th\n"
@@ -19,106 +19,101 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../gtk/updateiconcache.c:492 ../gtk/updateiconcache.c:552
-#, c-format
-msgid "different idatas found for symlinked '%s' and '%s'\n"
-msgstr "พบข้อมูล idata ต่างกันสำหรับ '%s' และ '%s' ซึ่ง symlink ถึงกัน\n"
-
-#: ../gtk/updateiconcache.c:1392
+#: ../gtk/updateiconcache.c:1386
 #, c-format
 msgid "Failed to write header\n"
 msgstr "เขียนข้อมูลส่วนหัวไม่สำเร็จ\n"
 
-#: ../gtk/updateiconcache.c:1398
+#: ../gtk/updateiconcache.c:1392
 #, c-format
 msgid "Failed to write hash table\n"
 msgstr "เขียนข้อมูลตารางแฮชไม่สำเร็จ\n"
 
-#: ../gtk/updateiconcache.c:1404
+#: ../gtk/updateiconcache.c:1398
 #, c-format
 msgid "Failed to write folder index\n"
 msgstr "เขียนดัชนีโฟลเดอร์ไม่สำเร็จ\n"
 
-#: ../gtk/updateiconcache.c:1412
+#: ../gtk/updateiconcache.c:1406
 #, c-format
 msgid "Failed to rewrite header\n"
 msgstr "เขียนข้อมูลส่วนหัวซ้ำไม่สำเร็จ\n"
 
-#: ../gtk/updateiconcache.c:1506
+#: ../gtk/updateiconcache.c:1500
 #, c-format
 msgid "Failed to open file %s : %s\n"
 msgstr "เปิดแฟ้ม %s ไม่สำเร็จ: %s\n"
 
-#: ../gtk/updateiconcache.c:1514 ../gtk/updateiconcache.c:1544
+#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
 #, c-format
 msgid "Failed to write cache file: %s\n"
 msgstr "เขียนแฟ้มแคชไม่สำเร็จ: %s\n"
 
-#: ../gtk/updateiconcache.c:1555
+#: ../gtk/updateiconcache.c:1548
 #, c-format
 msgid "The generated cache was invalid.\n"
 msgstr "แคชที่สร้างใช้การไม่ได้\n"
 
-#: ../gtk/updateiconcache.c:1569
+#: ../gtk/updateiconcache.c:1562
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
 msgstr "ไม่สามารถเปลี่ยนชื่อ %s ไปเป็น %s: %s ดังนั้นจะลบ %s\n"
 
-#: ../gtk/updateiconcache.c:1583
+#: ../gtk/updateiconcache.c:1576
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "ไม่สามารถเปลี่ยนชื่อ %s ไปเป็น %s: %s\n"
 
-#: ../gtk/updateiconcache.c:1593
+#: ../gtk/updateiconcache.c:1586
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "ไม่สามารถเปลี่ยนชื่อ %s กลับเป็น %s: %s\n"
 
-#: ../gtk/updateiconcache.c:1620
+#: ../gtk/updateiconcache.c:1613
 #, c-format
 msgid "Cache file created successfully.\n"
 msgstr "สร้างแฟ้มแคชสำเร็จแล้ว\n"
 
-#: ../gtk/updateiconcache.c:1659
+#: ../gtk/updateiconcache.c:1652
 msgid "Overwrite an existing cache, even if up to date"
 msgstr "เขียนทับแคชเดิม แม้แคชจะใหม่ล่าสุดแล้วก็ตาม"
 
-#: ../gtk/updateiconcache.c:1660
+#: ../gtk/updateiconcache.c:1653
 msgid "Don't check for the existence of index.theme"
 msgstr "ไม่ต้องตรวจสอบการมีอยู่ของแฟ้ม index.theme"
 
-#: ../gtk/updateiconcache.c:1661
+#: ../gtk/updateiconcache.c:1654
 msgid "Don't include image data in the cache"
 msgstr "ไม่ต้องเก็บข้อมูลรูปภาพในแคช"
 
-#: ../gtk/updateiconcache.c:1662
+#: ../gtk/updateiconcache.c:1655
 msgid "Output a C header file"
 msgstr "เขียนแฟ้มส่วนหัวภาษาซี"
 
-#: ../gtk/updateiconcache.c:1663
+#: ../gtk/updateiconcache.c:1656
 msgid "Turn off verbose output"
 msgstr "ปิดข้อความละเอียด"
 
-#: ../gtk/updateiconcache.c:1664
+#: ../gtk/updateiconcache.c:1657
 msgid "Validate existing icon cache"
 msgstr "ตรวจสอบแคชของไอคอนที่มีอยู่"
 
-#: ../gtk/updateiconcache.c:1731
+#: ../gtk/updateiconcache.c:1724
 #, c-format
 msgid "File not found: %s\n"
 msgstr "ไม่พบแฟ้ม: %s\n"
 
-#: ../gtk/updateiconcache.c:1737
+#: ../gtk/updateiconcache.c:1730
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "ไม่ใช่แคชของไอคอนที่ใช้การได้: %s\n"
 
-#: ../gtk/updateiconcache.c:1750
+#: ../gtk/updateiconcache.c:1743
 #, c-format
 msgid "No theme index file.\n"
 msgstr "ไม่มีแฟ้มดัชนีของชุดตกแต่ง\n"
 
-#: ../gtk/updateiconcache.c:1754
+#: ../gtk/updateiconcache.c:1747
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"

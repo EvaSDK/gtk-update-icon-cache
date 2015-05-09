@@ -1,134 +1,135 @@
 # Slovenian translations for gtk+.
-# Copyright (C) 2006-2007 Free Software Foundation, Inc.
+# Copyright (C) 2006 - 2011 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gtk+ package.
 #
 # Matic Žgur <mr.zgur@gmail.com>, 2006.
 # Martin Srebotnjak <miles@filmsi.net>, 2007.
-# Matej Urbančič <mateju@svn.gnome.org>, 2007 - 2010.
-# Klemen Košir <klemen.nna@gmail.com>, 2010.
+# Klemen Košir <klemen.kosir@gmx.com>, 2010-2011.
+# Matej Urbančič <mateju@svn.gnome.org>, 2007-2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+ master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk%2b&component=general\n"
-"POT-Creation-Date: 2010-09-02 21:49+0000\n"
-"PO-Revision-Date: 2010-09-03 08:38+0100\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk"
+"%2b&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-03-21 21:47+0000\n"
+"PO-Revision-Date: 2015-03-22 09:28+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
+"Language: sl_SI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
-"X-Poedit-Country: SLOVENIA\n"
-"X-Poedit-SourceCharset: iso-8859-1\n"
-"X-Poedit-Language: Slovenian\n"
-
-#: ../gtk/updateiconcache.c:492
-#: ../gtk/updateiconcache.c:552
-#, c-format
-msgid "different idatas found for symlinked '%s' and '%s'\n"
-msgstr "najdeni so različni i-podatki (idatas) za simbolno povezana '%s' in '%s'\n"
-
-#: ../gtk/updateiconcache.c:1374
-#, c-format
-msgid "Failed to write header\n"
-msgstr "Pisanje glave ni bilo uspešno\n"
-
-#: ../gtk/updateiconcache.c:1380
-#, c-format
-msgid "Failed to write hash table\n"
-msgstr "Zapisovanje preglednice razpršila ni bilo uspešno\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../gtk/updateiconcache.c:1386
 #, c-format
-msgid "Failed to write folder index\n"
-msgstr "Pisanje kazala mape ni bilo uspešno\n"
+msgid "Failed to write header\n"
+msgstr "Zapisovanje glave ni bilo uspešno\n"
 
-#: ../gtk/updateiconcache.c:1394
+#: ../gtk/updateiconcache.c:1392
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "Zapisovanje razpredelnice razpršila ni bilo uspešno\n"
+
+#: ../gtk/updateiconcache.c:1398
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "Zapisovanje kazala mape ni bilo uspešno\n"
+
+#: ../gtk/updateiconcache.c:1406
 #, c-format
 msgid "Failed to rewrite header\n"
-msgstr "Ponovno pisanje glave ni bilo uspešno\n"
+msgstr "Ponovno zapisovanje glave ni bilo uspešno\n"
 
-#: ../gtk/updateiconcache.c:1463
+#: ../gtk/updateiconcache.c:1500
 #, c-format
 msgid "Failed to open file %s : %s\n"
-msgstr "Ni mogoče odpreti datoteke %s : %s\n"
+msgstr "Datoteke %s ni mogoče odpreti: %s\n"
 
-#: ../gtk/updateiconcache.c:1471
+#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
 #, c-format
 msgid "Failed to write cache file: %s\n"
-msgstr "Pisanje predpomnilniške datoteke ni bilo uspešno: %s\n"
+msgstr "Zapisovanje predpomnilniške datoteke ni bilo uspešno: %s\n"
 
-#: ../gtk/updateiconcache.c:1507
+#: ../gtk/updateiconcache.c:1548
 #, c-format
 msgid "The generated cache was invalid.\n"
 msgstr "Ustvarjeni predpomnilnik je neveljaven.\n"
 
-#: ../gtk/updateiconcache.c:1521
+#: ../gtk/updateiconcache.c:1562
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
-msgstr "Ni mogoče preimenovati %s v %s: %s, odstranjevanje %s.\n"
+msgstr "%s ni mogoče preimenovati v %s: %s, odstranjevanje %s.\n"
 
-#: ../gtk/updateiconcache.c:1535
+#: ../gtk/updateiconcache.c:1576
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
-msgstr "Ni mogoče preimenovati %s v %s: %s\n"
+msgstr "%s ni mogoče preimenovati v %s: %s\n"
 
-#: ../gtk/updateiconcache.c:1545
+#: ../gtk/updateiconcache.c:1586
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
-msgstr "Ni mogoče preimenovati %s nazaj v %s: %s\n"
+msgstr "%s ni mogoče preimenovati nazaj v %s: %s\n"
 
-#: ../gtk/updateiconcache.c:1572
+#: ../gtk/updateiconcache.c:1613
 #, c-format
 msgid "Cache file created successfully.\n"
 msgstr "Predpomnilniška datoteka je bila uspešno ustvarjena.\n"
 
-#: ../gtk/updateiconcache.c:1611
+#: ../gtk/updateiconcache.c:1652
 msgid "Overwrite an existing cache, even if up to date"
 msgstr "Prepiši obstoječi predpomnilnik, tudi če je posodobljen"
 
-#: ../gtk/updateiconcache.c:1612
+#: ../gtk/updateiconcache.c:1653
 msgid "Don't check for the existence of index.theme"
-msgstr "Ne preveri obstoja index.theme"
+msgstr "Ne preveri obstoja datoteke index.theme"
 
-#: ../gtk/updateiconcache.c:1613
+#: ../gtk/updateiconcache.c:1654
 msgid "Don't include image data in the cache"
-msgstr "Ne vstavi slikovnih podatkov v predpomnilnik"
+msgstr "Ne vključi slikovnih podatkov v predpomnilnik"
 
-#: ../gtk/updateiconcache.c:1614
+#: ../gtk/updateiconcache.c:1655
+msgid "Include image data in the cache"
+msgstr "Vključi slikovne podatke v predpomnilnik"
+
+#: ../gtk/updateiconcache.c:1656
 msgid "Output a C header file"
-msgstr "Izpiši glavo datoteke C"
+msgstr "Izpiši datoteko glave C"
 
-#: ../gtk/updateiconcache.c:1615
+#: ../gtk/updateiconcache.c:1657
 msgid "Turn off verbose output"
 msgstr "Izključi podrobni izpis"
 
-#: ../gtk/updateiconcache.c:1616
+#: ../gtk/updateiconcache.c:1658
 msgid "Validate existing icon cache"
 msgstr "Preveri veljavnost obstoječega predpomnilnika ikon"
 
-#: ../gtk/updateiconcache.c:1683
+#: ../gtk/updateiconcache.c:1725
 #, c-format
 msgid "File not found: %s\n"
 msgstr "Datoteke ni mogoče najti: %s\n"
 
-#: ../gtk/updateiconcache.c:1689
+#: ../gtk/updateiconcache.c:1731
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "Ni veljaven predpomnilnik ikon: %s\n"
 
-#: ../gtk/updateiconcache.c:1702
+#: ../gtk/updateiconcache.c:1744
 #, c-format
 msgid "No theme index file.\n"
 msgstr "Ni datoteke kazala teme.\n"
 
-#: ../gtk/updateiconcache.c:1706
+#: ../gtk/updateiconcache.c:1748
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"
 "If you really want to create an icon cache here, use --ignore-theme-index.\n"
 msgstr ""
-"Nobene datoteke kazala teme ni v '%s'.\n"
-"V primeru, da res želite ustvariti ikonski predpomnilnik, uporabite --ignore-theme-index.\n"
+"V '%s' ni nobene datoteke kazala teme.\n"
+"Če res želite ustvariti predpomnilnik ikon, uporabite možnosti --ignore-"
+"theme-index.\n"
 

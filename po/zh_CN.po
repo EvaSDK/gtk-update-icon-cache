@@ -1,130 +1,132 @@
-# gtk+ package simplified Chinese translation file.
+# Chinese (China) translation of GTK+.
+# converted from tranditional Chinese translation and modified (2003).
 # Copyright (C) 2000, 2001, 2003, 2004, 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
 # 辛立仁 <hsin@med.cgu.edu.tw>, 2000.
 # Chih-Wei Huang <cwhuang@linux.org.tw>, 2000.
 # Abel Cheung <maddog@linux.org.hk>, 2001.
 # He Qiangqiang <carton@263.net>, 2001.
-# Funda Wang <fundawang@linux.net.cn>, 2003,2004
+# Funda Wang <fundawang@linux.net.cn>, 2003, 2004.
 # Yang Zhang <zyangmath@gmail.com>, 2007.
-# Deng Xiyue <manphiz@gmail.com>, 2008,2009.
-# Funda Wang <fundawang@gmail.com>, 2008,2009.
-# Dean Lee <xslidian@gmail.com>, 2010.
+# Deng Xiyue <manphiz@gmail.com>, 2008, 2009.
+# Funda Wang <fundawang@gmail.com>, 2008, 2009.
+# Hinker <hinkerliu@gmail.com>, 2009, 2010.
+# Wylmer Wang <wantinghard@gmail.com>, 2010, 2014.
+# YunQiang Su <wzssyqa@gmail.com>, 2011.
+# Aron Xu <aronxu@gnome.org>, 2010, 2012.
+# keyring <keyrings@163.com>, 2013.
+# Tong Hui <tonghuix@gmail.com>, 2013, 2014.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gtk+\n"
+"Project-Id-Version: gtk+ master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk"
 "%2b&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-07-26 09:16+0000\n"
-"PO-Revision-Date: 2010-09-16 15:45+0000\n"
-"Last-Translator: Aron Xu <happyaron.xu@gmail.com>\n"
+"POT-Creation-Date: 2014-03-08 09:55+0000\n"
+"PO-Revision-Date: 2014-03-08 21:15+0800\n"
+"Last-Translator: Wylmer Wang <wantinghard@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.5.4\n"
 
-#: ../gtk/updateiconcache.c:492 ../gtk/updateiconcache.c:552
-#, c-format
-msgid "different idatas found for symlinked '%s' and '%s'\n"
-msgstr "符号链接“%s”和“%s”所用的 idatas 不同\n"
-
-#: ../gtk/updateiconcache.c:1374
+#: ../gtk/updateiconcache.c:1386
 #, c-format
 msgid "Failed to write header\n"
 msgstr "写入头失败\n"
 
-#: ../gtk/updateiconcache.c:1380
+#: ../gtk/updateiconcache.c:1392
 #, c-format
 msgid "Failed to write hash table\n"
 msgstr "写入哈希表失败\n"
 
-#: ../gtk/updateiconcache.c:1386
+#: ../gtk/updateiconcache.c:1398
 #, c-format
 msgid "Failed to write folder index\n"
 msgstr "写入目录索引失败\n"
 
-#: ../gtk/updateiconcache.c:1394
+#: ../gtk/updateiconcache.c:1406
 #, c-format
 msgid "Failed to rewrite header\n"
 msgstr "重写头失败\n"
 
-#: ../gtk/updateiconcache.c:1488
+#: ../gtk/updateiconcache.c:1500
 #, c-format
 msgid "Failed to open file %s : %s\n"
 msgstr "打开文件 %s 失败：%s\n"
 
-#: ../gtk/updateiconcache.c:1496 ../gtk/updateiconcache.c:1526
+#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
 #, c-format
 msgid "Failed to write cache file: %s\n"
 msgstr "写入缓存文件失败：%s\n"
 
-#: ../gtk/updateiconcache.c:1537
+#: ../gtk/updateiconcache.c:1548
 #, c-format
 msgid "The generated cache was invalid.\n"
 msgstr "生成的缓存非法。\n"
 
-#: ../gtk/updateiconcache.c:1551
+#: ../gtk/updateiconcache.c:1562
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
 msgstr "无法将 %s 重命名为 %s：%s，请删除 %s。\n"
 
-#: ../gtk/updateiconcache.c:1565
+#: ../gtk/updateiconcache.c:1576
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "无法将 %s 重命名为 %s：%s\n"
 
-#: ../gtk/updateiconcache.c:1575
+#: ../gtk/updateiconcache.c:1586
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "无法将 %s 重命名回 %s：%s\n"
 
-#: ../gtk/updateiconcache.c:1602
+#: ../gtk/updateiconcache.c:1613
 #, c-format
 msgid "Cache file created successfully.\n"
 msgstr "缓存文件创建成功。\n"
 
-#: ../gtk/updateiconcache.c:1641
+#: ../gtk/updateiconcache.c:1652
 msgid "Overwrite an existing cache, even if up to date"
 msgstr "覆盖已有缓存，即使它已是最新"
 
-#: ../gtk/updateiconcache.c:1642
+#: ../gtk/updateiconcache.c:1653
 msgid "Don't check for the existence of index.theme"
 msgstr "不检查已有的 index.theme"
 
-#: ../gtk/updateiconcache.c:1643
+#: ../gtk/updateiconcache.c:1654
 msgid "Don't include image data in the cache"
 msgstr "不再缓存中包含图像数据"
 
-#: ../gtk/updateiconcache.c:1644
+#: ../gtk/updateiconcache.c:1655
 msgid "Output a C header file"
 msgstr "输出 C 头文件"
 
-#: ../gtk/updateiconcache.c:1645
+#: ../gtk/updateiconcache.c:1656
 msgid "Turn off verbose output"
 msgstr "关闭详细输出"
 
-#: ../gtk/updateiconcache.c:1646
+#: ../gtk/updateiconcache.c:1657
 msgid "Validate existing icon cache"
 msgstr "验证已有的图标缓存"
 
-#: ../gtk/updateiconcache.c:1713
+#: ../gtk/updateiconcache.c:1724
 #, c-format
 msgid "File not found: %s\n"
 msgstr "文件未找到：%s\n"
 
-#: ../gtk/updateiconcache.c:1719
+#: ../gtk/updateiconcache.c:1730
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "非法图标缓存：%s\n"
 
-#: ../gtk/updateiconcache.c:1732
+#: ../gtk/updateiconcache.c:1743
 #, c-format
 msgid "No theme index file.\n"
 msgstr "无主题索引文件。\n"
 
-#: ../gtk/updateiconcache.c:1736
+#: ../gtk/updateiconcache.c:1747
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"

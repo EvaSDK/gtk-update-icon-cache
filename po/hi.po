@@ -1,4 +1,4 @@
-# translation of gtk+.master.po to Hindi
+# translation of gtk+.gtk-3-0.hi.po to Hindi
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 #
@@ -7,22 +7,134 @@
 # Rajesh Ranjan <rranjan@redhat.com>, 2005, 2006, 2009.
 # Manoj Kumar Giri <mgiri@redhat.com>, 2009.
 # Rajesh Ranjan <rajesh672@gmail.com>, 2009.
+# rajesh <rajesh>, 2012.
+# rajesh <rajeshkajha@yahoo.com>, 2012, 2013, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: gtk+.master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-10 11:56-0400\n"
-"PO-Revision-Date: 2009-08-24 17:09+0530\n"
-"Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
-"Language-Team: Hindi <hindi.sf.net>\n"
+"Project-Id-Version: gtk+.gtk-3-0.hi\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk"
+"%2b&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-09-23 11:04+0000\n"
+"PO-Revision-Date: 2014-09-23 16:36+0630\n"
+"Last-Translator: rajesh <rajesh>\n"
+"Language-Team: Hindi <kde-i18n-doc@kde.org>\n"
+"Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "\n"
 "\n"
 "\n"
 "\n"
 "\n"
+
+#: ../gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write header\n"
+msgstr "हेडर लिखने में विफल\n"
+
+#: ../gtk/updateiconcache.c:1392
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "हैश तालिका लिखने में असफल\n"
+
+#: ../gtk/updateiconcache.c:1398
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "फ़ोल्डर सूची लिखने में असफल\n"
+
+#: ../gtk/updateiconcache.c:1406
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "हेडर फिर लिखने में असफल\n"
+
+#: ../gtk/updateiconcache.c:1500
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "%s फ़ाइल खोलने में असफलः %s\n"
+
+#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "कैश फ़ाइल लिखने में असफल: %s\n"
+
+#: ../gtk/updateiconcache.c:1548
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "बनाया कैश अवैध था.\n"
+
+#: ../gtk/updateiconcache.c:1562
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "%s को फिर %s नाम नहीं दे सका: %s, तब %s हटा रहा है.\n"
+
+#: ../gtk/updateiconcache.c:1576
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "%s को फिर %s नाम नहीं दे सका: %s\n"
+
+#: ../gtk/updateiconcache.c:1586
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "%s को फिर से %s नाम नहीं दे सका: %s.\n"
+
+#: ../gtk/updateiconcache.c:1613
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "कैश फ़ाइल सफलतापूर्वक बनाया गया.\n"
+
+#: ../gtk/updateiconcache.c:1652
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "मौजूदा कैश के ऊपर लिख रहा है, बावजूद कि यह अद्यतन है"
+
+#: ../gtk/updateiconcache.c:1653
+msgid "Don't check for the existence of index.theme"
+msgstr "index.theme की मौजूदगी के लिये मत डाटें"
+
+#: ../gtk/updateiconcache.c:1654
+msgid "Don't include image data in the cache"
+msgstr "कैश में चित्र आंकड़ा शामिल मत करें"
+
+#: ../gtk/updateiconcache.c:1655
+msgid "Include image data in the cache"
+msgstr "कैश में चित्र आंकड़ा शामिल करें"
+
+#: ../gtk/updateiconcache.c:1656
+msgid "Output a C header file"
+msgstr "एक C हेडर फ़ाइल आउटपुट दें"
+
+#: ../gtk/updateiconcache.c:1657
+msgid "Turn off verbose output"
+msgstr "वर्बोस आउटपुट बंद करें"
+
+#: ../gtk/updateiconcache.c:1658
+msgid "Validate existing icon cache"
+msgstr "मौजूदा प्रतीक कैश वैधीकृत करें"
+
+#: ../gtk/updateiconcache.c:1725
+#, c-format
+msgid "File not found: %s\n"
+msgstr "फ़ाइल नहीं मिला: %s\n"
+
+#: ../gtk/updateiconcache.c:1731
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "कोई वैध प्रतीक कैश है: %s\n"
+
+#: ../gtk/updateiconcache.c:1744
+#, c-format
+msgid "No theme index file.\n"
+msgstr "कोई प्रसंग सूची फ़ाइल नहीं.\n"
+
+#: ../gtk/updateiconcache.c:1748
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"कोई प्रसंग सूची फ़ाइल '%s' मे नहीं है.\n"
+"यदि आप सचमुच एक प्रतीक कैश बनाना चाहते हैं, --ignore-theme-index का प्रयोग "
+"करें.\n"
 

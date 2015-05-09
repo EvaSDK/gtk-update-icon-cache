@@ -1,18 +1,20 @@
-# translation of gtk+.gtk-2-22.gu.po to Gujarati
+# translation of gtk+.master.gu.po to Gujarati
+# translation of gtk.po to
+# Copyright (C) 2004, 2005, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
 # MagNet <magnet@magnet-i.com>, 2004.
 # Ankit Patel <ankit644@yahoo.com>, 2005, 2006.
 # Ankit Patel <ankit@redhat.com>, 2007, 2009.
-# Sweta Kothari <swkothar@redhat.com>, 2008, 2009, 2010.
-# translation of gtk.po to
-# Copyright (C) 2004, 2005, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
+# Sweta Kothari <swkothar@redhat.com>, 2008, 2009, 2010, 2012, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: gtk+.gtk-2-22.gu\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk%2b&component=general\n"
-"POT-Creation-Date: 2010-09-22 00:26+0000\n"
-"PO-Revision-Date: 2010-09-22 16:44+0530\n"
-"Last-Translator: Sweta Kothari <swkothar@redhat.com>\n"
-"Language-Team: Gujarati\n"
+"Project-Id-Version: gtk+.master.gu\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
+"cgi?product=gtk%2b&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-09-08 09:03+0000\n"
+"PO-Revision-Date: 2014-09-08 16:13+0530\n"
+"Last-Translator: \n"
+"Language-Team: American English <kde-i18n-doc@kde.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -44,108 +46,108 @@ msgstr ""
 "\n"
 "\n"
 "\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.0\n"
 
-#: ../gtk/updateiconcache.c:492 ../gtk/updateiconcache.c:552
-#, c-format
-msgid "different idatas found for symlinked '%s' and '%s'\n"
-msgstr "સાંકેતિક કડી થયેલ '%s' અને '%s' માટે વિવિધ idatas મળી આવ્યા\n"
-
-#: ../gtk/updateiconcache.c:1374
+#: ../gtk/updateiconcache.c:1386
 #, c-format
 msgid "Failed to write header\n"
 msgstr "હેડર લખવામાં નિષ્ફળ\n"
 
-#: ../gtk/updateiconcache.c:1380
+#: ../gtk/updateiconcache.c:1392
 #, c-format
 msgid "Failed to write hash table\n"
 msgstr "હેશ ટેબલ લખવામાં નિષ્ફળ\n"
 
-#: ../gtk/updateiconcache.c:1386
+#: ../gtk/updateiconcache.c:1398
 #, c-format
 msgid "Failed to write folder index\n"
 msgstr "ફોલ્ડર અનુક્રમ લખવામાં નિષ્ફળ\n"
 
-#: ../gtk/updateiconcache.c:1394
+#: ../gtk/updateiconcache.c:1406
 #, c-format
 msgid "Failed to rewrite header\n"
 msgstr "હેડર પુનઃલખવામાં નિષ્ફળ\n"
 
-#: ../gtk/updateiconcache.c:1463
+#: ../gtk/updateiconcache.c:1500
 #, c-format
 msgid "Failed to open file %s : %s\n"
 msgstr "'%s' ફાઈલ ખોલવામાં નિષ્ફળતા: %s\n"
 
-#: ../gtk/updateiconcache.c:1471
+#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
 #, c-format
 msgid "Failed to write cache file: %s\n"
 msgstr "કેશ ફાઈલ લખવામાં નિષ્ફળ: %s\n"
 
-#: ../gtk/updateiconcache.c:1507
+#: ../gtk/updateiconcache.c:1548
 #, c-format
 msgid "The generated cache was invalid.\n"
 msgstr "પેદા થયેલ કેશ અયોગ્ય હતી.\n"
 
-#: ../gtk/updateiconcache.c:1521
+#: ../gtk/updateiconcache.c:1562
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
 msgstr "%s નું નામ %s માં બદલી શક્યા નહિં: %s, %s પછી દૂર કરી રહ્યા છીએ.\n"
 
-#: ../gtk/updateiconcache.c:1535
+#: ../gtk/updateiconcache.c:1576
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "%s નું %s માં નામ બદલી શક્યા નહિં: %s\n"
 
-#: ../gtk/updateiconcache.c:1545
+#: ../gtk/updateiconcache.c:1586
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "%s ને ફરી પાછા %s માં નામ બદલી શક્યા નહિં: %s.\n"
 
-#: ../gtk/updateiconcache.c:1572
+#: ../gtk/updateiconcache.c:1613
 #, c-format
 msgid "Cache file created successfully.\n"
 msgstr "કેશ ફાઈલ સફળતાપૂર્વક બનાવાઈ ગઈ.\n"
 
-#: ../gtk/updateiconcache.c:1611
+#: ../gtk/updateiconcache.c:1652
 msgid "Overwrite an existing cache, even if up to date"
 msgstr "હાલની કેશ પર ફરીથી લખો, જો તે પરિપૂર્ણ હોય તો પણ"
 
-#: ../gtk/updateiconcache.c:1612
+#: ../gtk/updateiconcache.c:1653
 msgid "Don't check for the existence of index.theme"
 msgstr "index.theme ના અસ્તિત્વ માટે ચકાસો નહિં"
 
-#: ../gtk/updateiconcache.c:1613
+#: ../gtk/updateiconcache.c:1654
 msgid "Don't include image data in the cache"
 msgstr "કેશમાં ચિત્ર માહિતીનો સમાવેશ કરો નહિં"
 
-#: ../gtk/updateiconcache.c:1614
+#: ../gtk/updateiconcache.c:1655
+#| msgid "Don't include image data in the cache"
+msgid "Include image data in the cache"
+msgstr "કેશમાં ચિત્ર માહિતીનો સમાવેશ કરો"
+
+#: ../gtk/updateiconcache.c:1656
 msgid "Output a C header file"
 msgstr "C હેડર ફાઈલનું આઉટપુટ કરો"
 
-#: ../gtk/updateiconcache.c:1615
+#: ../gtk/updateiconcache.c:1657
 msgid "Turn off verbose output"
 msgstr "વર્બોઝ આઉટપુટ બંધ કરો"
 
-#: ../gtk/updateiconcache.c:1616
+#: ../gtk/updateiconcache.c:1658
 msgid "Validate existing icon cache"
 msgstr "હાલની ચિહ્ન કેશ માન્ય કરો"
 
-#: ../gtk/updateiconcache.c:1683
+#: ../gtk/updateiconcache.c:1725
 #, c-format
 msgid "File not found: %s\n"
 msgstr "ફાઈલ મળી નહિં: %s\n"
 
-#: ../gtk/updateiconcache.c:1689
+#: ../gtk/updateiconcache.c:1731
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "માન્ય ચિહ્ન કેશ નથી: %s\n"
 
-#: ../gtk/updateiconcache.c:1702
+#: ../gtk/updateiconcache.c:1744
 #, c-format
 msgid "No theme index file.\n"
 msgstr "થીમ અનુક્રમણિકા ફાઇલ નથી.\n"
 
-#: ../gtk/updateiconcache.c:1706
+#: ../gtk/updateiconcache.c:1748
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"

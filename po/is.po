@@ -1,17 +1,131 @@
+# translation of gtk+.gtk-3-14.is.po to
 # Icelandic translation of gtk 2.2
-# Copyright (C) 2003 Free Software Foundation, Inc.
+# Copyright (C) 2003, 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the GTK package.
-# Richard Allen <ra@ra.is>, 2003
 #
+# Richard Allen <ra@ra.is>, 2003.
+# Sveinn í Felli <sv1@fellsnet.is>, 2015.
 msgid ""
 msgstr ""
-"Project-Id-Version: gtk 2.2\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-10 11:56-0400\n"
-"PO-Revision-Date: 2004-03-12 15:42-0000\n"
-"Last-Translator: Richard Allen <ra@ra.is>\n"
-"Language-Team: is <kde-isl@molar.is>\n"
+"Project-Id-Version: gtk+.gtk-3-14.is\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk%2b&"
+"keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-01-08 09:46+0000\n"
+"PO-Revision-Date: 2015-04-23 11:08+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
+"Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
+"Language: is\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write header\n"
+msgstr "Mistókst að skrifa haus\n"
+
+#: ../gtk/updateiconcache.c:1392
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "Mistókst að búa til tætitöflu\n"
+
+#: ../gtk/updateiconcache.c:1398
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "Mistókst að skrifa möppuyfirlit\n"
+
+#: ../gtk/updateiconcache.c:1406
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "Mistókst að  endurskrifa haus\n"
+
+#: ../gtk/updateiconcache.c:1500
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "Mistókst að opna skrá %s: %s\n"
+
+#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "Mistókst að skrifa í skyndiminnisskrá: %s\n"
+
+#: ../gtk/updateiconcache.c:1548
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "Útbúið skyndiminni er ógilt.\n"
+
+#: ../gtk/updateiconcache.c:1562
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "Gat ekki breytt nafninu á %s í %s: %s, fjarlægi þá %s.\n"
+
+#: ../gtk/updateiconcache.c:1576
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "Gat ekki breytt nafninu á %s í %s: %s\n"
+
+#: ../gtk/updateiconcache.c:1586
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "Gat ekki breytt nafninu á %s aftur í %s: %s.\n"
+
+#: ../gtk/updateiconcache.c:1613
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "Það tókst að búa til skyndiminnisskrá.\n"
+
+#: ../gtk/updateiconcache.c:1652
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "Skrifa yfir skyndiminni, jafnvel þó það sé ekki úrelt"
+
+#: ../gtk/updateiconcache.c:1653
+msgid "Don't check for the existence of index.theme"
+msgstr "Ekki athuga hvort index.theme er til"
+
+#: ../gtk/updateiconcache.c:1654
+msgid "Don't include image data in the cache"
+msgstr "Ekki setja myndagögn í skyndiminni"
+
+#: ../gtk/updateiconcache.c:1655
+msgid "Include image data in the cache"
+msgstr "Hafa myndagögn með í skyndiminni"
+
+#: ../gtk/updateiconcache.c:1656
+msgid "Output a C header file"
+msgstr "Gefa út C-haus skrá"
+
+#: ../gtk/updateiconcache.c:1657
+msgid "Turn off verbose output"
+msgstr "Slökkva á nákvæmu úttaki"
+
+#: ../gtk/updateiconcache.c:1658
+msgid "Validate existing icon cache"
+msgstr "Gera táknmyndaskyndiminnið gilt"
+
+#: ../gtk/updateiconcache.c:1725
+#, c-format
+msgid "File not found: %s\n"
+msgstr "Skrá fannst ekki: %s\n"
+
+#: ../gtk/updateiconcache.c:1731
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "Ekki gilt táknmyndaskyndiminni: %s\n"
+
+#: ../gtk/updateiconcache.c:1744
+#, c-format
+msgid "No theme index file.\n"
+msgstr "Engin þemayfirlitsskrá.\n"
+
+#: ../gtk/updateiconcache.c:1748
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"Engin þemayfirlitsskrá í '%s‘.\n"
+"Ef þú vilt í alvörunni búa hér til táknmyndaskyndiminni, notaðu --ignore-"
+"theme-index.\n"
 

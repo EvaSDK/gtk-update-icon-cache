@@ -1,15 +1,16 @@
 # Interlingua translations for GTK+ package.
 # Copyright (C) 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the GTK+ package.
+#
 # Nik Kalach <nikka@fedoraproject.org>, 2013.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gtk+ 2.24\n"
+"Project-Id-Version: Gtk-UI 3.6\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk"
 "%2b&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-04-21 03:13+0000\n"
-"PO-Revision-Date: 2013-04-09 23:44+0400\n"
+"POT-Creation-Date: 2013-04-07 17:09+0000\n"
+"PO-Revision-Date: 2013-04-09 18:47+0400\n"
 "Last-Translator: Nik Kalach <nikka@fedoraproject.org>\n"
 "Language-Team: Interlingua <trans-ia@lists.fedoraproject.org>\n"
 "Language: ia\n"
@@ -18,108 +19,101 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../gtk/updateiconcache.c:492 ../gtk/updateiconcache.c:552
-#, c-format
-msgid "different idatas found for symlinked '%s' and '%s'\n"
-msgstr ""
-"idatos differente trovate pro '%s' e '%s' que son connectite per un ligamine "
-"symbolic\n"
-
-#: ../gtk/updateiconcache.c:1392
+#: ../gtk/updateiconcache.c:1368
 #, c-format
 msgid "Failed to write header\n"
 msgstr "Falta al scriber le testa\n"
 
-#: ../gtk/updateiconcache.c:1398
+#: ../gtk/updateiconcache.c:1374
 #, c-format
 msgid "Failed to write hash table\n"
 msgstr "Falta al scriber le tabula de hachage\n"
 
-#: ../gtk/updateiconcache.c:1404
+#: ../gtk/updateiconcache.c:1380
 #, c-format
 msgid "Failed to write folder index\n"
 msgstr "Falta al scriber le indice de dossier\n"
 
-#: ../gtk/updateiconcache.c:1412
+#: ../gtk/updateiconcache.c:1388
 #, c-format
 msgid "Failed to rewrite header\n"
 msgstr "Falta al rescriber le testa\n"
 
-#: ../gtk/updateiconcache.c:1506
+#: ../gtk/updateiconcache.c:1482
 #, c-format
 msgid "Failed to open file %s : %s\n"
 msgstr "Falta al aperir le file %s: %s\n"
 
-#: ../gtk/updateiconcache.c:1514 ../gtk/updateiconcache.c:1544
+#: ../gtk/updateiconcache.c:1490 ../gtk/updateiconcache.c:1520
 #, c-format
 msgid "Failed to write cache file: %s\n"
 msgstr "Falta al scriber le file de cache: %s\n"
 
-#: ../gtk/updateiconcache.c:1555
+#: ../gtk/updateiconcache.c:1530
 #, c-format
 msgid "The generated cache was invalid.\n"
 msgstr "Le cache generate non esseva valide.\n"
 
-#: ../gtk/updateiconcache.c:1569
+#: ../gtk/updateiconcache.c:1544
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
 msgstr "Impossibile de renominar %s a %s: %s, dunque il es removente %s.\n"
 
-#: ../gtk/updateiconcache.c:1583
+#: ../gtk/updateiconcache.c:1558
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "Impossibile de renominar %s a %s: %s\n"
 
-#: ../gtk/updateiconcache.c:1593
+#: ../gtk/updateiconcache.c:1568
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "Impossibile de renominar %s de nove a %s: %s\n"
 
-#: ../gtk/updateiconcache.c:1620
+#: ../gtk/updateiconcache.c:1595
 #, c-format
 msgid "Cache file created successfully.\n"
 msgstr "File de cache ha essite create con successo.\n"
 
-#: ../gtk/updateiconcache.c:1659
+#: ../gtk/updateiconcache.c:1634
 msgid "Overwrite an existing cache, even if up to date"
 msgstr "Superscriber un cache existente, mesmo si illo es actual"
 
-#: ../gtk/updateiconcache.c:1660
+#: ../gtk/updateiconcache.c:1635
 msgid "Don't check for the existence of index.theme"
 msgstr "Non verificar le existentia de file index.theme"
 
-#: ../gtk/updateiconcache.c:1661
+#: ../gtk/updateiconcache.c:1636
 msgid "Don't include image data in the cache"
 msgstr "Non includer le datos de imagine in le cache"
 
-#: ../gtk/updateiconcache.c:1662
+#: ../gtk/updateiconcache.c:1637
 msgid "Output a C header file"
 msgstr "Generar un file de testa C"
 
-#: ../gtk/updateiconcache.c:1663
+#: ../gtk/updateiconcache.c:1638
 msgid "Turn off verbose output"
 msgstr "Disactivar le output verbose"
 
-#: ../gtk/updateiconcache.c:1664
+#: ../gtk/updateiconcache.c:1639
 msgid "Validate existing icon cache"
 msgstr "Validar le cache de icones existente"
 
-#: ../gtk/updateiconcache.c:1731
+#: ../gtk/updateiconcache.c:1706
 #, c-format
 msgid "File not found: %s\n"
 msgstr "File non trovate: %s\n"
 
-#: ../gtk/updateiconcache.c:1737
+#: ../gtk/updateiconcache.c:1712
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "Ce non es un cache de icones valide: %s\n"
 
-#: ../gtk/updateiconcache.c:1750
+#: ../gtk/updateiconcache.c:1725
 #, c-format
 msgid "No theme index file.\n"
 msgstr "Necun file indice de thema existe.\n"
 
-#: ../gtk/updateiconcache.c:1754
+#: ../gtk/updateiconcache.c:1729
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"

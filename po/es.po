@@ -1,4 +1,4 @@
-# translation of gtk+.gtk-2-22.po to Español
+# translation of gtk+.HEAD.po to Español
 # Copyright © 1999-2002, 2006, 2007, 2008 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gtk+ package.
 #
@@ -9,126 +9,124 @@
 # Pablo Gonzalo del Campo <pablodc@bigfoot.com>, 2002, 2003.
 # Juan Manuel García Molina <juanma_gm@wanadoo.es>, 2003.
 # Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2003 - 2006.
-# Jorge González <jorgegonz@svn.gnome.org>, 2007, 2008, 2009, 2010.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011.
+# Jorge González <jorgegonz@svn.gnome.org>, 2007, 2008, 2009, 2010, 2011.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gtk+.gtk-2-22\n"
+"Project-Id-Version: gtk+.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk"
 "%2b&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-07-12 23:43+0000\n"
-"PO-Revision-Date: 2011-07-13 10:46+0200\n"
+"POT-Creation-Date: 2014-09-23 09:06+0000\n"
+"PO-Revision-Date: 2014-09-23 19:44+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
-"Language-Team: Español <gnome-es-list@gnome.org>\n"
+"Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Gtranslator 2.91.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: ../gtk/updateiconcache.c:492 ../gtk/updateiconcache.c:552
-#, c-format
-msgid "different idatas found for symlinked '%s' and '%s'\n"
-msgstr ""
-"se encontraron diferentes idatas para el «%s» enlazado simbólicamente y "
-"«%s»\n"
-
-#: ../gtk/updateiconcache.c:1374
-#, c-format
-msgid "Failed to write header\n"
-msgstr "No se ha podido escribir la cabecera\n"
-
-#: ../gtk/updateiconcache.c:1380
-#, c-format
-msgid "Failed to write hash table\n"
-msgstr "No se ha podido escribir la tabla hash\n"
 
 #: ../gtk/updateiconcache.c:1386
 #, c-format
-msgid "Failed to write folder index\n"
-msgstr "No se ha podido escribir el índice de la carpeta\n"
+msgid "Failed to write header\n"
+msgstr "Falló al escribir la cabecera\n"
 
-#: ../gtk/updateiconcache.c:1394
+#: ../gtk/updateiconcache.c:1392
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "Falló al escribir la tabla hash\n"
+
+#: ../gtk/updateiconcache.c:1398
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "Falló al escribir el índice de la carpeta\n"
+
+#: ../gtk/updateiconcache.c:1406
 #, c-format
 msgid "Failed to rewrite header\n"
-msgstr "No se ha podido reescribir la cabecera\n"
+msgstr "Falló al reescribir la cabecera\n"
 
-#: ../gtk/updateiconcache.c:1488
+#: ../gtk/updateiconcache.c:1500
 #, c-format
 msgid "Failed to open file %s : %s\n"
-msgstr "No se ha podido abrir el archivo «%s»: %s\n"
+msgstr "Falló al abrir el archivo «%s»: %s\n"
 
-#: ../gtk/updateiconcache.c:1496 ../gtk/updateiconcache.c:1526
+#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
 #, c-format
 msgid "Failed to write cache file: %s\n"
-msgstr "No se ha podido escribir el archivo de caché: %s\n"
+msgstr "Falló al escribir el archivo de caché: %s\n"
 
-#: ../gtk/updateiconcache.c:1537
+#: ../gtk/updateiconcache.c:1548
 #, c-format
 msgid "The generated cache was invalid.\n"
 msgstr "La caché generada no es válida.\n"
 
-#: ../gtk/updateiconcache.c:1551
+#: ../gtk/updateiconcache.c:1562
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
 msgstr "No se pudo renombrar %s a %s: %s, eliminando %s entonces.\n"
 
-#: ../gtk/updateiconcache.c:1565
+#: ../gtk/updateiconcache.c:1576
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "No se pudo renombrar %s a %s: %s\n"
 
-#: ../gtk/updateiconcache.c:1575
+#: ../gtk/updateiconcache.c:1586
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "No se pudo renombrar %s de nuevo a %s: %s.\n"
 
-#: ../gtk/updateiconcache.c:1602
+#: ../gtk/updateiconcache.c:1613
 #, c-format
 msgid "Cache file created successfully.\n"
 msgstr "Archivo de caché creado con éxito.\n"
 
-#: ../gtk/updateiconcache.c:1641
+#: ../gtk/updateiconcache.c:1652
 msgid "Overwrite an existing cache, even if up to date"
-msgstr "Sobreescribir un caché existente, incluso si está actualizado"
+msgstr "Sobrescribir un caché existente, incluso si está actualizado"
 
-#: ../gtk/updateiconcache.c:1642
+#: ../gtk/updateiconcache.c:1653
 msgid "Don't check for the existence of index.theme"
 msgstr "No comprobar la existencia de index.theme"
 
-#: ../gtk/updateiconcache.c:1643
+#: ../gtk/updateiconcache.c:1654
 msgid "Don't include image data in the cache"
-msgstr "No incluir los datos de la imagen en el caché"
+msgstr "No incluir los datos de la imagen en la caché"
 
-#: ../gtk/updateiconcache.c:1644
+#: ../gtk/updateiconcache.c:1655
+msgid "Include image data in the cache"
+msgstr "Incluir los datos de la imagen en la caché"
+
+#: ../gtk/updateiconcache.c:1656
 msgid "Output a C header file"
 msgstr "Sacar un archivo de cabecera C"
 
-#: ../gtk/updateiconcache.c:1645
+#: ../gtk/updateiconcache.c:1657
 msgid "Turn off verbose output"
 msgstr "Desactivar la salida prolija"
 
-#: ../gtk/updateiconcache.c:1646
+#: ../gtk/updateiconcache.c:1658
 msgid "Validate existing icon cache"
 msgstr "Validar la caché de iconos existente"
 
-#: ../gtk/updateiconcache.c:1713
+#: ../gtk/updateiconcache.c:1725
 #, c-format
 msgid "File not found: %s\n"
 msgstr "Archivo no encontrado: %s\n"
 
-#: ../gtk/updateiconcache.c:1719
+#: ../gtk/updateiconcache.c:1731
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "No es una caché de iconos válida: %s\n"
 
-#: ../gtk/updateiconcache.c:1732
+#: ../gtk/updateiconcache.c:1744
 #, c-format
 msgid "No theme index file.\n"
 msgstr "No existe el archivo índice del tema.\n"
 
-#: ../gtk/updateiconcache.c:1736
+#: ../gtk/updateiconcache.c:1748
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"

@@ -7,15 +7,17 @@
 #
 # Gora Mohanty <gora_mohanty@yahoo.co.in>, 2005.
 # Subhransu Behera <arya_subhransu@yahoo.co.in>, 2006.
-# Manoj Kumar Giri <mgiri@redhat.com>, 2008, 2009, 2010.
+# Manoj Kumar Giri <mgiri@redhat.com>, 2008, 2009, 2010, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: or\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-10 11:56-0400\n"
-"PO-Revision-Date: 2010-02-17 21:22+0530\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk"
+"%2b&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-03-13 21:15+0000\n"
+"PO-Revision-Date: 2013-03-15 16:59+0530\n"
 "Last-Translator: Manoj Kumar Giri <mgiri@redhat.com>\n"
 "Language-Team: Oriya <oriya-it@googlegroups.com>\n"
+"Language: or\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -34,5 +36,111 @@ msgstr ""
 "\n"
 "\n"
 "\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: ../gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write header\n"
+msgstr "ଶୀର୍ଷକକୁ ଲେଖିବାରେ ବିଫଳ\n"
+
+#: ../gtk/updateiconcache.c:1392
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "ଦୃତାନ୍ବେଷଣ ସାରଣୀରେ ଲେଖିବାରେ ବିଫଳ\n"
+
+#: ../gtk/updateiconcache.c:1398
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "ଫୋଲଡର ଅନୁକ୍ରମଣିକାକୁ ଲେଖିବାରେ ବିଫଳ\n"
+
+#: ../gtk/updateiconcache.c:1406
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "ଶୀର୍ଷକର ପୁନଃଲିଖନରେ ବିଫଳ\n"
+
+#: ../gtk/updateiconcache.c:1500
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "ଫାଇଲ %sକୁ ଖୋଲିବାରେ ଅସଫଳ: %s\n"
+
+#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "ସଞ୍ଚୟ ଫାଇଲରେ ଲେଖିବାରେ ବିଫଳ: %s\n"
+
+#: ../gtk/updateiconcache.c:1548
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "ସୃଷ୍ଟି କରାଯାଇଥିବା କେଶେଟି ଅବୈଧ ଅଟେ.\n"
+
+#: ../gtk/updateiconcache.c:1562
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr ""
+"%s ନାମକୁ %sରେ ବଦଳାଇ ପାରିଲା ନାହିଁ: %s, ସେଥିପାଇଁ %s କୁ ଅପସାରିତ କରିଦେଉଛି।\n"
+
+#: ../gtk/updateiconcache.c:1576
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "%sର ନାମକୁ %sରେ ବଦଳାଇ ପାରିଲା ନାହିଁ: %s\n"
+
+#: ../gtk/updateiconcache.c:1586
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "%sର ନାମକୁ ତାହାର ପୂର୍ବ ନାମ %sରେ ବଦଳାଇ ପାରିଲା ନାହିଁ: %s\n"
+
+#: ../gtk/updateiconcache.c:1613
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "ସଞ୍ଚୟ ଫାଇଲକୁ ସଫଳତାର ସହିତ ସୃଷ୍ଟି କରାଯାଇଛି।\n"
+
+#: ../gtk/updateiconcache.c:1652
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "ଗୋଟିଏ ସ୍ଥିତବାନ କେଶେକୁ ନବଲିଖନ କରନ୍ତୁ, ଯଦିଚ ଏହା ଅଦ୍ଯତିତ ହୋଇଛି"
+
+#: ../gtk/updateiconcache.c:1653
+msgid "Don't check for the existence of index.theme"
+msgstr "index.theme ଅସ୍ତିତ୍ବକୁ ଯାଞ୍ଚ କରନ୍ତୁ ନାହିଁ"
+
+#: ../gtk/updateiconcache.c:1654
+msgid "Don't include image data in the cache"
+msgstr "ସଞ୍ଚୟରେ ଗୋଟିଏ ପ୍ରତିଛବିକୁ ଅନ୍ତର୍ଭୂକ୍ତ କରନ୍ତୁ ନାହିଁ"
+
+#: ../gtk/updateiconcache.c:1655
+msgid "Output a C header file"
+msgstr "ଗୋଟିଏ C ଶୀର୍ଷକ ଫାଇଲ ନିର୍ଗମ କରନ୍ତୁ"
+
+#: ../gtk/updateiconcache.c:1656
+msgid "Turn off verbose output"
+msgstr "ଦୃଷ୍ଟି ସୂଚନାଯୁକ୍ତ ନିର୍ଗମକୁ ବନ୍ଦ କରନ୍ତୁ"
+
+#: ../gtk/updateiconcache.c:1657
+msgid "Validate existing icon cache"
+msgstr "ସ୍ଥିତବାନ ଚିତ୍ରସଂକେତ କେଶେକୁ ବୈଧିକୃତ କରନ୍ତୁ"
+
+#: ../gtk/updateiconcache.c:1724
+#, c-format
+msgid "File not found: %s\n"
+msgstr "ଫାଇଲ ମିଳୁନାହିଁ: %s\n"
+
+#: ../gtk/updateiconcache.c:1730
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "ଗୋଟିଏ ବୈଧ ଚିତ୍ରସଂକେତ କେଶେ ନୁହଁ: %s\n"
+
+#: ../gtk/updateiconcache.c:1743
+#, c-format
+msgid "No theme index file.\n"
+msgstr "କୌଣସି ପ୍ରସଙ୍ଗ ଅନୁକ୍ରମଣିକା ଫାଇଲ ନାହିଁ।\n"
+
+#: ../gtk/updateiconcache.c:1747
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"'%s' ରେ କୌଣସି ପ୍ରସଙ୍ଗ ଅନୁକ୍ରମଣିକା ଫାଇଲ ନାହିଁ।\n"
+"ଯଦି ଆପଣ ପ୍ରକୃତରେ ଏଠାରେ ଗୋଟିଏ ଚିତ୍ରସଙ୍କେତ ସଞ୍ଚୟେକୁ ସୃଷ୍ଟି କରିବା ପାଇଁ "
+"ଚାହୁଁଛନ୍ତି, ତାହାହେଲେ--"
+"ignore-theme-index ନିର୍ଦ୍ଦେଶ କୁ ବ୍ଯବହାର କରନ୍ତୁ।\n"
 

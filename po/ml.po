@@ -3,19 +3,126 @@
 # Copyright (C) 2003-2008 gtk+'S COPYRIGHT HOLDER.
 #
 # FSF-India <locale@gnu.org.in>, 2003.
-# Ani Peter <apeter@redhat.com>, 2006, 2007, 2009.
+# Ani Peter <apeter@redhat.com>, 2006, 2007, 2009, 2012, 2013.
 # Hari Vishnu <harivishnu@gmail.com>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+.master.ml\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-10 11:56-0400\n"
-"PO-Revision-Date: 2009-09-01 08:52+0530\n"
-"Last-Translator: \n"
-"Language-Team:  <en@li.org>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk"
+"%2b&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-03-12 22:05+0000\n"
+"PO-Revision-Date: 2013-03-25 11:25+0530\n"
+"Last-Translator: Ani Peter <peter.ani@gmail.com>\n"
+"Language-Team: Malayalam <discuss@lists.smc.org.in>\n"
+"Language: ml\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write header\n"
+msgstr "ഹെഡറ്‍ എഴുതുന്നതില്‍ പരാജയം\n"
+
+#: ../gtk/updateiconcache.c:1392
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "hash ടേബിള്‍ എഴുതുന്നതില്‍ പരാജയം\n"
+
+#: ../gtk/updateiconcache.c:1398
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "index അറ എഴുതുന്നതില്‍ പരാ‍ജയം\n"
+
+#: ../gtk/updateiconcache.c:1406
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "ഹെഡറ്‍ തിരുത്തി എഴുതുന്നതില്‍ പിശക്\n"
+
+#: ../gtk/updateiconcache.c:1500
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "'%s' എന്ന ഫയല്‍ തുറക്കുന്നില്‍ പരാജയം: %s\n"
+
+#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "കാഷ് ഫയല്‍ എഴുതുന്നതില്‍ പരാജയം: %s\n"
+
+#: ../gtk/updateiconcache.c:1548
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "ഉണ്ടാക്കപ്പെട്ട കാഷ് ശരിയല്ല.\n"
+
+#: ../gtk/updateiconcache.c:1562
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr ""
+"%s-ന്റെ പേരു് %s ആയി മാറ്റുവാന്‍ സാധ്യമായില്ല: %s, അതിനാല്‍ %s മാറ്റുന്നു\n"
+
+#: ../gtk/updateiconcache.c:1576
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "%s-ന്റെ പേരു് %s ആയി മാറ്റുവാന്‍ സാധ്യമായില്ല: %s\n"
+
+#: ../gtk/updateiconcache.c:1586
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "%s-ന്റെ പേരു് %s എന്ന് തിരികെ മാറ്റുവാന്‍ സാധ്യമായില്ല: %s.\n"
+
+#: ../gtk/updateiconcache.c:1613
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "കാഷ് ഫയല്‍ വിജയകരമായി ഉണ്ടാക്കിയിരിക്കുന്നു.\n"
+
+#: ../gtk/updateiconcache.c:1652
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "ഏറ്റവും പുതിയതാണ് എങ്കിലും നിലവിലുള്ള കാഷ് മാറ്റി എഴുതുന്നു"
+
+#: ../gtk/updateiconcache.c:1653
+msgid "Don't check for the existence of index.theme"
+msgstr "index.theme നിലവിലുണ്ടോ എന്ന് നോക്കേണ്ടതില്ല"
+
+#: ../gtk/updateiconcache.c:1654
+msgid "Don't include image data in the cache"
+msgstr "കാഷില്‍ ഇമേജിനുള്ള ഫയല്‍ ഉള്‍പ്പെടുത്തേണ്ട"
+
+#: ../gtk/updateiconcache.c:1655
+msgid "Output a C header file"
+msgstr "ഒരു C ഹെഡറ്‍ ഫയല്‍ ഔട്ട്പുട്ട് ആക്കുക"
+
+#: ../gtk/updateiconcache.c:1656
+msgid "Turn off verbose output"
+msgstr "വെറ്‍ബോസ് ഔട്ട്പുട്ട് വേണ്ടെന്ന് വയ്ക്കുക"
+
+#: ../gtk/updateiconcache.c:1657
+msgid "Validate existing icon cache"
+msgstr "നിലവിലുള്ള ഐക്കണ്‍ കാഷ് പരിശോധിക്കുന്നു"
+
+#: ../gtk/updateiconcache.c:1724
+#, c-format
+msgid "File not found: %s\n"
+msgstr "ഫയല്‍ ലഭ്യമല്ല: %s\n"
+
+#: ../gtk/updateiconcache.c:1730
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "ശരിയായ ഐക്കണ്‍ കാഷ് അല്ല: %s\n"
+
+#: ../gtk/updateiconcache.c:1743
+#, c-format
+msgid "No theme index file.\n"
+msgstr "ഥീം സൂചിക ഫയലില്ല.\n"
+
+#: ../gtk/updateiconcache.c:1747
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"'%s'-ല്‍ പ്രമേയത്തിനുള്ള ഇന്‍ഡെക്സ് ഫയല്‍ ലഭ്യമല്ല.\n"
+"നിങ്ങള്‍ക്ക് ഇവിടെ ഒരു ഐക്കണ്‍ കാഷ് ഉണ്ടാക്കണമെങ്കില്‍, --ignore-theme-index "
+"ഉപയോഗിക്കുക.\n"
 

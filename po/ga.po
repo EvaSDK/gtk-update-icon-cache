@@ -1,22 +1,127 @@
 # Irish translations for gtk+ package.
-# Copyright (C) 1999-2009 Free Software Foundation, Inc.
+# Copyright (C) 1999-2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gtk+ package.
 # Seán Ó Ceallaigh <soc@users.sourceforge.net>, 1999.
 # Alastair McKinstry <mckinstry@computer.org>, 2004.
 # Alan Horkan <horkan@maths.tcd.ie>, 2005.
-# Seán de Búrca <leftmostcat@gmail.com>, 2007, 2008, 2009.
+# Seán de Búrca <leftmostcat@gmail.com>, 2007-2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-10 11:56-0400\n"
-"PO-Revision-Date: 2009-08-19 06:36-0600\n"
+"POT-Creation-Date: 2013-08-30 21:00-0600\n"
+"PO-Revision-Date: 2013-08-30 21:02-0600\n"
 "Last-Translator: Seán de Búrca <leftmostcat@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=5; plural=n==1 ? 0 : (n%10==1 || n%10==2) ? 1 : (n%"
-"10>=3 && n%10<= 6) ? 2 : ((n%10>=7 && n%10<=9) || n==10) ? 3 : 4;\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4;\n"
+
+#: ../gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write header\n"
+msgstr "Theip ar scríobh ceanntáisc\n"
+
+#: ../gtk/updateiconcache.c:1392
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "Theip ar scríobh hais-tábla\n"
+
+#: ../gtk/updateiconcache.c:1398
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "Theip ar scríobh innéacs fillteáin\n"
+
+#: ../gtk/updateiconcache.c:1406
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "Theip ar athscríobh ceanntáisc\n"
+
+#: ../gtk/updateiconcache.c:1500
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "Theip ar oscailt comhaid %s : %s\n"
+
+#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "Theip ar scríobh chomhad taisce: %s\n"
+
+#: ../gtk/updateiconcache.c:1548
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "Bhí an taisce ghinte neamhbhailí.\n"
+
+#: ../gtk/updateiconcache.c:1562
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "Níorbh fhéidir %s a athainmniú go %s: %s, mar sin %s á bhaint.\n"
+
+#: ../gtk/updateiconcache.c:1576
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "Níorbh fhéidir %s a athainmniú go %s: %s\n"
+
+#: ../gtk/updateiconcache.c:1586
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "Níorbh fhéidir %s a athainmniú ar ais go %s: %s\n"
+
+#: ../gtk/updateiconcache.c:1613
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "D'éirigh le cruthú an chomhaid taisce.\n"
+
+#: ../gtk/updateiconcache.c:1652
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "Forscríobh taisce atá ann, cé go bhfuil sí cothrom le dáta"
+
+#: ../gtk/updateiconcache.c:1653
+msgid "Don't check for the existence of index.theme"
+msgstr ""
+
+#: ../gtk/updateiconcache.c:1654
+msgid "Don't include image data in the cache"
+msgstr ""
+
+#: ../gtk/updateiconcache.c:1655
+msgid "Output a C header file"
+msgstr "Cuir comhad ceanntáisc C amach"
+
+#: ../gtk/updateiconcache.c:1656
+msgid "Turn off verbose output"
+msgstr "Díchumasaigh aschur foclach"
+
+#: ../gtk/updateiconcache.c:1657
+msgid "Validate existing icon cache"
+msgstr ""
+
+#: ../gtk/updateiconcache.c:1724
+#, c-format
+msgid "File not found: %s\n"
+msgstr "Comhad gan aimsiú: %s\n"
+
+#: ../gtk/updateiconcache.c:1730
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "Ní taisce dheilbhíní bhailí é: %s\n"
+
+#: ../gtk/updateiconcache.c:1743
+#, c-format
+msgid "No theme index file.\n"
+msgstr "Gan chomhad innéacs téama.\n"
+
+#: ../gtk/updateiconcache.c:1747
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"Gan chomhad innéacs téama i '%s'.\n"
+"Má tá fonn ort taisce dheilbhíní a chruthú anseo i ndáiríre, úsáid --ignore-"
+"theme-index.\n"
 

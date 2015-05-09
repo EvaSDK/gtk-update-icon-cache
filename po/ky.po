@@ -1,127 +1,122 @@
-# Translation of gtk+ to Qırımtatarca.
+# Kirghiz translation for gtk+.
+# Copyright (C) 2012 gtk+ authors
 # This file is distributed under the same license as the gtk+ package.
-# Reşat SABIQ <tilde.birlik@gmail.com>, 2009, 2010, 2012.
+#
+# Chynggyz Jumaliev <translatorky@lavabit.com>, 2012.
+# Timur Zhamakeev <ztimur@gmail.com>, 2012.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gtk+ TRUNK\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-16 01:09-0500\n"
-"PO-Revision-Date: 2012-04-16 01:31-0500\n"
-"Last-Translator: Reşat SABIQ <tilde.birlik@gmail.com>\n"
-"Language-Team: QIRIMTATARCA (Qırım Türkçesi) <tilde-birlik-meydan@lists."
-"sourceforge.net>\n"
-"Language: \n"
+"Project-Id-Version: gtk+ ui master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk"
+"%2b&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2012-09-24 01:15+0000\n"
+"PO-Revision-Date: 2012-09-24 15:48+0600\n"
+"Last-Translator: Timur Zhamakeev <ztimur@gmail.com>\n"
+"Language-Team: Kirghiz <gnome-i18n@gnome.org>\n"
+"Language: ky\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: UTF-8\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Kyrgyz\n"
+"X-Poedit-Country: KYRGYZSTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Lokalize 1.4\n"
 
-# tüklü
-# gdk-pixbuf/io-tiff.c:264
 #: ../gtk/updateiconcache.c:1368
 #, c-format
 msgid "Failed to write header\n"
-msgstr "Başlıq yazılamadı\n"
+msgstr ""
 
-# tüklü
-# gdk-pixbuf/io-tiff.c:264
 #: ../gtk/updateiconcache.c:1374
 #, c-format
 msgid "Failed to write hash table\n"
-msgstr "Heş cedveli yazılamadı\n"
+msgstr ""
 
-# gdk-pixbuf/io-xbm.c:429
 #: ../gtk/updateiconcache.c:1380
 #, c-format
 msgid "Failed to write folder index\n"
-msgstr "Cilbent indeksi yazılamadı\n"
+msgstr ""
 
-# gdk-pixbuf/io-tiff.c:264
 #: ../gtk/updateiconcache.c:1388
 #, c-format
 msgid "Failed to rewrite header\n"
-msgstr "Başlıqnı kene yazmaqta muvafaqiyetsizlik\n"
+msgstr ""
 
-# gdk-pixbuf/gdk-pixbuf-animation.c:144 gdk-pixbuf/gdk-pixbuf-io.c:516
 #: ../gtk/updateiconcache.c:1482
 #, c-format
 msgid "Failed to open file %s : %s\n"
-msgstr "%s dosyesi açılamadı : %s\n"
+msgstr ""
 
-# gdk-pixbuf/gdk-pixbuf-animation.c:144 gdk-pixbuf/gdk-pixbuf-io.c:516
 #: ../gtk/updateiconcache.c:1490 ../gtk/updateiconcache.c:1520
 #, c-format
 msgid "Failed to write cache file: %s\n"
-msgstr "Ög-hafiza dosyesi yazılamadı: %s\n"
+msgstr ""
 
 #: ../gtk/updateiconcache.c:1530
 #, c-format
 msgid "The generated cache was invalid.\n"
-msgstr "Doğurılğan ög-hafiza keçersiz edi.\n"
+msgstr ""
 
 #: ../gtk/updateiconcache.c:1544
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
-msgstr "%s, %s olaraq kene adlandırılamadı: %s, o zaman %s siline.\n"
+msgstr ""
 
-# gtk/gtkfilesel.c:1011
 #: ../gtk/updateiconcache.c:1558
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
-msgstr "%s dosyesi %s olaraq kene adlandırılamadı: %s\n"
+msgstr ""
 
-# gtk/gtkfilesel.c:1011
 #: ../gtk/updateiconcache.c:1568
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
-msgstr "%s dosyesi keri %s olaraq kene adlandırılamadı: %s\n"
+msgstr ""
 
 #: ../gtk/updateiconcache.c:1595
 #, c-format
 msgid "Cache file created successfully.\n"
-msgstr "Ög-hafiza dosyesi muvafaqiyetnen icat etildi.\n"
+msgstr ""
 
-# tüklü
 #: ../gtk/updateiconcache.c:1634
 msgid "Overwrite an existing cache, even if up to date"
-msgstr "Mevcut bir ög-hafizanıñ üzerine yaz, küncel olsa da"
+msgstr ""
 
 #: ../gtk/updateiconcache.c:1635
 msgid "Don't check for the existence of index.theme"
-msgstr "index.theme mevcudiyetini teşkerme"
+msgstr ""
 
 #: ../gtk/updateiconcache.c:1636
 msgid "Don't include image data in the cache"
-msgstr "Ög-hafizada suret verilerini ihtiva etme"
+msgstr ""
 
 #: ../gtk/updateiconcache.c:1637
 msgid "Output a C header file"
-msgstr "C başlıq dosyesi çıqtıla"
+msgstr ""
 
 #: ../gtk/updateiconcache.c:1638
 msgid "Turn off verbose output"
-msgstr "Lafçan çıqtını ğayrı faalleştir"
+msgstr ""
 
 #: ../gtk/updateiconcache.c:1639
 msgid "Validate existing icon cache"
-msgstr "Mevcut işaretçik ög-hafizasını keçerlile"
+msgstr ""
 
 #: ../gtk/updateiconcache.c:1706
 #, c-format
 msgid "File not found: %s\n"
-msgstr "Dosye tapılmadı: %s\n"
+msgstr ""
 
 #: ../gtk/updateiconcache.c:1712
 #, c-format
 msgid "Not a valid icon cache: %s\n"
-msgstr "Keçerli bir işaretçik ög-hafizası degil: %s\n"
+msgstr ""
 
 #: ../gtk/updateiconcache.c:1725
 #, c-format
 msgid "No theme index file.\n"
-msgstr "Tema indeks dosyesi yoq.\n"
+msgstr ""
 
 #: ../gtk/updateiconcache.c:1729
 #, c-format
@@ -129,7 +124,4 @@ msgid ""
 "No theme index file in '%s'.\n"
 "If you really want to create an icon cache here, use --ignore-theme-index.\n"
 msgstr ""
-"Tema indeks dosyesi '%s' içinde yoq.\n"
-"Eger mında kerçekten bir işaretçik ög-hafizası icat etmege istey iseñiz, --"
-"ignore-theme-index qullanıñız.\n"
 

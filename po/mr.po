@@ -2,19 +2,133 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2008, 2009.
-# Sandeep Shedmake <sshedmak@redhat.com>, 2009, 2010.
+# First Author: Swapnil Hajare <dreamil1000a@yahoo.com>, 2003.
+# Second Author: Pradeep Deshpande <npdeshpande@vsnl.net>, 2004.
+# Rahul Bhalerao <b.rahul.pm@gmail.com>, 2006.
+# Sandeep Shedmake <sshedmak@redhat.com>, 2008, 2009.
+# Sandeep Shedmake <sshedmak@redhat.com>, 2009, 2010, 2012, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: mr\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-10 11:56-0400\n"
-"PO-Revision-Date: 2010-04-14 15:50+0530\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk"
+"%2b&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-09-19 21:08+0000\n"
+"PO-Revision-Date: 2014-09-20 15:41+0530\n"
 "Last-Translator: Sandeep Shedmake <sshedmak@redhat.com>\n"
 "Language-Team: Marathi <maajhe-sanganak@freelists.org>\n"
+"Language: mr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: ../gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write header\n"
+msgstr "हेड्डरवर लिहीण्यास अपयशी\n"
+
+#: ../gtk/updateiconcache.c:1392
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "हॅश कोष्टक लिहीण्यास अपयशी\n"
+
+#: ../gtk/updateiconcache.c:1398
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "फोल्डर विषयसूची लिहण्यास अपयशी\n"
+
+#: ../gtk/updateiconcache.c:1406
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "हेड्डर पुन्हा लिहीण्यास अपयशी\n"
+
+#: ../gtk/updateiconcache.c:1500
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "फाइल %1$s उघडण्यास अपयशी: %2$s\n"
+
+#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "कॅश फाइल लिहीण्यास अपयशी: %s\n"
+
+#: ../gtk/updateiconcache.c:1548
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "निर्मीत कॅश अवैध आहे.\n"
+
+#: ../gtk/updateiconcache.c:1562
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "%s चे %s मध्ये पुनःनामांकन करू शकले नाही: %s, %s काढून टाकत आहे.\n"
+
+#: ../gtk/updateiconcache.c:1576
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "%s चे %s असे पुनःनामांकन करू शकले: %s\n"
+
+#: ../gtk/updateiconcache.c:1586
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "%s ला %s असे पुनःनामांकीत करू शकले नाही: %s\n"
+
+#: ../gtk/updateiconcache.c:1613
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "कॅश फाइल यशस्वीरित्या बनविले गेले.\n"
+
+#: ../gtk/updateiconcache.c:1652
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "अस्तीत्वातील कॅश पुन्हा लिहा, जरी ते पूर्णतया व्यवस्थीत असले तरी"
+
+#: ../gtk/updateiconcache.c:1653
+msgid "Don't check for the existence of index.theme"
+msgstr "index.theme चे अस्तित्व तपासू नका"
+
+#: ../gtk/updateiconcache.c:1654
+msgid "Don't include image data in the cache"
+msgstr "कॅश मध्ये प्रतिमा माहिती समाविष्ट करू नका"
+
+#: ../gtk/updateiconcache.c:1655
+#| msgid "Don't include image data in the cache"
+msgid "Include image data in the cache"
+msgstr "कॅशमध्ये प्रतिमा डाटा समाविष्ट करा"
+
+#: ../gtk/updateiconcache.c:1656
+msgid "Output a C header file"
+msgstr "C हेड्डर फाइल आउडपुट स्वरूपी बनवा"
+
+#: ../gtk/updateiconcache.c:1657
+msgid "Turn off verbose output"
+msgstr "वाचणीय आउटपुट बंद करा"
+
+#: ../gtk/updateiconcache.c:1658
+msgid "Validate existing icon cache"
+msgstr "अस्तित्वातील चिन्ह कॅश तपासा"
+
+#: ../gtk/updateiconcache.c:1725
+#, c-format
+msgid "File not found: %s\n"
+msgstr "फाइल आढळले नाही: %s\n"
+
+#: ../gtk/updateiconcache.c:1731
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "वैध चिन्ह कॅश नाही: %s\n"
+
+#: ../gtk/updateiconcache.c:1744
+#, c-format
+msgid "No theme index file.\n"
+msgstr "योजना index फाइल आढळली नाही.\n"
+
+#: ../gtk/updateiconcache.c:1748
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"theme index फाइल नाही '%s' मध्ये .\n"
+"जर तुम्हाला नक्की चिन्ह कॅश येथे बनवायचे असेल, तर --ignore-theme-index "
+"वापरा.\n"
 

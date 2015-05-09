@@ -1,119 +1,118 @@
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2011, 2013, 2014.
+# Kasia Bondarava <kasia.bondarava@gmail.com>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: gtk+.master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-04 19:45+0300\n"
-"PO-Revision-Date: 2011-09-11 21:49+0300\n"
-"Last-Translator: Ігар Грачышка <ihar.hrachyshka@gmail.com>\n"
+"Project-Id-Version: gtk+ master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk"
+"%2b&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-05-04 20:50+0000\n"
+"PO-Revision-Date: 2012-09-07 18:22+0300\n"
+"Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Pootle 2.1.6\n"
+"X-Generator: Virtaal 0.7.0\n"
+"X-Project-Style: gnome\n"
 
-#: ../gtk/updateiconcache.c:492 ../gtk/updateiconcache.c:552
-#, c-format
-msgid "different idatas found for symlinked '%s' and '%s'\n"
-msgstr ""
-
-#: ../gtk/updateiconcache.c:1374
+#: ../gtk/updateiconcache.c:1386
 #, c-format
 msgid "Failed to write header\n"
 msgstr "Не ўдалося запісаць загаловак\n"
 
-#: ../gtk/updateiconcache.c:1380
+#: ../gtk/updateiconcache.c:1392
 #, c-format
 msgid "Failed to write hash table\n"
 msgstr "Не ўдалося запісаць хэш-табліцу\n"
 
-#: ../gtk/updateiconcache.c:1386
+#: ../gtk/updateiconcache.c:1398
 #, c-format
 msgid "Failed to write folder index\n"
 msgstr "Не ўдалося запісаць індэкс папкі\n"
 
-#: ../gtk/updateiconcache.c:1394
+#: ../gtk/updateiconcache.c:1406
 #, c-format
 msgid "Failed to rewrite header\n"
 msgstr "Не ўдалося перазапісаць загаловак\n"
 
-#: ../gtk/updateiconcache.c:1488
+#: ../gtk/updateiconcache.c:1500
 #, c-format
 msgid "Failed to open file %s : %s\n"
 msgstr "Не ўдалося адкрыць файл \"%s\": %s\n"
 
-#: ../gtk/updateiconcache.c:1496 ../gtk/updateiconcache.c:1526
+#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
 #, c-format
 msgid "Failed to write cache file: %s\n"
 msgstr "Не ўдалося запісаць кэш-файл: %s\n"
 
-#: ../gtk/updateiconcache.c:1537
+#: ../gtk/updateiconcache.c:1548
 #, c-format
 msgid "The generated cache was invalid.\n"
 msgstr "Утвораны кэш быў хібным.\n"
 
-#: ../gtk/updateiconcache.c:1551
+#: ../gtk/updateiconcache.c:1562
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
 msgstr "Не ўдалося пераназваць \"%s\" у \"%s\": %s, таму выдаляем %s.\n"
 
-#: ../gtk/updateiconcache.c:1565
+#: ../gtk/updateiconcache.c:1576
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "Не ўдалося пераназваць \"%s\" у \"%s\": %s\n"
 
-#: ../gtk/updateiconcache.c:1575
+#: ../gtk/updateiconcache.c:1586
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "Не ўдалося пераназваць \"%s\" назад у \"%s\": %s.\n"
 
-#: ../gtk/updateiconcache.c:1602
+#: ../gtk/updateiconcache.c:1613
 #, c-format
 msgid "Cache file created successfully.\n"
 msgstr "Кэш-файл паспяхова створаны.\n"
 
-#: ../gtk/updateiconcache.c:1641
+#: ../gtk/updateiconcache.c:1652
 msgid "Overwrite an existing cache, even if up to date"
 msgstr "Перазапісаць наяўны кэш, нават калі той свежы"
 
-#: ../gtk/updateiconcache.c:1642
+#: ../gtk/updateiconcache.c:1653
 msgid "Don't check for the existence of index.theme"
 msgstr "Не зважаць на наяўнасць файла \"index.theme\""
 
-#: ../gtk/updateiconcache.c:1643
+#: ../gtk/updateiconcache.c:1654
 msgid "Don't include image data in the cache"
 msgstr "Не ўключаць даных выявы ў кэш"
 
-#: ../gtk/updateiconcache.c:1644
+#: ../gtk/updateiconcache.c:1655
 msgid "Output a C header file"
 msgstr "Вывесці загалоўны файл C"
 
-#: ../gtk/updateiconcache.c:1645
+#: ../gtk/updateiconcache.c:1656
 msgid "Turn off verbose output"
 msgstr "Выключыць падрабязны вывад"
 
-#: ../gtk/updateiconcache.c:1646
+#: ../gtk/updateiconcache.c:1657
 msgid "Validate existing icon cache"
 msgstr "Спраўдзіць наяўны кэш значкоў"
 
-#: ../gtk/updateiconcache.c:1713
+#: ../gtk/updateiconcache.c:1724
 #, c-format
 msgid "File not found: %s\n"
 msgstr "Файл не знойдзены: %s\n"
 
-#: ../gtk/updateiconcache.c:1719
+#: ../gtk/updateiconcache.c:1730
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "Гэта хібны кэш значкоў: %s\n"
 
-#: ../gtk/updateiconcache.c:1732
+#: ../gtk/updateiconcache.c:1743
 #, c-format
 msgid "No theme index file.\n"
 msgstr "Няма файла індэксу матыва аздаблення.\n"
 
-#: ../gtk/updateiconcache.c:1736
+#: ../gtk/updateiconcache.c:1747
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"

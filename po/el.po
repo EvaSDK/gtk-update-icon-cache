@@ -1,22 +1,5 @@
 # Greek translation of GTK+ UI Translations
-# Copyright (C) 1999 - 2009 Free Software Foundation, Inc.
-#
-# kostas: 04Sep2003, one more update
-# nikos: 04Sep2003, review (more is needed)
-# nikosK: 06Sep2003, One more review
-# ta panta rei: 08Sep2003, one more review
-# Nikos: 26Jan2004 fixes 390 messages
-# kostas: 29Jan2004 updates 403 messages
-# kostas: 25Apr2004 update
-# ta panta rei <ta_panta_rei@flashmail.con>
-# spyros: initial translation, 1999.
-# simos: 186 messages, 20Apr2002, first log entry.
-# simos: 214 messages, 16Aug2002, updated and converted to UTF-8.
-# kostas: 981 messages, 16Oct2002, almost completed translation.
-# kostas: 1018 messages, 06Nov2002, completed translation.
-# kostas: 1127 messages, 03Dec2002, updated translation for Gnome 2.1x.
-# kostas:02Nov2003,1288 messages update for Gnome 2.6.
-# kostas:22Nov2003,1342 messages.
+# Copyright (C) 1999 - 2012 Free Software Foundation, Inc.
 # Spiros Papadimitriou <spapadim+@cs.cmu.edu>, 1999.
 # Simos Xenitellis <simos@hellug.gr>, 1999, 2001, 2002.
 # Nikos Charonitakis <nikox@gmail.com>, 2003, 2004, 2005, 2006, 2008.
@@ -26,129 +9,132 @@
 # Jennie Petoumenou <epetoumenou@gmail.com>, 2009.
 # Simos Xenitellis <simos@gnome.org>, 2009.
 # Jennie Petoumenou <epetoumenou@gmail.com>, 2010.
+# Bakaoukas Nikolaos <nikolaos.x1@gmail.com>, 2010.
+# Michael Kotsarinis <mk73628@gmail.com>, 2011.
+# Dimitris Spingos (Δημήτρης  Σπίγγος) <dmtrs32@gmail.com>, 2012.
+# Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+ 2.20.1.1\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-20 19:00+0300\n"
-"PO-Revision-Date: 2010-09-20 10:57+0200\n"
-"Last-Translator: Bakaoukas Nikolaos <nikolaos.x1@gmail.com>\n"
-"Language-Team: Greek <team@gnome.gr>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk"
+"%2b&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-09-23 04:46+0000\n"
+"PO-Revision-Date: 2014-09-23 10:12+0200\n"
+"Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
+"Language-Team: team@lists.gnome.gr\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Project-Style: gnome\n"
 
-#: ../gtk/updateiconcache.c:492 ../gtk/updateiconcache.c:552
-#, c-format
-msgid "different idatas found for symlinked '%s' and '%s'\n"
-msgstr ""
-"βρέθηκαν διαφορετικά idatas για τα συνδεδεμένα με συμβολικό σύνδεσμο '%s' "
-"και '%s'\n"
-
-#: ../gtk/updateiconcache.c:1374
+#: ../gtk/updateiconcache.c:1386
 #, c-format
 msgid "Failed to write header\n"
 msgstr "Αποτυχία εγγραφής κεφαλίδας\n"
 
-#: ../gtk/updateiconcache.c:1380
+#: ../gtk/updateiconcache.c:1392
 #, c-format
 msgid "Failed to write hash table\n"
-msgstr "Αποτυχία εγγραφής πίνακα hash\n"
+msgstr "Αποτυχία εγγραφής πίνακα κατακερματισμού\n"
 
-#: ../gtk/updateiconcache.c:1386
+#: ../gtk/updateiconcache.c:1398
 #, c-format
 msgid "Failed to write folder index\n"
 msgstr "Αποτυχία εγγραφής ευρετηρίου φακέλου\n"
 
-#: ../gtk/updateiconcache.c:1394
+#: ../gtk/updateiconcache.c:1406
 #, c-format
 msgid "Failed to rewrite header\n"
 msgstr "Αποτυχία επανεγγραφής κεφαλίδας\n"
 
-#: ../gtk/updateiconcache.c:1463
+#: ../gtk/updateiconcache.c:1500
 #, c-format
 msgid "Failed to open file %s : %s\n"
 msgstr "Αποτυχία ανοίγματος αρχείου %s : %s\n"
 
-#: ../gtk/updateiconcache.c:1471
+#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
 #, c-format
 msgid "Failed to write cache file: %s\n"
-msgstr "Αποτυχία εγγραφής αρχείου λανθάνουσας μνήμης: %s\n"
+msgstr "Αποτυχία εγγραφής αρχείου κρυφής μνήμης: %s\n"
 
-#: ../gtk/updateiconcache.c:1507
+#: ../gtk/updateiconcache.c:1548
 #, c-format
 msgid "The generated cache was invalid.\n"
-msgstr "Η δημιουργηθείσα λανθάνουσα μνήμη δεν ήταν έγκυρη.\n"
+msgstr "Η δημιουργημένη κρυφή μνήμη ήταν άκυρη.\n"
 
-#: ../gtk/updateiconcache.c:1521
+#: ../gtk/updateiconcache.c:1562
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
-msgstr "Αδυναμία μετονομασίας του %s σε %s: %s. Άρα, αφαιρείται το %s.\n"
+msgstr "Αδυναμία μετονομασίας του %s σε %s: %s· άρα, αφαιρείται το %s.\n"
 
-#: ../gtk/updateiconcache.c:1535
+#: ../gtk/updateiconcache.c:1576
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "Αδυναμία μετονομασίας του %s σε %s: %s\n"
 
-#: ../gtk/updateiconcache.c:1545
+#: ../gtk/updateiconcache.c:1586
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "Αδυναμία μετονομασίας του %s πάλι σε %s: %s.\n"
 
-#: ../gtk/updateiconcache.c:1572
+#: ../gtk/updateiconcache.c:1613
 #, c-format
 msgid "Cache file created successfully.\n"
-msgstr "Επιτυχής δημιουργία αρχείου λανθάνουσας μνήμης.\n"
+msgstr "Επιτυχής δημιουργία αρχείου κρυφής μνήμης.\n"
 
-#: ../gtk/updateiconcache.c:1611
+#: ../gtk/updateiconcache.c:1652
 msgid "Overwrite an existing cache, even if up to date"
-msgstr ""
-"Αντικατάσταση υπάρχουσας λανθάνουσας μνήμης, ακόμη κι αν είναι ενημερωμένη"
+msgstr "Αντικατάσταση υπάρχουσας κρυφής μνήμης, ακόμη κι αν είναι ενημερωμένη"
 
-#: ../gtk/updateiconcache.c:1612
+#: ../gtk/updateiconcache.c:1653
 msgid "Don't check for the existence of index.theme"
 msgstr "Να μη γίνεται έλεγχος για την ύπαρξη του index.theme"
 
-#: ../gtk/updateiconcache.c:1613
+#: ../gtk/updateiconcache.c:1654
 msgid "Don't include image data in the cache"
-msgstr "Να μη συμπεριλαμβάνονται δεδομένα εικόνων στη λανθάνουσα μνήμη"
+msgstr "Να μη συμπεριλαμβάνονται δεδομένα εικόνων στην κρυφή μνήμη"
 
-#: ../gtk/updateiconcache.c:1614
+#: ../gtk/updateiconcache.c:1655
+msgid "Include image data in the cache"
+msgstr "Να συμπεριλαμβάνονται δεδομένα στην κρυφή μνήμη"
+
+#: ../gtk/updateiconcache.c:1656
 msgid "Output a C header file"
-msgstr "Έξοδος σε αρχείο C header"
+msgstr "Έξοδος σε αρχείο κεφαλίδας C"
 
-#: ../gtk/updateiconcache.c:1615
+#: ../gtk/updateiconcache.c:1657
 msgid "Turn off verbose output"
 msgstr "Απενεργοποίηση αναλυτικής εξόδου μηνυμάτων"
 
-#: ../gtk/updateiconcache.c:1616
+#: ../gtk/updateiconcache.c:1658
 msgid "Validate existing icon cache"
-msgstr "Επαλήθευση υπάρχουσας λανθάνουσας μνήμης εικονιδίων"
+msgstr "Επαλήθευση υπάρχουσας κρυφής μνήμης εικονιδίων"
 
-#: ../gtk/updateiconcache.c:1683
+#: ../gtk/updateiconcache.c:1725
 #, c-format
 msgid "File not found: %s\n"
 msgstr "Δε βρέθηκε το αρχείο: %s\n"
 
-#: ../gtk/updateiconcache.c:1689
+#: ../gtk/updateiconcache.c:1731
 #, c-format
 msgid "Not a valid icon cache: %s\n"
-msgstr "Δεν είναι έγκυρη λανθάνουσα μνήμη εικονιδίων: %s\n"
+msgstr "Δεν είναι έγκυρη κρυφή μνήμη εικονιδίων: %s\n"
 
-#: ../gtk/updateiconcache.c:1702
+#: ../gtk/updateiconcache.c:1744
 #, c-format
 msgid "No theme index file.\n"
-msgstr "Δε βρέθηκε αρχείο ευρετηρίου θέματος.\n"
+msgstr "Χωρίς αρχείο ευρετηρίου θέματος.\n"
 
-#: ../gtk/updateiconcache.c:1706
+#: ../gtk/updateiconcache.c:1748
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"
 "If you really want to create an icon cache here, use --ignore-theme-index.\n"
 msgstr ""
-"Δε βρέθηκε αρχείο ευρετηρίου θέματος στο '%s'.\n"
-"Αν επιμένετε να δημιουργήσετε εδώ λανθάνουσα μνήμη εικονιδίων, "
-"χρησιμοποιήστε το --ignore-theme-index.\n"
+"Χωρίς αρχείο ευρετηρίου θέματος στο '%s'.\n"
+"Αν θέλετε να δημιουργήσετε εδώ κρυφή μνήμη εικονιδίων, χρησιμοποιήστε το --"
+"ignore-theme-index.\n"
 

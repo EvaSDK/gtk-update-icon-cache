@@ -1,5 +1,5 @@
-# translation of gtk+.HEAD.po to Arabic
-# Copyright (C) 2002,2003, 2004, 2006, 2007, 2008 Free Software Foundation, Inc.
+# translation of gtk+ to Arabic
+# Copyright (C) 2002, 2003, 2004, 2006, 2007, 2008 Free Software Foundation, Inc.
 # Sayed Jaffer Al-Mosawi <mosawi@arabeyes.org>, 2002.
 # Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
 # Arafat Medini <lumina@silverpen.de>, 2003, 2004.
@@ -7,20 +7,126 @@
 # Djihed Afifi <djihed@gmail.com>, 2006.
 # Seba Barto <nanoosaamar@yahoo.com>, 2006.
 # Anas Afif Emad <anas.e87@gmail.com>, 2008.
-# Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007, 2008, 2009, 2010.
+# Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014.
+# Abderrahim Kitouni <a.kitouni@gmail.com>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: gtk+.HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-05 15:54+0200\n"
-"PO-Revision-Date: 2010-09-05 15:54+0300\n"
+"Project-Id-Version: gtk+.master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk%2b&"
+"keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-05-11 02:02+0000\n"
+"PO-Revision-Date: 2014-08-01 03:00+0200\n"
 "Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Virtaal 0.6.1\n"
+"X-Generator: Virtaal 1.0.0-beta1\n"
+"X-Project-Style: gnome\n"
+
+#: ../gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write header\n"
+msgstr "فشلت كتابة الترويسة\n"
+
+#: ../gtk/updateiconcache.c:1392
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "فشلت كتابة جدول التلبيد\n"
+
+#: ../gtk/updateiconcache.c:1398
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "فشلت كتابة فهرس المجلدات\n"
+
+#: ../gtk/updateiconcache.c:1406
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "فشلت إعادة كتابة الترويسة\n"
+
+#: ../gtk/updateiconcache.c:1500
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "فشل فتح الملف %s : %s\n"
+
+#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "فشلت الكتابة في الملف: %s\n"
+
+#: ../gtk/updateiconcache.c:1548
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "المخزن المنتج غير صحيح.\n"
+
+#: ../gtk/updateiconcache.c:1562
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "تعذّر تغيير اسم %s إلى %s: %s، سيُحذف %s إذن.\n"
+
+#: ../gtk/updateiconcache.c:1576
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "تعذّر تغيير اسم %s إلى %s: %s\n"
+
+#: ../gtk/updateiconcache.c:1586
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "تعذّر تغيير اسم %s إلى %s: %s.\n"
+
+#: ../gtk/updateiconcache.c:1613
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "تم إنشاء ملف الخزن (Cache) بنجاح.\n"
+
+#: ../gtk/updateiconcache.c:1652
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "اكتب فوق ملف cache (خزن) موجود، حتى إذا كان محدّثا"
+
+#: ../gtk/updateiconcache.c:1653
+msgid "Don't check for the existence of index.theme"
+msgstr "لا تتحقق من وجود index.theme"
+
+#: ../gtk/updateiconcache.c:1654
+msgid "Don't include image data in the cache"
+msgstr "لا تضع بيانات الصور في المخزن"
+
+#: ../gtk/updateiconcache.c:1655
+msgid "Output a C header file"
+msgstr "اخرج ملف ترويسة C"
+
+#: ../gtk/updateiconcache.c:1656
+msgid "Turn off verbose output"
+msgstr "اغلق الخرْج المطنب"
+
+#: ../gtk/updateiconcache.c:1657
+msgid "Validate existing icon cache"
+msgstr "تصحيح مخزن الإيقونات الموجود"
+
+#: ../gtk/updateiconcache.c:1724
+#, c-format
+msgid "File not found: %s\n"
+msgstr "الملفّ غير موجود: %s\n"
+
+#: ../gtk/updateiconcache.c:1730
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "مخزن إيقونات غير سليم: %s\n"
+
+#: ../gtk/updateiconcache.c:1743
+#, c-format
+msgid "No theme index file.\n"
+msgstr "لا ملف فهرس للسمة.\n"
+
+#: ../gtk/updateiconcache.c:1747
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"لا يوجد ملف سِمة في  '%s'.\n"
+"إذا أردت فعلا بناء مخزن إيقونات هنا، استعمل --ignore-theme-index .\n"
 

@@ -7,6 +7,7 @@
 #
 af
 am
+an
 ang
 ar
 as
@@ -29,8 +30,10 @@ da
 de
 dz
 el
+en
 en_CA
 en_GB
+en@shaw
 eo
 es
 et
@@ -39,6 +42,7 @@ fa
 fi
 fr
 ga
+gd
 gl
 gu
 he
@@ -53,10 +57,14 @@ is
 it
 ja
 ka
+kg
 kk
+km
 kn
 ko
 ku
+ky
+lg
 li
 lt
 lv
@@ -89,11 +97,12 @@ sk
 sl
 sq
 sr
-sr@latin
 sr@ije
+sr@latin
 sv
 ta
 te
+tg
 th
 tk
 tr

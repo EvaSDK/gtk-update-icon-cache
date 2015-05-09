@@ -1,23 +1,132 @@
-# translation of nn.po to Norwegian Nynorsk
 # Norwegian translation of gtk+.
 # Copyright (C) 1998-2002, 2003, 2004 Free Software Foundation, Inc.
-#
 # Kjartan Maraas <kmaraas@gnome.org>, 1998-2001.
 # Roy-Magne Mo <rmo@sunnmore.net>, 2001-2002.
 # Åsmund Skjæveland <aasmunds@fys.uio.no>, 2003, 2004.
 # Eskild Hustvedt <eskildh@gnome.org>, 2008, 2009.
 # Åsmund Skjæveland <aasmunds@ulrik.uio.no>, 2009.
+# Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: nn\n"
+"Project-Id-Version: gtk+ 3.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-10 11:56-0400\n"
-"PO-Revision-Date: 2009-01-22 11:03+0100\n"
-"Last-Translator: Åsmund Skjæveland <aasmunds@ulrik.uio.no>\n"
+"POT-Creation-Date: 2012-07-10 15:06+0200\n"
+"PO-Revision-Date: 2012-07-10 15:16+0200\n"
+"Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
 "Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
+"Language: nn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.2\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.6.1\n"
+
+#: ../gtk/updateiconcache.c:1368
+#, c-format
+msgid "Failed to write header\n"
+msgstr "Klarte ikkje skriva hovud\n"
+
+#: ../gtk/updateiconcache.c:1374
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "Klarte ikkje skriva hash-tabell\n"
+
+#: ../gtk/updateiconcache.c:1380
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "Klarte ikkje skriva mappeindeks\n"
+
+#: ../gtk/updateiconcache.c:1388
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "Klarte ikkje skriva om hovud\n"
+
+#: ../gtk/updateiconcache.c:1482
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "Klarte ikkje opna fila «%s»: %s\n"
+
+#: ../gtk/updateiconcache.c:1490 ../gtk/updateiconcache.c:1520
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "Klarte ikkje skriva bufferfil: %s\n"
+
+#: ../gtk/updateiconcache.c:1530
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "Generert buffer var ugyldig.\n"
+
+#: ../gtk/updateiconcache.c:1544
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "Klarte ikkje endra namn på %s til %s: %s, fjernar %s.\n"
+
+#: ../gtk/updateiconcache.c:1558
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "Klarte ikkje endra namn på %s til %s: %s\n"
+
+#: ../gtk/updateiconcache.c:1568
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "Klarte ikkje endra namn på %s tilbake til %s: %s\n"
+
+#: ../gtk/updateiconcache.c:1595
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "Bufferoppretting vellukka.\n"
+
+#
+#: ../gtk/updateiconcache.c:1634
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "Overskriv ein eksisterande buffer, sjølv om han er oppdatert"
+
+#
+#: ../gtk/updateiconcache.c:1635
+msgid "Don't check for the existence of index.theme"
+msgstr "Ikkje sjekk om index.theme finst"
+
+#
+#: ../gtk/updateiconcache.c:1636
+msgid "Don't include image data in the cache"
+msgstr "Ikkje ta med biletdata i bufferen"
+
+#
+#: ../gtk/updateiconcache.c:1637
+msgid "Output a C header file"
+msgstr "Skriv ut ei C-headerfil"
+
+#
+#: ../gtk/updateiconcache.c:1638
+msgid "Turn off verbose output"
+msgstr "Slå av ekstra utdata"
+
+#
+#: ../gtk/updateiconcache.c:1639
+msgid "Validate existing icon cache"
+msgstr "Valider eksisterande ikonbuffer"
+
+#: ../gtk/updateiconcache.c:1706
+#, c-format
+msgid "File not found: %s\n"
+msgstr "Fil ikkje funne: %s\n"
+
+#: ../gtk/updateiconcache.c:1712
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "Ikkje ein gyldig ikonbuffer: %s\n"
+
+#: ../gtk/updateiconcache.c:1725
+#, c-format
+msgid "No theme index file.\n"
+msgstr "Inga indeksfil for tema.\n"
+
+#: ../gtk/updateiconcache.c:1729
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"Inga draktindeksfil i «%s».\n"
+"Bruk --ignore-theme-index viss du verkeleg vil oppretta ein ikonbuffer her.\n"
 
