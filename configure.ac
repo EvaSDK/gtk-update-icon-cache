@@ -1,5 +1,5 @@
 AC_PREREQ([2.69])
-AC_INIT([gtk-update-icon-cache], [3.14.13],
+AC_INIT([gtk-update-icon-cache], [3.16.2],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=gtk%2B])
 
 AC_CONFIG_HEADERS([config.h])
@@ -10,7 +10,7 @@ AM_INIT_AUTOMAKE([1.13 -Wall foreign no-dist-gzip dist-xz])
 AM_MAINTAINER_MODE([enable])
 AM_SILENT_RULES([yes])
 
-m4_define([glib_required_version], [2.41.2])
+m4_define([glib_required_version], [2.43.4])
 m4_define([gdk_pixbuf_required_version], [2.30.0])
 
 AC_CANONICAL_HOST
