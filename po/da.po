@@ -1,0 +1,157 @@
+# Danish translation of GTK+.
+# Copyright (C) 1999-2010 Free Software Foundation, Inc.
+# Birger Langkjer <birger.langkjer@image.dk>, 1999.
+# Kenneth Christiansen, 1999-2000
+# Keld Simonsen <keld@dkuug.dk>, 2000.
+# Ole Laursen <olau@hardworking.dk>, 2001, 02, 03, 04.
+# Martin Willemoes Hansen <mwh@sysrq.dk>, 2005.
+# Marie Lund <marielund@post.cybercity.dk>, 2005.
+# Ask Hjorth Larsen <asklarsen@gmail.com>, 2007, 08, 09, 10.
+#
+# Konventioner:
+#
+#   attribute -> egenskab
+#   colormap -> farvetabel
+#   directory -> mappe 
+#   entry -> indtastningsfelt
+#   frame (i animation) -> billede
+#   (column) header -> (kolonne)overskrift
+#   input -> (til tider) indtastning
+#   label -> etiket (med denne stavning)
+#   pixel -> skærmpunkt, punkt, billedpunkt
+#   scroll bar -> rulleskakt
+#   spin button -> talkontrol
+#   toggle button -> afkrydsningsknap
+#   widget -> kontrol
+#
+# Nogle af de mere specielle grafiske udtryk er allerede oversat i
+# Gimp'en.
+#
+# Værktøjstip er konsekvent blevet oversat uden et afsluttende punktum
+# (i modsætning til originalteksterne hvor det skifter lidt).
+#
+# URI og URL bruges en del, hvis der kan være tvivl så oversæt hellere URI -> URI og URL -> URL.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gtk+\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-19 17:41+0200\n"
+"PO-Revision-Date: 2010-09-19 17:24+0200\n"
+"Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../gtk/updateiconcache.c:492 ../gtk/updateiconcache.c:552
+#, c-format
+msgid "different idatas found for symlinked '%s' and '%s'\n"
+msgstr "forskellige idata fundet for den symbolsk lænkede \"%s\" og \"%s\"\n"
+
+# Ved ikke hvilken betydning af header der gør sig gældende, så lad os lade header blive stående indtil nogen får en god idé
+#: ../gtk/updateiconcache.c:1374
+#, c-format
+msgid "Failed to write header\n"
+msgstr "Kunne ikke skrive header\n"
+
+#: ../gtk/updateiconcache.c:1380
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "Kunne ikke skrive hashtabel\n"
+
+#: ../gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "Kunne ikke skrive mappeindeks\n"
+
+#: ../gtk/updateiconcache.c:1394
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "Kunne ikke skrive header igen\n"
+
+#: ../gtk/updateiconcache.c:1463
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "Kunne ikke åbne filen %s : %s\n"
+
+#: ../gtk/updateiconcache.c:1471
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "Kunne ikke skrive lagerfil: %s\n"
+
+#: ../gtk/updateiconcache.c:1507
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "Det genererede lager var ugyldigt.\n"
+
+#: ../gtk/updateiconcache.c:1521
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "Kunne ikke omdøbe %s til %s: %s, fjerner så %s.\n"
+
+#: ../gtk/updateiconcache.c:1535
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "Kunne ikke omdøbe %s til %s: %s\n"
+
+#: ../gtk/updateiconcache.c:1545
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "Kunne ikke omdøbe %s tilbage til %s: %s.\n"
+
+#: ../gtk/updateiconcache.c:1572
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "Lagerfil oprettet korrekt.\n"
+
+#: ../gtk/updateiconcache.c:1611
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "Overskriv et eksisterende lager, selv hvis det er opdateret"
+
+#: ../gtk/updateiconcache.c:1612
+msgid "Don't check for the existence of index.theme"
+msgstr "Kontrollér ikke hvorvidt index.theme findes"
+
+#: ../gtk/updateiconcache.c:1613
+msgid "Don't include image data in the cache"
+msgstr "Inkludér ikke billeddata i lageret"
+
+#: ../gtk/updateiconcache.c:1614
+msgid "Output a C header file"
+msgstr "Udskriv header-fil til C"
+
+#: ../gtk/updateiconcache.c:1615
+msgid "Turn off verbose output"
+msgstr "Deaktivér detaljeret udskrift"
+
+#: ../gtk/updateiconcache.c:1616
+msgid "Validate existing icon cache"
+msgstr "Validér eksisterende ikonlager"
+
+#: ../gtk/updateiconcache.c:1683
+#, c-format
+msgid "File not found: %s\n"
+msgstr "Filen ikke fundet: %s\n"
+
+#: ../gtk/updateiconcache.c:1689
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "Ikke et gyldigt ikonlager: %s\n"
+
+#: ../gtk/updateiconcache.c:1702
+#, c-format
+msgid "No theme index file.\n"
+msgstr "Ingen temaindeksfil.\n"
+
+#: ../gtk/updateiconcache.c:1706
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"Ingen temaindeksfil i \"%s\".\n"
+"Hvis du virkelig vil oprette et ikonlager her, så brug --ignore-theme-"
+"index.\n"
+

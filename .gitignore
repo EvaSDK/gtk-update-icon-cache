@@ -12,4 +12,7 @@ configure
 gtk/gtk-update-icon-cache
 libtool
 m4
+po/*.gmo
+po/POTFILES
+po/stamp-it
 stamp-h1

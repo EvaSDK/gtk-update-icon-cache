@@ -1,0 +1,136 @@
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Aviary.pl
+# Jeśli masz jakiekolwiek uwagi odnoszące się do tłumaczenia lub chcesz
+# pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
+# gnomepl@aviary.pl
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+msgid ""
+msgstr ""
+"Project-Id-Version: gtk+\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-17 19:25+0200\n"
+"PO-Revision-Date: 2014-06-17 19:29+0200\n"
+"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
+"Language-Team: Polish <gnomepl@aviary.pl>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: Poland\n"
+
+#: ../gtk/updateiconcache.c:492 ../gtk/updateiconcache.c:552
+#, c-format
+msgid "different idatas found for symlinked '%s' and '%s'\n"
+msgstr "odnaleziono różne idane dla symbolicznie dowiązanych \"%s\" i \"%s\"\n"
+
+#: ../gtk/updateiconcache.c:1392
+#, c-format
+msgid "Failed to write header\n"
+msgstr "Zapisanie nagłówka się nie powiodło\n"
+
+#: ../gtk/updateiconcache.c:1398
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "Zapisanie tablicy mieszającej się nie powiodło\n"
+
+#: ../gtk/updateiconcache.c:1404
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "Zapisanie indeksu katalogu się nie powiodło\n"
+
+#: ../gtk/updateiconcache.c:1412
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "Przepisanie nagłówka się nie powiodło\n"
+
+#: ../gtk/updateiconcache.c:1506
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "Otworzenie pliku %s się nie powiodło: %s\n"
+
+#: ../gtk/updateiconcache.c:1514 ../gtk/updateiconcache.c:1544
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "Zapisanie pliku pamięci podręcznej się nie powiodło: %s\n"
+
+#: ../gtk/updateiconcache.c:1555
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "Utworzona pamięć podręczna była nieprawidłowa.\n"
+
+#: ../gtk/updateiconcache.c:1569
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "Nie można zmienić nazwy %s na %s: %s, usuwanie %s.\n"
+
+#: ../gtk/updateiconcache.c:1583
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "Nie można zmienić nazwy %s na %s: %s\n"
+
+#: ../gtk/updateiconcache.c:1593
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "Nie można zmienić nazwy %s z powrotem na %s: %s.\n"
+
+#: ../gtk/updateiconcache.c:1620
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "Pomyślnie utworzono plik pamięci podręcznej.\n"
+
+#: ../gtk/updateiconcache.c:1659
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "Zastąpienie istniejącej pamięci podręcznej, nawet gdy aktualny"
+
+#: ../gtk/updateiconcache.c:1660
+msgid "Don't check for the existence of index.theme"
+msgstr "Bez sprawdzania istnienia pliku index.theme"
+
+#: ../gtk/updateiconcache.c:1661
+msgid "Don't include image data in the cache"
+msgstr "Bez włączania danych obrazów do pamięci podręcznej"
+
+#: ../gtk/updateiconcache.c:1662
+msgid "Include image data in the cache"
+msgstr "Włączenie danych obrazów do pamięci podręcznej"
+
+#: ../gtk/updateiconcache.c:1663
+msgid "Output a C header file"
+msgstr "Wyjście do pliku nagłówkowego C"
+
+#: ../gtk/updateiconcache.c:1664
+msgid "Turn off verbose output"
+msgstr "Wyłączenie rozwlekłego wyjścia"
+
+#: ../gtk/updateiconcache.c:1665
+msgid "Validate existing icon cache"
+msgstr "Sprawdzenie istniejącej pamięci podręcznej ikon"
+
+#: ../gtk/updateiconcache.c:1732
+#, c-format
+msgid "File not found: %s\n"
+msgstr "Nie odnaleziono pliku: %s\n"
+
+#: ../gtk/updateiconcache.c:1738
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "Nieprawidłowa pamięć podręczna ikon: %s\n"
+
+#: ../gtk/updateiconcache.c:1751
+#, c-format
+msgid "No theme index file.\n"
+msgstr "Brak pliku indeksu motywu.\n"
+
+#: ../gtk/updateiconcache.c:1755
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"Brak pliku indeksu motywu w \"%s\".\n"
+"Jeżeli naprawdę potrzeba utworzyć pamięć podręczną ikon, proszę użyć --"
+"ignore-theme-index.\n"
+

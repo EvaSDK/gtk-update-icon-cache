@@ -1,0 +1,18 @@
+# Iranian Azerbaijani translation of gtk+.
+# Copyright (C) 2004 Amir Hedayaty
+# This file is distributed under the same license as the gtk+ package.
+# Amir Hedayaty <amir@bamdad.org>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gtk+ gtk-2-4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-10 11:56-0400\n"
+"PO-Revision-Date: 2004-09-27 14:58+0330\n"
+"Last-Translator: Amir Hedayaty <amir@bamdad.org>\n"
+"Language-Team: Iranian Azerbaijani <az-ir@lists.sharif.edu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+

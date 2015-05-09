@@ -1,0 +1,156 @@
+# Dutch translation for gtk+
+#
+# This file is distributed under the same license as the gtk+ package.
+#
+# Dirk-Jan C. Binnema <djcb@djcbsoftware.nl>, 2002
+# Ronald Hummelink <ronald@hummelink.xs4all.nl>, 2002
+# Tino Meinen <tino.meinen@gmail.com>, 2002–2010
+# Reinout van Schouwen <reinouts@gnome.org>, 2009
+# Wouter Bolsterlee <wbolster@gnome.org>, 2011
+#
+# expander             - samenvouwer/openvouwen
+# image format         - bestandsformaat
+# image file           - afbeelding
+# image file format    - afbeeldingstype
+# image type           - afbeeldingstype
+# job                  - printopdracht
+# render               - render/weergeven/tonen/opmaken
+# spinbutton           - spinknop/teller
+# tag                  - markering/etiket/label/trefwoord
+# tooltip              - tooltip/werktip/tip
+# separator            - scheiding/scheidingslijn/scheidingsteken
+# selected             - geselecteerde/gekozen
+# standard display     - standaard display
+msgid ""
+msgstr ""
+"Project-Id-Version: gtk+\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-19 17:42+0100\n"
+"PO-Revision-Date: 2011-03-19 17:43+0100\n"
+"Last-Translator: Wouter Bolsterlee <wbolster@gnome.org>\n"
+"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# technotalk
+#: ../gtk/updateiconcache.c:492 ../gtk/updateiconcache.c:552
+#, c-format
+msgid "different idatas found for symlinked '%s' and '%s'\n"
+msgstr "verschillende idata's gevonden voor symlinked ‘%s’ en ‘%s’\n"
+
+# header/header-data
+#: ../gtk/updateiconcache.c:1374
+#, c-format
+msgid "Failed to write header\n"
+msgstr "Kon header niet schrijven\n"
+
+# schraptabel/hash tabel
+#: ../gtk/updateiconcache.c:1380
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "Kon ‘hash table’ niet schrijven\n"
+
+#: ../gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "Kon mapindex niet schrijven\n"
+
+# header/header-data
+#: ../gtk/updateiconcache.c:1394
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "Kon header niet herschrijven\n"
+
+#: ../gtk/updateiconcache.c:1488
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "Openen van bestand ‘%s’ mislukt: %s\n"
+
+# bestand %s/
+# bufferbestand/cache-bestand/tijdelijke-opslagbestand
+#: ../gtk/updateiconcache.c:1496 ../gtk/updateiconcache.c:1526
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "Kon cache-bestand niet schrijven: %s\n"
+
+#: ../gtk/updateiconcache.c:1537
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "De gegenereerde cache was ongeldig.\n"
+
+#: ../gtk/updateiconcache.c:1551
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "Kon %s niet hernoemen naar %s: %s, zal daarom %s verwijderen.\n"
+
+#: ../gtk/updateiconcache.c:1565
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "Kon %s niet hernoemen naar %s: %s\n"
+
+#: ../gtk/updateiconcache.c:1575
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "Kon %s niet terug hernoemen naar %s: %s.\n"
+
+#: ../gtk/updateiconcache.c:1602
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "Er is een cache-bestand aangemaakt.\n"
+
+#: ../gtk/updateiconcache.c:1641
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "Een bestaande cache overschrijven, zelfs wanneer die up-to-date is"
+
+#: ../gtk/updateiconcache.c:1642
+msgid "Don't check for the existence of index.theme"
+msgstr "Niet controleren op het bestaan van index.theme"
+
+#: ../gtk/updateiconcache.c:1643
+msgid "Don't include image data in the cache"
+msgstr "Afbeeldingen niet in de cache opslaan"
+
+# aanmaken/opmaken/uitvoeren
+#: ../gtk/updateiconcache.c:1644
+msgid "Output a C header file"
+msgstr "Een C-headerbestand opmaken"
+
+# uitvoerige/uitgebreide uitvoer/berichten/berichtgeving
+# kort en bondige uitvoer
+#: ../gtk/updateiconcache.c:1645
+msgid "Turn off verbose output"
+msgstr "Uitvoerige berichtgeving uitzetten"
+
+# valideren/controleren op geldigheid
+#: ../gtk/updateiconcache.c:1646
+msgid "Validate existing icon cache"
+msgstr "Bestaande pictogrammencache controleren op geldigheid"
+
+#: ../gtk/updateiconcache.c:1713
+#, c-format
+msgid "File not found: %s\n"
+msgstr "Bestand niet gevonden: %s\n"
+
+#: ../gtk/updateiconcache.c:1719
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "Geen geldige pictogrammenbuffer: %s\n"
+
+#: ../gtk/updateiconcache.c:1732
+#, c-format
+msgid "No theme index file.\n"
+msgstr "Geen thema-indexbestand.\n"
+
+#: ../gtk/updateiconcache.c:1736
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"Geen thema-indexbestand in ‘%s’.\n"
+"Indien u hier echt een pictogram-cache wilt aanmaken, gebruik dan --ignore-"
+"theme-index.\n"
+

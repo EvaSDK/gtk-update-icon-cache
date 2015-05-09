@@ -1,0 +1,132 @@
+# Indonesia translation of gtk+.
+# Copyright (C) 2003 THE gtk+'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gtk+ package.
+# Mohammad DAMT <mdamt@bisnisweb.com>, 2003.
+# Ahmad Riza H Nst  <rizahnst@gnome.org>, 2006.
+# Andika Triwidada <andika@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gtk+ master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk%"
+"2b&component=general\n"
+"POT-Creation-Date: 2010-09-11 02:37+0000\n"
+"PO-Revision-Date: 2010-09-11 15:21+0700\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"Language-Team: GNOME Indonesian Translation Team <gnome@i15n.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Indonesian\n"
+"X-Poedit-Country: Indonesia\n"
+
+#: ../gtk/updateiconcache.c:492 ../gtk/updateiconcache.c:552
+#, c-format
+msgid "different idatas found for symlinked '%s' and '%s'\n"
+msgstr "idata yang berbeda ditemukan untuk symlink '%s' dan '%s'\n"
+
+#: ../gtk/updateiconcache.c:1374
+#, c-format
+msgid "Failed to write header\n"
+msgstr "Gagal menulis judul\n"
+
+#: ../gtk/updateiconcache.c:1380
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "Gagal menulis tabel hash\n"
+
+#: ../gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "Gagal menulis indeks direktori\n"
+
+#: ../gtk/updateiconcache.c:1394
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "Gagal menulis ulang judul\n"
+
+#: ../gtk/updateiconcache.c:1463
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "Gagal membuka berkas %s : %s\n"
+
+#: ../gtk/updateiconcache.c:1471
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "Gagal menulis berkas cache: %s\n"
+
+#: ../gtk/updateiconcache.c:1507
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "Cache yang diolah tidak sah.\n"
+
+#: ../gtk/updateiconcache.c:1521
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "Tidak bisa mengganti nama %s jadi %s: %s, membuang %s kemudian.\n"
+
+#: ../gtk/updateiconcache.c:1535
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "Tidak bisa mengganti nama dari %s ke %s: %s\n"
+
+#: ../gtk/updateiconcache.c:1545
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "Tidak bisa mengganti nama %s kembali ke %s: %s.\n"
+
+#: ../gtk/updateiconcache.c:1572
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "Berkas cache dibuat dengan sukses.\n"
+
+#: ../gtk/updateiconcache.c:1611
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "Menimpa cache yang ada, bahkan jika terbaru"
+
+#: ../gtk/updateiconcache.c:1612
+msgid "Don't check for the existence of index.theme"
+msgstr "Jangan periksa keberadaan tema indeks"
+
+#: ../gtk/updateiconcache.c:1613
+msgid "Don't include image data in the cache"
+msgstr "Jangan data gambar dalam cache"
+
+#: ../gtk/updateiconcache.c:1614
+msgid "Output a C header file"
+msgstr "Keluarkan judul berkas C"
+
+#: ../gtk/updateiconcache.c:1615
+msgid "Turn off verbose output"
+msgstr "Matikan keluaran panjang"
+
+#: ../gtk/updateiconcache.c:1616
+msgid "Validate existing icon cache"
+msgstr "Validasi cache ikon yang telah ada"
+
+#: ../gtk/updateiconcache.c:1683
+#, c-format
+msgid "File not found: %s\n"
+msgstr "Berkas tidak ditemukan: %s\n"
+
+#: ../gtk/updateiconcache.c:1689
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "Bukan ikon cache yang sah: %s\n"
+
+#: ../gtk/updateiconcache.c:1702
+#, c-format
+msgid "No theme index file.\n"
+msgstr "Tak ada berkas indeks tema.\n"
+
+#: ../gtk/updateiconcache.c:1706
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"Tanpa berkas index dalam '%s'.\n"
+"JIka anda benar benar ingin membuat cache ikon di sini, gunakan --ignore-"
+"theme-index.\n"
+

@@ -1,0 +1,128 @@
+# Swedish messages for GTK+.
+# Copyright (C) 1999-2010 Free Software Foundation, Inc.
+# Tomas Ögren <stric@ing.umu.se>, 1999.
+# Christian Rose <menthos@menthos.com>, 2000, 2001, 2002, 2003, 2004, 2005.
+# Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gtk+\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-06 15:24+0200\n"
+"PO-Revision-Date: 2010-09-06 15:25+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../gtk/updateiconcache.c:492
+#: ../gtk/updateiconcache.c:552
+#, c-format
+msgid "different idatas found for symlinked '%s' and '%s'\n"
+msgstr "olika idata hittades för symboliska länkade \"%s\" och \"%s\"\n"
+
+#: ../gtk/updateiconcache.c:1374
+#, c-format
+msgid "Failed to write header\n"
+msgstr "Misslyckades med att skriva huvud\n"
+
+#: ../gtk/updateiconcache.c:1380
+#, c-format
+msgid "Failed to write hash table\n"
+msgstr "Misslyckades med att skriva hashtabell\n"
+
+#: ../gtk/updateiconcache.c:1386
+#, c-format
+msgid "Failed to write folder index\n"
+msgstr "Misslyckades med att skriva mappindex\n"
+
+#: ../gtk/updateiconcache.c:1394
+#, c-format
+msgid "Failed to rewrite header\n"
+msgstr "Misslyckades med att skriva om huvud\n"
+
+#: ../gtk/updateiconcache.c:1463
+#, c-format
+msgid "Failed to open file %s : %s\n"
+msgstr "Misslyckades med att öppna filen %s : %s\n"
+
+#: ../gtk/updateiconcache.c:1471
+#, c-format
+msgid "Failed to write cache file: %s\n"
+msgstr "Misslyckades med att skriva cachefil: %s\n"
+
+#: ../gtk/updateiconcache.c:1507
+#, c-format
+msgid "The generated cache was invalid.\n"
+msgstr "Den genererade cachen var ogiltig.\n"
+
+#: ../gtk/updateiconcache.c:1521
+#, c-format
+msgid "Could not rename %s to %s: %s, removing %s then.\n"
+msgstr "Kunde inte byta namn på %s till %s: %s, tar bort %s.\n"
+
+#: ../gtk/updateiconcache.c:1535
+#, c-format
+msgid "Could not rename %s to %s: %s\n"
+msgstr "Kunde inte byta namn på %s till %s: %s\n"
+
+#: ../gtk/updateiconcache.c:1545
+#, c-format
+msgid "Could not rename %s back to %s: %s.\n"
+msgstr "Kunde inte byta namn på %s tillbaka till %s: %s.\n"
+
+#: ../gtk/updateiconcache.c:1572
+#, c-format
+msgid "Cache file created successfully.\n"
+msgstr "Cachefil skapades.\n"
+
+#: ../gtk/updateiconcache.c:1611
+msgid "Overwrite an existing cache, even if up to date"
+msgstr "Skriv över en befintlig cache, även om den är uppdaterad"
+
+#: ../gtk/updateiconcache.c:1612
+msgid "Don't check for the existence of index.theme"
+msgstr "Kontrollera inte om index.theme finns"
+
+#: ../gtk/updateiconcache.c:1613
+msgid "Don't include image data in the cache"
+msgstr "Inkludera inte bilddata i cachen"
+
+#: ../gtk/updateiconcache.c:1614
+msgid "Output a C header file"
+msgstr "Skriv ut en C-headerfil"
+
+#: ../gtk/updateiconcache.c:1615
+msgid "Turn off verbose output"
+msgstr "Stäng av informativ utskrift"
+
+#: ../gtk/updateiconcache.c:1616
+msgid "Validate existing icon cache"
+msgstr "Validera befintlig ikoncache"
+
+#: ../gtk/updateiconcache.c:1683
+#, c-format
+msgid "File not found: %s\n"
+msgstr "Filen hittades inte: %s\n"
+
+#: ../gtk/updateiconcache.c:1689
+#, c-format
+msgid "Not a valid icon cache: %s\n"
+msgstr "Inte en giltig ikoncache: %s\n"
+
+#: ../gtk/updateiconcache.c:1702
+#, c-format
+msgid "No theme index file.\n"
+msgstr "Ingen temaindexfil.\n"
+
+#: ../gtk/updateiconcache.c:1706
+#, c-format
+msgid ""
+"No theme index file in '%s'.\n"
+"If you really want to create an icon cache here, use --ignore-theme-index.\n"
+msgstr ""
+"Ingen temaindexfil i \"%s\".\n"
+"Om du verkligen vill skapa en ikoncache här, använd --ignore-theme-index.\n"
+

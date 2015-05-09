@@ -1,0 +1,3 @@
+# Files from the Gtk distribution which have already been
+# marked to allow runtime translation of messages
+gtk/updateiconcache.c
