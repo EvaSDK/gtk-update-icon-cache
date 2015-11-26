@@ -1,17 +1,17 @@
 # Irish translations for gtk+ package.
-# Copyright (C) 1999-2013 Free Software Foundation, Inc.
+# Copyright (C) 1999-2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gtk+ package.
 # Seán Ó Ceallaigh <soc@users.sourceforge.net>, 1999.
 # Alastair McKinstry <mckinstry@computer.org>, 2004.
 # Alan Horkan <horkan@maths.tcd.ie>, 2005.
-# Seán de Búrca <leftmostcat@gmail.com>, 2007-2013.
+# Seán de Búrca <leftmostcat@gmail.com>, 2007-2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-30 21:00-0600\n"
-"PO-Revision-Date: 2013-08-30 21:02-0600\n"
+"POT-Creation-Date: 2015-09-30 20:07-0600\n"
+"PO-Revision-Date: 2015-09-30 20:30-0600\n"
 "Last-Translator: Seán de Búrca <leftmostcat@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "Language: ga\n"
@@ -21,101 +21,105 @@ msgstr ""
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4;\n"
 
-#: ../gtk/updateiconcache.c:1386
+#: ../gtk/updateiconcache.c:1390
 #, c-format
 msgid "Failed to write header\n"
 msgstr "Theip ar scríobh ceanntáisc\n"
 
-#: ../gtk/updateiconcache.c:1392
+#: ../gtk/updateiconcache.c:1396
 #, c-format
 msgid "Failed to write hash table\n"
 msgstr "Theip ar scríobh hais-tábla\n"
 
-#: ../gtk/updateiconcache.c:1398
+#: ../gtk/updateiconcache.c:1402
 #, c-format
 msgid "Failed to write folder index\n"
 msgstr "Theip ar scríobh innéacs fillteáin\n"
 
-#: ../gtk/updateiconcache.c:1406
+#: ../gtk/updateiconcache.c:1410
 #, c-format
 msgid "Failed to rewrite header\n"
 msgstr "Theip ar athscríobh ceanntáisc\n"
 
-#: ../gtk/updateiconcache.c:1500
+#: ../gtk/updateiconcache.c:1504
 #, c-format
 msgid "Failed to open file %s : %s\n"
 msgstr "Theip ar oscailt comhaid %s : %s\n"
 
-#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
+#: ../gtk/updateiconcache.c:1512 ../gtk/updateiconcache.c:1542
 #, c-format
 msgid "Failed to write cache file: %s\n"
 msgstr "Theip ar scríobh chomhad taisce: %s\n"
 
-#: ../gtk/updateiconcache.c:1548
+#: ../gtk/updateiconcache.c:1552
 #, c-format
 msgid "The generated cache was invalid.\n"
 msgstr "Bhí an taisce ghinte neamhbhailí.\n"
 
-#: ../gtk/updateiconcache.c:1562
+#: ../gtk/updateiconcache.c:1566
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
 msgstr "Níorbh fhéidir %s a athainmniú go %s: %s, mar sin %s á bhaint.\n"
 
-#: ../gtk/updateiconcache.c:1576
+#: ../gtk/updateiconcache.c:1580
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "Níorbh fhéidir %s a athainmniú go %s: %s\n"
 
-#: ../gtk/updateiconcache.c:1586
+#: ../gtk/updateiconcache.c:1590
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "Níorbh fhéidir %s a athainmniú ar ais go %s: %s\n"
 
-#: ../gtk/updateiconcache.c:1613
+#: ../gtk/updateiconcache.c:1617
 #, c-format
 msgid "Cache file created successfully.\n"
 msgstr "D'éirigh le cruthú an chomhaid taisce.\n"
 
-#: ../gtk/updateiconcache.c:1652
+#: ../gtk/updateiconcache.c:1656
 msgid "Overwrite an existing cache, even if up to date"
 msgstr "Forscríobh taisce atá ann, cé go bhfuil sí cothrom le dáta"
 
-#: ../gtk/updateiconcache.c:1653
+#: ../gtk/updateiconcache.c:1657
 msgid "Don't check for the existence of index.theme"
 msgstr ""
 
-#: ../gtk/updateiconcache.c:1654
+#: ../gtk/updateiconcache.c:1658
 msgid "Don't include image data in the cache"
 msgstr ""
 
-#: ../gtk/updateiconcache.c:1655
+#: ../gtk/updateiconcache.c:1659
+msgid "Include image data in the cache"
+msgstr ""
+
+#: ../gtk/updateiconcache.c:1660
 msgid "Output a C header file"
 msgstr "Cuir comhad ceanntáisc C amach"
 
-#: ../gtk/updateiconcache.c:1656
+#: ../gtk/updateiconcache.c:1661
 msgid "Turn off verbose output"
 msgstr "Díchumasaigh aschur foclach"
 
-#: ../gtk/updateiconcache.c:1657
+#: ../gtk/updateiconcache.c:1662
 msgid "Validate existing icon cache"
 msgstr ""
 
-#: ../gtk/updateiconcache.c:1724
+#: ../gtk/updateiconcache.c:1729
 #, c-format
 msgid "File not found: %s\n"
 msgstr "Comhad gan aimsiú: %s\n"
 
-#: ../gtk/updateiconcache.c:1730
+#: ../gtk/updateiconcache.c:1735
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "Ní taisce dheilbhíní bhailí é: %s\n"
 
-#: ../gtk/updateiconcache.c:1743
+#: ../gtk/updateiconcache.c:1748
 #, c-format
 msgid "No theme index file.\n"
 msgstr "Gan chomhad innéacs téama.\n"
 
-#: ../gtk/updateiconcache.c:1747
+#: ../gtk/updateiconcache.c:1752
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"

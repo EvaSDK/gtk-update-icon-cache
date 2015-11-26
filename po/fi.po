@@ -9,15 +9,14 @@
 # Tommi Vainikainen <thv@iki.fi>, 2009-2010.
 # Timo Jyrinki <timo.jyrinki@iki.fi>, 2010.
 # Lasse Liehu <lasse.liehu@gmail.com>, 2014.
-# Jiri Grönroos <jiri.gronroos+l10n@iki.fi>, 2009, 2012, 2013, 2014.
+# Jiri Grönroos <jiri.gronroos+l10n@iki.fi>, 2009, 2012, 2013, 2014, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk"
-"%2b&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-09-11 09:02+0000\n"
-"PO-Revision-Date: 2014-09-11 21:23+0300\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-14 10:04+0000\n"
+"PO-Revision-Date: 2015-09-23 10:18+0300\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos+l10n@iki.fi>\n"
 "Language-Team: suomi <gnome-fi-laatu@lists.sourceforge.net>\n"
 "Language: fi\n"
@@ -27,107 +26,107 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Gtranslator 2.91.6\n"
 
-#: ../gtk/updateiconcache.c:1386
+#: gtk/updateiconcache.c:1390
 #, c-format
 msgid "Failed to write header\n"
 msgstr "Otsakkeen kirjoitus epäonnistui\n"
 
-#: ../gtk/updateiconcache.c:1392
+#: gtk/updateiconcache.c:1396
 #, c-format
 msgid "Failed to write hash table\n"
 msgstr "Hajautustaulun kirjoitus epäonnistui\n"
 
-#: ../gtk/updateiconcache.c:1398
+#: gtk/updateiconcache.c:1402
 #, c-format
 msgid "Failed to write folder index\n"
 msgstr "Kansioindeksin kirjoitus epäonnistui\n"
 
-#: ../gtk/updateiconcache.c:1406
+#: gtk/updateiconcache.c:1410
 #, c-format
 msgid "Failed to rewrite header\n"
 msgstr "Otsakkeen uudelleenkirjoitus epäonnistui\n"
 
-#: ../gtk/updateiconcache.c:1500
+#: gtk/updateiconcache.c:1504
 #, c-format
 msgid "Failed to open file %s : %s\n"
 msgstr "Tiedostoa ”%s” ei voitu avata: %s\n"
 
-#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
+#: gtk/updateiconcache.c:1512 gtk/updateiconcache.c:1542
 #, c-format
 msgid "Failed to write cache file: %s\n"
 msgstr "Välimuistitiedoston kirjoitus epäonnistui: %s\n"
 
-#: ../gtk/updateiconcache.c:1548
+#: gtk/updateiconcache.c:1552
 #, c-format
 msgid "The generated cache was invalid.\n"
 msgstr "Luotu välimuisti oli virheellinen.\n"
 
-#: ../gtk/updateiconcache.c:1562
+#: gtk/updateiconcache.c:1566
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
 msgstr "%s ei voitu uudelleen nimetä nimelle %s: %s, poistetaan %s.\n"
 
-#: ../gtk/updateiconcache.c:1576
+#: gtk/updateiconcache.c:1580
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "Tiedoston %s uudelleennimeäminen nimelle %s epäonnistui: %s\n"
 
-#: ../gtk/updateiconcache.c:1586
+#: gtk/updateiconcache.c:1590
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "Tiedoston %s nimeäminen takaisin nimelle %s epäonnistui: %s\n"
 
-#: ../gtk/updateiconcache.c:1613
+#: gtk/updateiconcache.c:1617
 #, c-format
 msgid "Cache file created successfully.\n"
 msgstr "Välimuistitiedosto luotu onnistuneesti.\n"
 
-#: ../gtk/updateiconcache.c:1652
+#: gtk/updateiconcache.c:1656
 msgid "Overwrite an existing cache, even if up to date"
 msgstr "Kirjoita olemassa olevan välimuistin yli vaikka se olisi ajan tasalla"
 
-#: ../gtk/updateiconcache.c:1653
+#: gtk/updateiconcache.c:1657
 msgid "Don't check for the existence of index.theme"
 msgstr "Älä tarkista index.theme-tiedoston olemassaoloa"
 
-#: ../gtk/updateiconcache.c:1654
+#: gtk/updateiconcache.c:1658
 msgid "Don't include image data in the cache"
 msgstr "Älä tallenna kuvatietoja välimuistiin"
 
-#: ../gtk/updateiconcache.c:1655
+#: gtk/updateiconcache.c:1659
 #, fuzzy
 #| msgid "Don't include image data in the cache"
 msgid "Include image data in the cache"
 msgstr "Älä tallenna kuvatietoja välimuistiin"
 
-#: ../gtk/updateiconcache.c:1656
+#: gtk/updateiconcache.c:1660
 msgid "Output a C header file"
 msgstr "Tulosta C-otsikkotiedosto"
 
-#: ../gtk/updateiconcache.c:1657
+#: gtk/updateiconcache.c:1661
 msgid "Turn off verbose output"
 msgstr "Poista suulas tuloste käytöstä"
 
-#: ../gtk/updateiconcache.c:1658
+#: gtk/updateiconcache.c:1662
 msgid "Validate existing icon cache"
 msgstr "Tarkista kuvakevälimuistin eheys"
 
-#: ../gtk/updateiconcache.c:1725
+#: gtk/updateiconcache.c:1729
 #, c-format
 msgid "File not found: %s\n"
 msgstr "Tiedostoa ei löydy: %s\n"
 
-#: ../gtk/updateiconcache.c:1731
+#: gtk/updateiconcache.c:1735
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "Kuvakevälimuisti ei ole kelvollinen: %s\n"
 
-#: ../gtk/updateiconcache.c:1744
+#: gtk/updateiconcache.c:1748
 #, c-format
 msgid "No theme index file.\n"
 msgstr "Teeman indeksitiedostoa ei ole.\n"
 
-#: ../gtk/updateiconcache.c:1748
+#: gtk/updateiconcache.c:1752
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"
