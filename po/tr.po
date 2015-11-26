@@ -2,137 +2,130 @@
 # Copyright (C) 1999-2003, 2004, 2006, 2007 Free Software Foundation, Inc.
 #
 # Arman Aksoy <armish@linux-sevenler.de, 2003.
-#  Ömer Fadıl USTA <omer_fad@hotmail.com>,2002.
+# Ömer Fadıl USTA <omer_fad@hotmail.com>,2002.
 # Nilgün Belma Bugüner <nilgun@fide.org>, 2001, 2002.
 # Fatih Demir <kabalak@gtranslator.org>, 1999-2001.
 # Görkem Cetin <gorkem@gelecek.com.tr>, 2001.
 # Baris Cicek <baris@teamforce.name.tr>, 2006, 2007, 2008, 2009.
 # Simge Sezgin <simgesezgin88@gmail.com>, 2015.
+# Necdet Yücel <necdetyucel@gmail.com>, 2015.
+# Neriman Kara <nerimankaraa@gmail.com>, 2015.
 # Muhammet Kara <muhammetk@gmail.com>, 2014, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-21 17:25+0000\n"
-"PO-Revision-Date: 2015-03-21 23:24+0200\n"
+"POT-Creation-Date: 2015-09-17 10:07+0000\n"
+"PO-Revision-Date: 2015-09-17 21:05+0300\n"
 "Last-Translator: Muhammet Kara <muhammetk@gmail.com>\n"
-"Language-Team: Turkish <gnome-turk@gnome.org>\n"
+"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Gtranslator 2.91.6\n"
-"X-POOTLE-MTIME: 1426714422.000000\n"
+"X-Generator: Gtranslator 2.91.7\n"
 
-# gdk-pixbuf/io-tiff.c:264
-#: gtk/updateiconcache.c:1386
+#: gtk/updateiconcache.c:1390
 #, c-format
 msgid "Failed to write header\n"
 msgstr "Başlık yazılırken başarısız olundu\n"
 
-# gdk-pixbuf/io-tiff.c:264
-#: gtk/updateiconcache.c:1392
+#: gtk/updateiconcache.c:1396
 #, c-format
 msgid "Failed to write hash table\n"
 msgstr "Özet tablosu yazılırken başarısız olundu\n"
 
-# gdk-pixbuf/io-xbm.c:429
-#: gtk/updateiconcache.c:1398
+#: gtk/updateiconcache.c:1402
 #, c-format
 msgid "Failed to write folder index\n"
 msgstr "Klasör dizinini yazma başarısız oldu\n"
 
-# gdk-pixbuf/io-tiff.c:264
-#: gtk/updateiconcache.c:1406
+#: gtk/updateiconcache.c:1410
 #, c-format
 msgid "Failed to rewrite header\n"
 msgstr "Başlık yeniden yazılırken başarısız olundu\n"
 
-# gdk-pixbuf/gdk-pixbuf-animation.c:144 gdk-pixbuf/gdk-pixbuf-io.c:516
-#: gtk/updateiconcache.c:1500
+#: gtk/updateiconcache.c:1504
 #, c-format
 msgid "Failed to open file %s : %s\n"
 msgstr "%s dosyası açılırken başarısız olundu : %s\n"
 
-# gdk-pixbuf/gdk-pixbuf-animation.c:144 gdk-pixbuf/gdk-pixbuf-io.c:516
-#: gtk/updateiconcache.c:1508 gtk/updateiconcache.c:1538
+#: gtk/updateiconcache.c:1512 gtk/updateiconcache.c:1542
 #, c-format
 msgid "Failed to write cache file: %s\n"
 msgstr "Önbellek dosyası yazılırken başarısız olundu: %s\n"
 
-#: gtk/updateiconcache.c:1548
+#: gtk/updateiconcache.c:1552
 #, c-format
 msgid "The generated cache was invalid.\n"
 msgstr "Oluşturulan önbellek geçersiz oldu.\n"
 
-#: gtk/updateiconcache.c:1562
+#: gtk/updateiconcache.c:1566
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
 msgstr "%s, %s olarak yeniden adlandırılamadı: %s, o zaman %s siliniyor.\n"
 
-# gtk/gtkfilesel.c:1011
-#: gtk/updateiconcache.c:1576
+#: gtk/updateiconcache.c:1580
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "%s dosyası %s olarak yeniden adlandırılamadı: %s\n"
 
-# gtk/gtkfilesel.c:1011
-#: gtk/updateiconcache.c:1586
+#: gtk/updateiconcache.c:1590
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "%s dosyası geri %s olarak yeniden adlandırılamadı: %s\n"
 
-#: gtk/updateiconcache.c:1613
+#: gtk/updateiconcache.c:1617
 #, c-format
 msgid "Cache file created successfully.\n"
 msgstr "Ön bellek dosyası başarıyla oluşturuldu.\n"
 
-#: gtk/updateiconcache.c:1652
+#: gtk/updateiconcache.c:1656
 msgid "Overwrite an existing cache, even if up to date"
 msgstr "Güncel olsa bile var olan önbelleğin üzerine yaz"
 
-#: gtk/updateiconcache.c:1653
+#: gtk/updateiconcache.c:1657
 msgid "Don't check for the existence of index.theme"
 msgstr "index.theme'in bulunup bulunmadığını kontrol etme"
 
-#: gtk/updateiconcache.c:1654
+#: gtk/updateiconcache.c:1658
 msgid "Don't include image data in the cache"
 msgstr "Önbelleğe görüntü verisini dahil etme"
 
-#: gtk/updateiconcache.c:1655
+#: gtk/updateiconcache.c:1659
 msgid "Include image data in the cache"
 msgstr "Önbelleğe görüntü verisini dahil et"
 
-#: gtk/updateiconcache.c:1656
+#: gtk/updateiconcache.c:1660
 msgid "Output a C header file"
 msgstr "C başlık dosyası çıktısı"
 
-#: gtk/updateiconcache.c:1657
+#: gtk/updateiconcache.c:1661
 msgid "Turn off verbose output"
 msgstr "Ayrıntılı çıktıyı kapat"
 
-#: gtk/updateiconcache.c:1658
+#: gtk/updateiconcache.c:1662
 msgid "Validate existing icon cache"
 msgstr "Var olan simge önbelleğini doğrula"
 
-#: gtk/updateiconcache.c:1725
+#: gtk/updateiconcache.c:1729
 #, c-format
 msgid "File not found: %s\n"
 msgstr "Dosya bulunamadı: %s\n"
 
-#: gtk/updateiconcache.c:1731
+#: gtk/updateiconcache.c:1735
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "Geçerli bir simge önbelleği değil: %s\n"
 
-#: gtk/updateiconcache.c:1744
+#: gtk/updateiconcache.c:1748
 #, c-format
 msgid "No theme index file.\n"
 msgstr "Tema dizin dosyası yok.\n"
 
-#: gtk/updateiconcache.c:1748
+#: gtk/updateiconcache.c:1752
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"

@@ -5,15 +5,15 @@
 # Mohammad DAMT <mdamt@bisnisweb.com>, 2003, 2004, 2005.
 # Ahmad Riza H Nst  <rizahnst@gnome.org>, 2006.
 # Muhammad Hilman <hilman09121991@yahoo.com>, 2008.
-# Andika Triwidada <andika@gmail.com>, 2010-2015.
+# Andika Triwidada <andika@gmail.com>, 2010, 2011, 2012, 2013, 2014.
 # Dirgita <dirgitadevina@yahoo.co.id>, 2010.
 # Dirgita Devina <dirgitadevina@yahoo.co.id>, 2010, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: gtk+ gtk-3-16\n"
+"Project-Id-Version: gtk+ master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-02 21:31+0000\n"
-"PO-Revision-Date: 2015-08-03 12:12+0700\n"
+"POT-Creation-Date: 2015-08-29 07:15+0000\n"
+"PO-Revision-Date: 2015-08-30 11:34+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <gnome@i15n.org>\n"
 "Language: id\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.7.1\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #: gtk/updateiconcache.c:1386
 #, c-format
@@ -128,5 +128,6 @@ msgid ""
 "If you really want to create an icon cache here, use --ignore-theme-index.\n"
 msgstr ""
 "Tanpa berkas index dalam '%s'.\n"
-"JIka Anda benar benar ingin membuat cache ikon di sini, gunakan --ignore-theme-index.\n"
+"JIka Anda benar benar ingin membuat cache ikon di sini, gunakan --ignore-"
+"theme-index.\n"
 

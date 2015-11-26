@@ -9,10 +9,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Gtk+ gtk-3-16\n"
+"Project-Id-Version: Gtk+ master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-24 00:54+0000\n"
-"PO-Revision-Date: 2015-03-24 14:12+0700\n"
+"POT-Creation-Date: 2015-03-16 02:54+0000\n"
+"PO-Revision-Date: 2015-03-16 14:43+0700\n"
 "Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
 "Language-Team: Vietnamese <gnome-vi-list@gnome.org>\n"
 "Language: vi\n"

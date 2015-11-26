@@ -28,122 +28,123 @@
 #               It is used to select a value in a given range. The user may drag
 #               the thumb across the scale track to adjust the value» .
 #               Vegeu http://wiki.mozilla.org/XUL:Slider_Tag
+# Bin         - safata
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+ 2.8.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-22 04:17-0400\n"
-"PO-Revision-Date: 2015-03-22 08:48+0100\n"
-"Last-Translator: Pau Iranzo <paugnu@gmail.com>\n"
+"POT-Creation-Date: 2015-08-21 11:36+0000\n"
+"PO-Revision-Date: 2015-08-21 22:45+0100\n"
+"Last-Translator: David Medina <opensusecatala@gmail.com>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.7.5\n"
 
-#: ../gtk/updateiconcache.c:1386
+#: gtk/updateiconcache.c:1386
 #, c-format
 msgid "Failed to write header\n"
 msgstr "No s'ha pogut escriure la capçalera\n"
 
 # FIXME
-#: ../gtk/updateiconcache.c:1392
+#: gtk/updateiconcache.c:1392
 #, c-format
 msgid "Failed to write hash table\n"
 msgstr "No s'ha pogut escriure la taula de resum\n"
 
-#: ../gtk/updateiconcache.c:1398
+#: gtk/updateiconcache.c:1398
 #, c-format
 msgid "Failed to write folder index\n"
 msgstr "No s'ha pogut escriure l'índex de la carpeta\n"
 
-#: ../gtk/updateiconcache.c:1406
+#: gtk/updateiconcache.c:1406
 #, c-format
 msgid "Failed to rewrite header\n"
 msgstr "No s'ha pogut reescriure la capçalera\n"
 
-#: ../gtk/updateiconcache.c:1500
+#: gtk/updateiconcache.c:1500
 #, c-format
 msgid "Failed to open file %s : %s\n"
 msgstr "No s'ha pogut obrir el fitxer %s: %s\n"
 
-#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
+#: gtk/updateiconcache.c:1508 gtk/updateiconcache.c:1538
 #, c-format
 msgid "Failed to write cache file: %s\n"
 msgstr "No s'ha pogut escriure el fitxer de memòria cau: %s\n"
 
-#: ../gtk/updateiconcache.c:1548
+#: gtk/updateiconcache.c:1548
 #, c-format
 msgid "The generated cache was invalid.\n"
 msgstr "La memòria cau generada no era vàlida.\n"
 
-#: ../gtk/updateiconcache.c:1562
+#: gtk/updateiconcache.c:1562
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
 msgstr "No s'ha pogut canviar el nom de %s a %s: %s, se suprimirà %s.\n"
 
-#: ../gtk/updateiconcache.c:1576
+#: gtk/updateiconcache.c:1576
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "No s'ha pogut canviar el nom de %s a %s: %s\n"
 
-#: ../gtk/updateiconcache.c:1586
+#: gtk/updateiconcache.c:1586
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "No s'ha pogut tornar a anomenar %s a %s: %s.\n"
 
-#: ../gtk/updateiconcache.c:1613
+#: gtk/updateiconcache.c:1613
 #, c-format
 msgid "Cache file created successfully.\n"
 msgstr "S'ha creat el fitxer de memòria cau correctament.\n"
 
-#: ../gtk/updateiconcache.c:1652
+#: gtk/updateiconcache.c:1652
 msgid "Overwrite an existing cache, even if up to date"
 msgstr "Sobreescriu una memòria cau existent, encara que estigui actualitzada"
 
-#: ../gtk/updateiconcache.c:1653
+#: gtk/updateiconcache.c:1653
 msgid "Don't check for the existence of index.theme"
 msgstr "No comprovis l'existència d'index.theme"
 
-#: ../gtk/updateiconcache.c:1654
+#: gtk/updateiconcache.c:1654
 msgid "Don't include image data in the cache"
 msgstr "No incloguis dades d'imatges a la memòria cau"
 
-#: ../gtk/updateiconcache.c:1655
+#: gtk/updateiconcache.c:1655
 msgid "Include image data in the cache"
 msgstr "Inclou dades d'imatges a la memòria cau"
 
-#: ../gtk/updateiconcache.c:1656
+#: gtk/updateiconcache.c:1656
 msgid "Output a C header file"
 msgstr "Produeix un fitxer de capçalera C"
 
-#: ../gtk/updateiconcache.c:1657
+#: gtk/updateiconcache.c:1657
 msgid "Turn off verbose output"
 msgstr "Desactiva la sortida detallada"
 
-#: ../gtk/updateiconcache.c:1658
+#: gtk/updateiconcache.c:1658
 msgid "Validate existing icon cache"
 msgstr "Valida la memòria cau d'icones existent"
 
-#: ../gtk/updateiconcache.c:1725
+#: gtk/updateiconcache.c:1725
 #, c-format
 msgid "File not found: %s\n"
 msgstr "No s'ha trobat el fitxer: %s\n"
 
-#: ../gtk/updateiconcache.c:1731
+#: gtk/updateiconcache.c:1731
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "No és una memòria cau d'icones vàlida: %s\n"
 
-#: ../gtk/updateiconcache.c:1744
+#: gtk/updateiconcache.c:1744
 #, c-format
 msgid "No theme index file.\n"
 msgstr "No hi ha cap fitxer d'índex de tema.\n"
 
-#: ../gtk/updateiconcache.c:1748
+#: gtk/updateiconcache.c:1748
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"

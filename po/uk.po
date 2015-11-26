@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gtk+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 20:42+0300\n"
+"POT-Creation-Date: 2015-04-20 17:54+0000\n"
 "PO-Revision-Date: 2015-04-17 12:57+0300\n"
 "Last-Translator: Daniel Korostil <ted.korostiled@gmail.com>\n"
 "Language-Team: linux.org.ua\n"
@@ -22,105 +22,105 @@ msgstr ""
 "X-Generator: Virtaal 0.7.1\n"
 "X-Project-Style: gnome\n"
 
-#: ../gtk/updateiconcache.c:1386
+#: gtk/updateiconcache.c:1386
 #, c-format
 msgid "Failed to write header\n"
 msgstr "Не вдалось записати заголовок\n"
 
-#: ../gtk/updateiconcache.c:1392
+#: gtk/updateiconcache.c:1392
 #, c-format
 msgid "Failed to write hash table\n"
 msgstr "Не вдалось записати таблицю хешу\n"
 
-#: ../gtk/updateiconcache.c:1398
+#: gtk/updateiconcache.c:1398
 #, c-format
 msgid "Failed to write folder index\n"
 msgstr "Не вдалось записати індекс теки\n"
 
-#: ../gtk/updateiconcache.c:1406
+#: gtk/updateiconcache.c:1406
 #, c-format
 msgid "Failed to rewrite header\n"
 msgstr "Не вдалось перезаписати заголовок\n"
 
-#: ../gtk/updateiconcache.c:1500
+#: gtk/updateiconcache.c:1500
 #, c-format
 msgid "Failed to open file %s : %s\n"
 msgstr "Не вдалось відкрити файл %s : %s\n"
 
-#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
+#: gtk/updateiconcache.c:1508 gtk/updateiconcache.c:1538
 #, c-format
 msgid "Failed to write cache file: %s\n"
 msgstr "Не вдалось записати файл кешу: %s\n"
 
-#: ../gtk/updateiconcache.c:1548
+#: gtk/updateiconcache.c:1548
 #, c-format
 msgid "The generated cache was invalid.\n"
 msgstr "Створений кеш містить помилки.\n"
 
-#: ../gtk/updateiconcache.c:1562
+#: gtk/updateiconcache.c:1562
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
 msgstr "Не вдалось перейменувати %s на %s: %s, з подальшим вилученням %s.\n"
 
-#: ../gtk/updateiconcache.c:1576
+#: gtk/updateiconcache.c:1576
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "Не вдалось перейменувати %s у %s: %s\n"
 
-#: ../gtk/updateiconcache.c:1586
+#: gtk/updateiconcache.c:1586
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "Не вдалось перейменувати %s назад на %s: %s.\n"
 
-#: ../gtk/updateiconcache.c:1613
+#: gtk/updateiconcache.c:1613
 #, c-format
 msgid "Cache file created successfully.\n"
 msgstr "Файл кешу успішно створено.\n"
 
-#: ../gtk/updateiconcache.c:1652
+#: gtk/updateiconcache.c:1652
 msgid "Overwrite an existing cache, even if up to date"
 msgstr "Перезаписати наявний кеш, навіть якщо його оновлено"
 
-#: ../gtk/updateiconcache.c:1653
+#: gtk/updateiconcache.c:1653
 msgid "Don't check for the existence of index.theme"
 msgstr "Не перевіряти існування файла index.theme"
 
-#: ../gtk/updateiconcache.c:1654
+#: gtk/updateiconcache.c:1654
 msgid "Don't include image data in the cache"
 msgstr "Не враховувати зображення в кеші"
 
-#: ../gtk/updateiconcache.c:1655
+#: gtk/updateiconcache.c:1655
 msgid "Include image data in the cache"
 msgstr "Враховувати зображення в кеші"
 
-#: ../gtk/updateiconcache.c:1656
+#: gtk/updateiconcache.c:1656
 msgid "Output a C header file"
 msgstr "Видавати файл заголовків на мові C"
 
-#: ../gtk/updateiconcache.c:1657
+#: gtk/updateiconcache.c:1657
 msgid "Turn off verbose output"
 msgstr "Вимкнути розширений вивід"
 
-#: ../gtk/updateiconcache.c:1658
+#: gtk/updateiconcache.c:1658
 msgid "Validate existing icon cache"
 msgstr "Перевірити наявний кеш піктограм"
 
-#: ../gtk/updateiconcache.c:1725
+#: gtk/updateiconcache.c:1725
 #, c-format
 msgid "File not found: %s\n"
 msgstr "Не вдалось знайти файл: %s\n"
 
-#: ../gtk/updateiconcache.c:1731
+#: gtk/updateiconcache.c:1731
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "Некоректний піктограма у кеші: %s\n"
 
-#: ../gtk/updateiconcache.c:1744
+#: gtk/updateiconcache.c:1744
 #, c-format
 msgid "No theme index file.\n"
 msgstr "Немає файла з індексом теми.\n"
 
-#: ../gtk/updateiconcache.c:1748
+#: gtk/updateiconcache.c:1748
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"

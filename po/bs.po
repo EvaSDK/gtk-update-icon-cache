@@ -3,9 +3,9 @@ msgstr ""
 "Project-Id-Version: gtk+.gtk-2-4.bs\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk%"
 "2b&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-04-06 09:30+0000\n"
-"PO-Revision-Date: 2015-02-04 15:51+0000\n"
-"Last-Translator: Omar Dervisevic <omardervisevic@live.com>\n"
+"POT-Creation-Date: 2015-02-27 02:17+0000\n"
+"PO-Revision-Date: 2015-03-03 21:03+0100\n"
+"Last-Translator: Samir Ribić <Unknown>\n"
 "Language-Team: Bosnian <lokal@linux.org.ba>\n"
 "Language: bs\n"
 "MIME-Version: 1.0\n"
@@ -13,8 +13,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2015-02-05 07:03+0000\n"
-"X-Generator: Launchpad (build 17331)\n"
+"X-Launchpad-Export-Date: 2015-02-05 06:51+0000\n"
+"X-Generator: Poedit 1.7.4\n"
 
 #: ../gtk/updateiconcache.c:1386
 #, c-format
@@ -84,33 +84,37 @@ msgid "Don't include image data in the cache"
 msgstr "Ne uključuj podatke slike u keš ostavu"
 
 #: ../gtk/updateiconcache.c:1655
+msgid "Include image data in the cache"
+msgstr "Uvrsti slikovne podatke u međumemoriju"
+
+#: ../gtk/updateiconcache.c:1656
 msgid "Output a C header file"
 msgstr "Ispiši datoteku C zaglavlja"
 
-#: ../gtk/updateiconcache.c:1656
+#: ../gtk/updateiconcache.c:1657
 msgid "Turn off verbose output"
 msgstr "Isključi opširni ispis"
 
-#: ../gtk/updateiconcache.c:1657
+#: ../gtk/updateiconcache.c:1658
 msgid "Validate existing icon cache"
 msgstr "Provjeri ispravnost postojeće ostave ikona"
 
-#: ../gtk/updateiconcache.c:1724
+#: ../gtk/updateiconcache.c:1725
 #, c-format
 msgid "File not found: %s\n"
 msgstr "Datoteka nije pronađena: %s\n"
 
-#: ../gtk/updateiconcache.c:1730
+#: ../gtk/updateiconcache.c:1731
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "Neispravna ostava za ikone: %s\n"
 
-#: ../gtk/updateiconcache.c:1743
+#: ../gtk/updateiconcache.c:1744
 #, c-format
 msgid "No theme index file.\n"
 msgstr "Nije nađena indeks datoteka za temu.\n"
 
-#: ../gtk/updateiconcache.c:1747
+#: ../gtk/updateiconcache.c:1748
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"
