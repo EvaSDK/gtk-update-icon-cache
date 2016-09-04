@@ -6,15 +6,15 @@
 # Gil Osher <dolfin@rpg.org.il>, 2004.
 # Yair Hershkovitz <yairhr@gmail.com>, 2006.
 # Yaron Shahrabani <sh.yaron@gmail.com>, 2011, 2012.
-# Yosef Or Boczko <yoseforb@gnome.org>, 2013, 2014, 2015.
+# Yosef Or Boczko <yoseforb@gnome.org>, 2013, 2014, 2015, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+.HEAD.he\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-27 11:30+0300\n"
-"PO-Revision-Date: 2015-09-27 11:30+0300\n"
-"Last-Translator: Yosef Or Boczko <yoseforb@gmail.com>\n"
+"POT-Creation-Date: 2016-03-01 15:31+0200\n"
+"PO-Revision-Date: 2016-03-01 15:51+0200\n"
+"Last-Translator: Yosef Or Boczko <yoseforb@gnome.org>\n"
 "Language-Team: עברית <>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"

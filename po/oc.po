@@ -1,131 +1,129 @@
 # Occitan translation of GTK+.
 # Copyright (C) 1998-2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the GTK+ package.
-#
 # Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2006-2008.
 # Cédric Valmary (Tot en Òc) <cvalmary@yahoo.fr>, 2015.
-#
+# Cédric Valmary (totenoc.eu) <cvalmary@yahoo.fr>, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+ HEAD\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtkPOT-"
-"Creation-Date: 2015-04-28 21:31+0000\n"
-"PO-Revision-Date: 2015-05-29 22:23+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-17 00:17+0000\n"
+"PO-Revision-Date: 2016-02-26 21:55+0200\n"
 "Last-Translator: Cédric Valmary (totenoc.eu) <cvalmary@yahoo.fr>\n"
-"Language-Team: www.totenoc.eu\n"
+"Language-Team: Tot En Òc\n"
 "Language: oc\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"POT-Creation-Date: \n"
-"X-Generator: Poedit 1.7.5\n"
+"X-Generator: Virtaal 0.7.1\n"
 
-#: gtk/updateiconcache.c:1386
+#: gtk/updateiconcache.c:1390
 #, c-format
 msgid "Failed to write header\n"
 msgstr "Impossible d'escriure l'entèsta\n"
 
-#: gtk/updateiconcache.c:1392
+#: gtk/updateiconcache.c:1396
 #, c-format
 msgid "Failed to write hash table\n"
 msgstr "Impossible d'escriure dins la taula de hachage\n"
 
-#: gtk/updateiconcache.c:1398
+#: gtk/updateiconcache.c:1402
 #, c-format
 msgid "Failed to write folder index\n"
 msgstr "Impossible d'escriure l'indèx del dorsièr\n"
 
-#: gtk/updateiconcache.c:1406
+#: gtk/updateiconcache.c:1410
 #, c-format
 msgid "Failed to rewrite header\n"
 msgstr "Impossible de reescriure l'entèsta\n"
 
-#: gtk/updateiconcache.c:1500
+#: gtk/updateiconcache.c:1504
 #, c-format
 msgid "Failed to open file %s : %s\n"
 msgstr "Impossible de dobrir lo fichièr « %s » : %s\n"
 
-#: gtk/updateiconcache.c:1508 gtk/updateiconcache.c:1538
+#: gtk/updateiconcache.c:1512 gtk/updateiconcache.c:1542
 #, c-format
 msgid "Failed to write cache file: %s\n"
-msgstr "Impossible d'escriure dins lo fichièr d'escondedor : %s\n"
+msgstr "Impossible d'escriure dins lo fichièr de cache : %s\n"
 
-#: gtk/updateiconcache.c:1548
+#: gtk/updateiconcache.c:1552
 #, c-format
 msgid "The generated cache was invalid.\n"
-msgstr "L'escondedor generat èra pas valide.\n"
+msgstr "L'cache generat èra pas valide.\n"
 
-#: gtk/updateiconcache.c:1562
+#: gtk/updateiconcache.c:1566
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
 msgstr "Impossible de renomenar %s en %s : %s, supression de %s.\n"
 
-#: gtk/updateiconcache.c:1576
+#: gtk/updateiconcache.c:1580
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "Impossible de renomenar « %s » en %s : %s\n"
 
-#: gtk/updateiconcache.c:1586
+#: gtk/updateiconcache.c:1590
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "Impossible de renomenar tornarmai %s en %s : %s\n"
 
-#: gtk/updateiconcache.c:1613
+#: gtk/updateiconcache.c:1617
 #, c-format
 msgid "Cache file created successfully.\n"
-msgstr "Fichièr d'escondedor escrich amb succès.\n"
+msgstr "Fichièr de cache escrich amb succès.\n"
 
-#: gtk/updateiconcache.c:1652
+#: gtk/updateiconcache.c:1656
 msgid "Overwrite an existing cache, even if up to date"
-msgstr "Espotir un escondedor existent quitament se es a jorn"
+msgstr "Espotir un cache existent quitament se es a jorn"
 
-#: gtk/updateiconcache.c:1653
+#: gtk/updateiconcache.c:1657
 msgid "Don't check for the existence of index.theme"
 msgstr "Verificar l'existéncia del fichièr index.theme"
 
-#: gtk/updateiconcache.c:1654
+#: gtk/updateiconcache.c:1658
 msgid "Don't include image data in the cache"
-msgstr "Inclure pas de donadas d'imatge dins l'escondedor"
+msgstr "Inclure pas de donadas d'imatge dins lo cache"
 
-#: gtk/updateiconcache.c:1655
+#: gtk/updateiconcache.c:1659
 msgid "Include image data in the cache"
-msgstr "Inclure las donadas d'imatge dins l'escondedor"
+msgstr "Inclure las donadas d'imatge dins lo cache"
 
-#: gtk/updateiconcache.c:1656
+#: gtk/updateiconcache.c:1660
 msgid "Output a C header file"
 msgstr "Sortir un fichièr entèsta C"
 
-#: gtk/updateiconcache.c:1657
+#: gtk/updateiconcache.c:1661
 msgid "Turn off verbose output"
 msgstr "Desactivar la sortida detalhada"
 
-#: gtk/updateiconcache.c:1658
+#: gtk/updateiconcache.c:1662
 msgid "Validate existing icon cache"
-msgstr "Validar l'escondedor d'icònas existent"
+msgstr "Validar lo cache d'icònas existent"
 
-#: gtk/updateiconcache.c:1725
+#: gtk/updateiconcache.c:1729
 #, c-format
 msgid "File not found: %s\n"
 msgstr "Fichièr introbable : %s\n"
 
-#: gtk/updateiconcache.c:1731
+#: gtk/updateiconcache.c:1735
 #, c-format
 msgid "Not a valid icon cache: %s\n"
-msgstr "Escondedor d'icònas invalid : %s\n"
+msgstr "Cache d'icònas invalid : %s\n"
 
-#: gtk/updateiconcache.c:1744
+#: gtk/updateiconcache.c:1748
 #, c-format
 msgid "No theme index file.\n"
 msgstr "Pas cap de fichièr d'indèx de tèma.\n"
 
-#: gtk/updateiconcache.c:1748
+#: gtk/updateiconcache.c:1752
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"
 "If you really want to create an icon cache here, use --ignore-theme-index.\n"
 msgstr ""
 "Pas cap de fichièr d'indèx de tèma dins « %s ».\n"
-"Se volètz vertadièrament crear un escondedor d'icònas aicí, utilizatz --"
+"Se volètz vertadièrament crear un cache d'icònas aicí, utilizatz --"
 "ignore-theme-index.\n"
 

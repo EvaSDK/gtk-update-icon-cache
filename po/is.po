@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gtk+.master.is\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-19 13:58+0000\n"
-"PO-Revision-Date: 2015-10-20 13:57+0000\n"
+"POT-Creation-Date: 2015-04-24 09:45+0000\n"
+"PO-Revision-Date: 2015-04-24 14:20+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
@@ -20,105 +20,105 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=1;\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: gtk/updateiconcache.c:1390
+#: gtk/updateiconcache.c:1386
 #, c-format
 msgid "Failed to write header\n"
 msgstr "Mistókst að skrifa haus\n"
 
-#: gtk/updateiconcache.c:1396
+#: gtk/updateiconcache.c:1392
 #, c-format
 msgid "Failed to write hash table\n"
 msgstr "Mistókst að búa til tætitöflu\n"
 
-#: gtk/updateiconcache.c:1402
+#: gtk/updateiconcache.c:1398
 #, c-format
 msgid "Failed to write folder index\n"
 msgstr "Mistókst að skrifa möppuyfirlit\n"
 
-#: gtk/updateiconcache.c:1410
+#: gtk/updateiconcache.c:1406
 #, c-format
 msgid "Failed to rewrite header\n"
 msgstr "Mistókst að  endurskrifa haus\n"
 
-#: gtk/updateiconcache.c:1504
+#: gtk/updateiconcache.c:1500
 #, c-format
 msgid "Failed to open file %s : %s\n"
 msgstr "Mistókst að opna skrá %s: %s\n"
 
-#: gtk/updateiconcache.c:1512 gtk/updateiconcache.c:1542
+#: gtk/updateiconcache.c:1508 gtk/updateiconcache.c:1538
 #, c-format
 msgid "Failed to write cache file: %s\n"
 msgstr "Mistókst að skrifa í skyndiminnisskrá: %s\n"
 
-#: gtk/updateiconcache.c:1552
+#: gtk/updateiconcache.c:1548
 #, c-format
 msgid "The generated cache was invalid.\n"
 msgstr "Útbúið skyndiminni er ógilt.\n"
 
-#: gtk/updateiconcache.c:1566
+#: gtk/updateiconcache.c:1562
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
 msgstr "Gat ekki breytt nafninu á %s í %s: %s, fjarlægi þá %s.\n"
 
-#: gtk/updateiconcache.c:1580
+#: gtk/updateiconcache.c:1576
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "Gat ekki breytt nafninu á %s í %s: %s\n"
 
-#: gtk/updateiconcache.c:1590
+#: gtk/updateiconcache.c:1586
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "Gat ekki breytt nafninu á %s aftur í %s: %s.\n"
 
-#: gtk/updateiconcache.c:1617
+#: gtk/updateiconcache.c:1613
 #, c-format
 msgid "Cache file created successfully.\n"
 msgstr "Það tókst að búa til skyndiminnisskrá.\n"
 
-#: gtk/updateiconcache.c:1656
+#: gtk/updateiconcache.c:1652
 msgid "Overwrite an existing cache, even if up to date"
 msgstr "Skrifa yfir skyndiminni, jafnvel þó það sé ekki úrelt"
 
-#: gtk/updateiconcache.c:1657
+#: gtk/updateiconcache.c:1653
 msgid "Don't check for the existence of index.theme"
 msgstr "Ekki athuga hvort index.theme er til"
 
-#: gtk/updateiconcache.c:1658
+#: gtk/updateiconcache.c:1654
 msgid "Don't include image data in the cache"
 msgstr "Ekki setja myndagögn í skyndiminni"
 
-#: gtk/updateiconcache.c:1659
+#: gtk/updateiconcache.c:1655
 msgid "Include image data in the cache"
 msgstr "Hafa myndagögn með í skyndiminni"
 
-#: gtk/updateiconcache.c:1660
+#: gtk/updateiconcache.c:1656
 msgid "Output a C header file"
 msgstr "Gefa út C-haus skrá"
 
-#: gtk/updateiconcache.c:1661
+#: gtk/updateiconcache.c:1657
 msgid "Turn off verbose output"
 msgstr "Slökkva á nákvæmu úttaki"
 
-#: gtk/updateiconcache.c:1662
+#: gtk/updateiconcache.c:1658
 msgid "Validate existing icon cache"
 msgstr "Gera táknmyndaskyndiminnið gilt"
 
-#: gtk/updateiconcache.c:1729
+#: gtk/updateiconcache.c:1725
 #, c-format
 msgid "File not found: %s\n"
 msgstr "Skrá fannst ekki: %s\n"
 
-#: gtk/updateiconcache.c:1735
+#: gtk/updateiconcache.c:1731
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "Ekki gilt táknmyndaskyndiminni: %s\n"
 
-#: gtk/updateiconcache.c:1748
+#: gtk/updateiconcache.c:1744
 #, c-format
 msgid "No theme index file.\n"
 msgstr "Engin þemayfirlitsskrá.\n"
 
-#: gtk/updateiconcache.c:1752
+#: gtk/updateiconcache.c:1748
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"

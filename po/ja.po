@@ -10,7 +10,7 @@
 # Nishibori Kiyotaka <ml.nishibori.kiyotaka@gmail.com>, 2009-2010.
 # Masato Hashimoto <cabezon.hashimoto@gmail.com>, 2010.
 # IWAI, Masaharu <iwaim.sub@gmail.com>, 2010.
-# Jiro Matsuzawa <jmatsuzawa@gnome.org>, 2011, 2012, 2013, 2014, 2015.
+# Jiro Matsuzawa <jmatsuzawa@gnome.org>, 2011, 2012, 2013, 2014, 2015, 2016.
 # Shushi KUROSE <md81bird@hitaki.net>, 2013.
 # Hajime Taira <htaira@redhat.com>, 2015.
 #
@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gtk+ master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-20 10:06+0000\n"
-"PO-Revision-Date: 2015-09-20 20:25+0900\n"
+"POT-Creation-Date: 2016-03-06 00:17+0000\n"
+"PO-Revision-Date: 2016-03-06 13:44+0900\n"
 "Last-Translator: Jiro Matsuzawa <jmatsuzawa@gnome.org>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "Language: ja\n"
@@ -133,5 +133,6 @@ msgid ""
 "If you really want to create an icon cache here, use --ignore-theme-index.\n"
 msgstr ""
 "'%s' には index.theme ファイルがありません\n"
-"強制的にアイコンのキャッシュを生成する場合は --ignore-theme-index オプションを追加してください\n"
+"強制的にアイコンのキャッシュを生成する場合は --ignore-theme-index オプション"
+"を追加してください\n"
 
