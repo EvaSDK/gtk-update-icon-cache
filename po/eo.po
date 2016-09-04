@@ -4,119 +4,123 @@
 # Antono VASILJEV <antono.vasiljev@gmail.com>, 2007.
 # Guillaume SAVATON <llumeao@gmail.com>, 2007.
 # Michael MORONI < >, 2011.
-# Tiffany Antopolski <tiffany.antopolski@gmail.com>, 2011, 2012.
-# Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2010, 2011, 2012.
-#
+# Tiffany ANTOPOLSKI <tiffany.antopolski@gmail.com>, 2011, 2012.
+# Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2010, 2011, 2012, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk"
-"%2b&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-03-08 03:06+0000\n"
-"PO-Revision-Date: 2012-03-09 22:43+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-02 14:14+0000\n"
+"PO-Revision-Date: 2016-04-03 02:16+0200\n"
 "Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
 "Language-Team: Esperanto <gnome-l10n-eo@lists.launchpad.net>\n"
+"Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: eo\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
 
-#: ../gtk/updateiconcache.c:1368
+#: gtk/updateiconcache.c:1390
 #, c-format
 msgid "Failed to write header\n"
 msgstr "Malsukcesis skribi kapon\n"
 
-#: ../gtk/updateiconcache.c:1374
+#: gtk/updateiconcache.c:1396
 #, c-format
 msgid "Failed to write hash table\n"
 msgstr "Malsukcesis skribi haĉotabelon\n"
 
-#: ../gtk/updateiconcache.c:1380
+#: gtk/updateiconcache.c:1402
 #, c-format
 msgid "Failed to write folder index\n"
 msgstr "Malsukcesis skribi la indekson de dosierujoj\n"
 
-#: ../gtk/updateiconcache.c:1388
+#: gtk/updateiconcache.c:1410
 #, c-format
 msgid "Failed to rewrite header\n"
 msgstr "Malsukcesis reskribi kapon\n"
 
-#: ../gtk/updateiconcache.c:1482
+#: gtk/updateiconcache.c:1504
 #, c-format
 msgid "Failed to open file %s : %s\n"
 msgstr "Malsukcesis malfermi dosieron %s : %s\n"
 
-#: ../gtk/updateiconcache.c:1490 ../gtk/updateiconcache.c:1520
+#: gtk/updateiconcache.c:1512 gtk/updateiconcache.c:1542
 #, c-format
 msgid "Failed to write cache file: %s\n"
 msgstr "Malsukcesis skribi la kaŝdosieron: %s\n"
 
-#: ../gtk/updateiconcache.c:1530
+#: gtk/updateiconcache.c:1552
 #, c-format
 msgid "The generated cache was invalid.\n"
 msgstr "La farita kaŝmemoro estis nevalida.\n"
 
-#: ../gtk/updateiconcache.c:1544
+#: gtk/updateiconcache.c:1566
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
 msgstr "Ne eblis alinomi %s-n al %s: %s, tiuokaze forigante %s-n.\n"
 
-#: ../gtk/updateiconcache.c:1558
+#: gtk/updateiconcache.c:1580
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "Ne eblas alinomigi %s al %s: %s\n"
 
-#: ../gtk/updateiconcache.c:1568
+#: gtk/updateiconcache.c:1590
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "Ne eblis realinomi %s al %s: %s.\n"
 
-#: ../gtk/updateiconcache.c:1595
+#: gtk/updateiconcache.c:1617
 #, c-format
 msgid "Cache file created successfully.\n"
 msgstr "Kaŝmemora dosiero sukcese kreita.\n"
 
-#: ../gtk/updateiconcache.c:1634
+#: gtk/updateiconcache.c:1656
 msgid "Overwrite an existing cache, even if up to date"
 msgstr "Anstataŭigi ekzistantan kaŝmemoron, eĉ se ĝi estas ĝisdata"
 
-#: ../gtk/updateiconcache.c:1635
+#: gtk/updateiconcache.c:1657
 msgid "Don't check for the existence of index.theme"
 msgstr "Ne kontroli pri la ekzisto de index.theme"
 
-#: ../gtk/updateiconcache.c:1636
+#: gtk/updateiconcache.c:1658
 msgid "Don't include image data in the cache"
 msgstr "Ne inkluzivi bildodatumojn en la kaŝmemoro"
 
-#: ../gtk/updateiconcache.c:1637
+#: gtk/updateiconcache.c:1659
+#| msgid "Don't include image data in the cache"
+msgid "Include image data in the cache"
+msgstr "Inkluzivi bildodatumojn en la kaŝmemoron"
+
+#: gtk/updateiconcache.c:1660
 msgid "Output a C header file"
 msgstr "Eligi C kapdoseiron"
 
-#: ../gtk/updateiconcache.c:1638
+#: gtk/updateiconcache.c:1661
 msgid "Turn off verbose output"
 msgstr "Elŝalti detalan eligon"
 
-#: ../gtk/updateiconcache.c:1639
+#: gtk/updateiconcache.c:1662
 msgid "Validate existing icon cache"
 msgstr "Certiĝi pri valideco de bildsimbola kaŝmemoro"
 
-#: ../gtk/updateiconcache.c:1706
+#: gtk/updateiconcache.c:1729
 #, c-format
 msgid "File not found: %s\n"
 msgstr "Dosiero ne trovita: %s\n"
 
-#: ../gtk/updateiconcache.c:1712
+#: gtk/updateiconcache.c:1735
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "Ne estas valida bildsimbola kaŝmemoro: %s\n"
 
-#: ../gtk/updateiconcache.c:1725
+#: gtk/updateiconcache.c:1748
 #, c-format
 msgid "No theme index file.\n"
 msgstr "Neniu etos-indeks-dosiero.\n"
 
-#: ../gtk/updateiconcache.c:1729
+#: gtk/updateiconcache.c:1752
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"
