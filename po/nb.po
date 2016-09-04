@@ -1,14 +1,14 @@
 # Norwegian bokmål translation of gtk+.
 # Copyright (C) 1998-2004, 2005 Free Software Foundation, Inc.
-# Kjartan Maraas <kmaraas@gnome.org>, 1998-2015.
+# Kjartan Maraas <kmaraas@gnome.org>, 1998-2016.
 # Terance Edward Sola <terance@lyse.net>, 2005.
 # Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: gtk+ 3.19.x\n"
+"Project-Id-Version: gtk+ 3.20.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-07 21:40+0100\n"
-"PO-Revision-Date: 2016-01-07 21:54+0100\n"
+"POT-Creation-Date: 2016-05-03 23:15+0200\n"
+"PO-Revision-Date: 2016-05-03 23:22+0200\n"
 "Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
 "Language-Team: Norwegian bokmål <i18n-nb@lister.ping.uio.no>\n"
 "Language: no\n"
@@ -17,105 +17,105 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: gtk/updateiconcache.c:1390
+#: ../gtk/updateiconcache.c:1390
 #, c-format
 msgid "Failed to write header\n"
 msgstr "Klarte ikke å skrive hode\n"
 
-#: gtk/updateiconcache.c:1396
+#: ../gtk/updateiconcache.c:1396
 #, c-format
 msgid "Failed to write hash table\n"
 msgstr "Klarte ikke å skrive hash-tabell\n"
 
-#: gtk/updateiconcache.c:1402
+#: ../gtk/updateiconcache.c:1402
 #, c-format
 msgid "Failed to write folder index\n"
 msgstr "Klarte ikke å skrive mappeindeks\n"
 
-#: gtk/updateiconcache.c:1410
+#: ../gtk/updateiconcache.c:1410
 #, c-format
 msgid "Failed to rewrite header\n"
 msgstr "Klarte ikke skrive om hode\n"
 
-#: gtk/updateiconcache.c:1504
+#: ../gtk/updateiconcache.c:1504
 #, c-format
 msgid "Failed to open file %s : %s\n"
 msgstr "Klarte ikke å åpne fil %s: %s\n"
 
-#: gtk/updateiconcache.c:1512 gtk/updateiconcache.c:1542
+#: ../gtk/updateiconcache.c:1512 ../gtk/updateiconcache.c:1542
 #, c-format
 msgid "Failed to write cache file: %s\n"
 msgstr "Klarte ikke å skrive bufferfil: %s\n"
 
-#: gtk/updateiconcache.c:1552
+#: ../gtk/updateiconcache.c:1552
 #, c-format
 msgid "The generated cache was invalid.\n"
 msgstr "Generert buffer var ugyldig.\n"
 
-#: gtk/updateiconcache.c:1566
+#: ../gtk/updateiconcache.c:1566
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
 msgstr "Klarte ikke å endre navn på %s til %s: %s, fjerner %s.\n"
 
-#: gtk/updateiconcache.c:1580
+#: ../gtk/updateiconcache.c:1580
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "Klarte ikke å endre navn på %s til %s: %s\n"
 
-#: gtk/updateiconcache.c:1590
+#: ../gtk/updateiconcache.c:1590
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "Klarte ikke å endre navn på %s tilbake til %s: %s\n"
 
-#: gtk/updateiconcache.c:1617
+#: ../gtk/updateiconcache.c:1617
 #, c-format
 msgid "Cache file created successfully.\n"
 msgstr "Oppretting av bufferfil fullført.\n"
 
-#: gtk/updateiconcache.c:1656
+#: ../gtk/updateiconcache.c:1656
 msgid "Overwrite an existing cache, even if up to date"
 msgstr "Overskriv en eksisterende buffer, selv om den er oppdatert"
 
-#: gtk/updateiconcache.c:1657
+#: ../gtk/updateiconcache.c:1657
 msgid "Don't check for the existence of index.theme"
 msgstr "Ikke sjekk om index.theme eksisterer"
 
-#: gtk/updateiconcache.c:1658
+#: ../gtk/updateiconcache.c:1658
 msgid "Don't include image data in the cache"
 msgstr "Ikke ta med bildedata i bufferen"
 
-#: gtk/updateiconcache.c:1659
+#: ../gtk/updateiconcache.c:1659
 msgid "Include image data in the cache"
 msgstr "Ta med bildedata i bufferen"
 
-#: gtk/updateiconcache.c:1660
+#: ../gtk/updateiconcache.c:1660
 msgid "Output a C header file"
 msgstr "Skriv ut en C-headerfil"
 
-#: gtk/updateiconcache.c:1661
+#: ../gtk/updateiconcache.c:1661
 msgid "Turn off verbose output"
 msgstr "Slå av ekstra utdata"
 
-#: gtk/updateiconcache.c:1662
+#: ../gtk/updateiconcache.c:1662
 msgid "Validate existing icon cache"
 msgstr "Valider eksisterende ikonbuffer"
 
-#: gtk/updateiconcache.c:1729
+#: ../gtk/updateiconcache.c:1729
 #, c-format
 msgid "File not found: %s\n"
 msgstr "Fil ikke funnet %s\n"
 
-#: gtk/updateiconcache.c:1735
+#: ../gtk/updateiconcache.c:1735
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "Ikke en gyldig ikonbuffer: %s\n"
 
-#: gtk/updateiconcache.c:1748
+#: ../gtk/updateiconcache.c:1748
 #, c-format
 msgid "No theme index file.\n"
 msgstr "Ingen indeksfil for tema.\n"
 
-#: gtk/updateiconcache.c:1752
+#: ../gtk/updateiconcache.c:1752
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"
