@@ -25,6 +25,7 @@ Updating
 * Synchronize dependencies to glib and gdk-pixbuf, even if not strictly needed.
 * Copy `gtkiconcachevalidator.c`, `gtkiconcachevalidator.h` and
   `updateiconcache.c` to the `gtk/` folder.
+* Copy `docs/reference/gtk/gtk-update-icon-cache.xml` to `docs/`.
 * Copy the locales from gtk+ `po/` directory to gtk-update-icon-cache `po/`
   directory and remove unneeded translation using the script
   `utils/extract-po.py`:

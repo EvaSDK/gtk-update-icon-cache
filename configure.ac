@@ -44,8 +44,45 @@ PKG_CHECK_MODULES(UPDATE_ICON_CACHE, [
     gdk-pixbuf-2.0 >= gdk_pixbuf_required_version
 ])
 
+AC_ARG_ENABLE([man],
+              [AS_HELP_STRING([--enable-man],
+                              [generate man pages @<:@default=auto@:>@])],
+                              [],
+                              [enable_man=auto])
+
+AS_IF([test "$enable_man" != "no"],
+      [AC_PATH_PROG([XSLTPROC], [xsltproc])
+       AS_IF([test -z "$XSLTPROC" -a "$enable_man" = "yes"],
+             AC_MSG_ERROR([xsltproc is required for --enable-man])
+             enable_man=no)
+      ])
+
+AS_IF([test "$enable_man" != "no"],
+      [JH_CHECK_XML_CATALOG([-//OASIS//DTD DocBook XML V4.3//EN],
+                            [DocBook XML DTD V4.3], [have_docbook_dtd=yes], [have_docbook_dtd=no])
+       AS_IF([test "$have_docbook_dtd" = "no" -a "$enable_man" = "yes"],
+             AC_MSG_ERROR([Docbook DTD is required for --enable-man])
+             enable_man=no)
+      ])
+
+AS_IF([test "$enable_man" != "no"],
+      [JH_CHECK_XML_CATALOG([http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl],
+                            [DocBook XSL Stylesheets], [have_docbook_style=yes], [have_docbook_style=no])
+       AS_IF([test "${have_docbook_style}" = "no" -a "$enable_man" = "yes"],
+             AC_MSG_ERROR([Docbook XSL Stylesheets are required for --enable-man])
+             enable_man=no)
+      ])
+
+AM_CONDITIONAL(ENABLE_MAN, test "$enable_man" != "no")
+
+AC_MSG_CHECKING([whether to generate man pages])
+AS_IF([test "$enable_man" != "no"],
+      [AC_MSG_RESULT([yes])],
+      [AC_MSG_RESULT([no])])
+
 AC_CONFIG_FILES([
     Makefile
+    docs/Makefile
     po/Makefile.in
     gtk/Makefile
 ])
