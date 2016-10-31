@@ -6,7 +6,7 @@
 # image file           - afbeelding
 # image file format    - afbeeldingstype
 # image type           - afbeeldingstype
-# job                  - printopdracht
+# job                  - printopdracht (HD: waar taak stond heb ik dit vervangen)
 # render               - render/weergeven/tonen/opmaken
 # spinbutton           - spinknop/teller
 # tag                  - markering/etiket/label/trefwoord
@@ -20,135 +20,135 @@
 # Tino Meinen <tino.meinen@gmail.com>, 2002–2010.
 # Reinout van Schouwen <reinouts@gnome.org>, 2009.
 # Vincent van Adrighem <adrighem@gnome.org>, 2009.
-# Wouter Bolsterlee <wbolster@gnome.org>, 2011–2012.
-# Rachid BM <rachidbm@ubuntu.com>, 2011–2012, 2013.
-# Hannie Dumoleyn <hannie@ubuntu-nl.org>, 2013, 2016.
+# Wouter Bolsterlee <wbolster@gnome.org>, 2011–2013.
+# Rachid BM <rachidbm@ubuntu.com>, 2011–2012.
+# Hannie Dumoleyn <hannie@ubuntu-nl.org>, 2013, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-25 03:31+0000\n"
-"PO-Revision-Date: 2016-03-25 13:32+0100\n"
+"POT-Creation-Date: 2015-03-20 09:57+0000\n"
+"PO-Revision-Date: 2015-03-21 17:36+0100\n"
 "Last-Translator: Hannie Dumoleyn <hannie@ubuntu-nl.org>\n"
 "Language-Team: Dutch <gnome-nl-list@gnome.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2016-03-25 10:32+0000\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 1.5\n"
+"X-Launchpad-Export-Date: 2012-05-13 21:20+0000\n"
 "X-Project-Style: gnome\n"
 
 # header/header-data
-#: gtk/updateiconcache.c:1390
+#: gtk/updateiconcache.c:1386
 #, c-format
 msgid "Failed to write header\n"
 msgstr "Kon header niet schrijven\n"
 
 # schraptabel/hash tabel
-#: gtk/updateiconcache.c:1396
+#: gtk/updateiconcache.c:1392
 #, c-format
 msgid "Failed to write hash table\n"
 msgstr "Kon ‘hash table’ niet schrijven\n"
 
-#: gtk/updateiconcache.c:1402
+#: gtk/updateiconcache.c:1398
 #, c-format
 msgid "Failed to write folder index\n"
 msgstr "Kon mapindex niet schrijven\n"
 
 # header/header-data
-#: gtk/updateiconcache.c:1410
+#: gtk/updateiconcache.c:1406
 #, c-format
 msgid "Failed to rewrite header\n"
 msgstr "Kon header niet herschrijven\n"
 
-#: gtk/updateiconcache.c:1504
+#: gtk/updateiconcache.c:1500
 #, c-format
 msgid "Failed to open file %s : %s\n"
 msgstr "Openen van bestand ‘%s’ mislukt: %s\n"
 
 # bestand %s/
 # bufferbestand/cache-bestand/tijdelijke-opslagbestand
-#: gtk/updateiconcache.c:1512 gtk/updateiconcache.c:1542
+#: gtk/updateiconcache.c:1508 gtk/updateiconcache.c:1538
 #, c-format
 msgid "Failed to write cache file: %s\n"
 msgstr "Kon cache-bestand niet schrijven: %s\n"
 
-#: gtk/updateiconcache.c:1552
+#: gtk/updateiconcache.c:1548
 #, c-format
 msgid "The generated cache was invalid.\n"
 msgstr "De gegenereerde cache was ongeldig.\n"
 
-#: gtk/updateiconcache.c:1566
+#: gtk/updateiconcache.c:1562
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
 msgstr "Kon %s niet hernoemen naar %s: %s, zal daarom %s verwijderen.\n"
 
-#: gtk/updateiconcache.c:1580
+#: gtk/updateiconcache.c:1576
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "Kon %s niet hernoemen naar %s: %s\n"
 
-#: gtk/updateiconcache.c:1590
+#: gtk/updateiconcache.c:1586
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "Kon %s niet terug hernoemen naar %s: %s.\n"
 
-#: gtk/updateiconcache.c:1617
+#: gtk/updateiconcache.c:1613
 #, c-format
 msgid "Cache file created successfully.\n"
 msgstr "Er is een cache-bestand aangemaakt.\n"
 
-#: gtk/updateiconcache.c:1656
+#: gtk/updateiconcache.c:1652
 msgid "Overwrite an existing cache, even if up to date"
 msgstr "Een bestaande cache overschrijven, zelfs wanneer die up-to-date is"
 
-#: gtk/updateiconcache.c:1657
+#: gtk/updateiconcache.c:1653
 msgid "Don't check for the existence of index.theme"
 msgstr "Niet controleren op het bestaan van index.theme"
 
-#: gtk/updateiconcache.c:1658
+#: gtk/updateiconcache.c:1654
 msgid "Don't include image data in the cache"
 msgstr "Afbeeldingen niet in de cache opslaan"
 
-#: gtk/updateiconcache.c:1659
+#: gtk/updateiconcache.c:1655
 msgid "Include image data in the cache"
 msgstr "Afbeeldingsdata opnemen in de cache"
 
 # aanmaken/opmaken/uitvoeren
 # afdrukken (zie #909 en 925)
-#: gtk/updateiconcache.c:1660
+#: gtk/updateiconcache.c:1656
 msgid "Output a C header file"
 msgstr "Een C-headerbestand afdrukken"
 
 # uitvoerige/uitgebreide uitvoer/berichten/berichtgeving
 # kort en bondige uitvoer
-#: gtk/updateiconcache.c:1661
+#: gtk/updateiconcache.c:1657
 msgid "Turn off verbose output"
 msgstr "Uitvoerige berichtgeving uitzetten"
 
 # valideren/controleren op geldigheid
-#: gtk/updateiconcache.c:1662
+#: gtk/updateiconcache.c:1658
 msgid "Validate existing icon cache"
 msgstr "Bestaande pictogrammencache controleren op geldigheid"
 
-#: gtk/updateiconcache.c:1729
+#: gtk/updateiconcache.c:1725
 #, c-format
 msgid "File not found: %s\n"
 msgstr "Bestand niet gevonden: %s\n"
 
-#: gtk/updateiconcache.c:1735
+#: gtk/updateiconcache.c:1731
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "Geen geldige pictogrammenbuffer: %s\n"
 
-#: gtk/updateiconcache.c:1748
+#: gtk/updateiconcache.c:1744
 #, c-format
 msgid "No theme index file.\n"
 msgstr "Geen thema-indexbestand.\n"
 
-#: gtk/updateiconcache.c:1752
+#: gtk/updateiconcache.c:1748
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"

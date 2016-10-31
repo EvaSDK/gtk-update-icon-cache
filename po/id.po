@@ -10,10 +10,10 @@
 # Dirgita Devina <dirgitadevina@yahoo.co.id>, 2010, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: gtk+ gtk-3-20\n"
+"Project-Id-Version: gtk+ master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-13 10:21+0000\n"
-"PO-Revision-Date: 2016-08-15 13:10+0700\n"
+"POT-Creation-Date: 2016-08-10 10:47+0000\n"
+"PO-Revision-Date: 2016-08-15 13:27+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <gnome@i15n.org>\n"
 "Language: id\n"

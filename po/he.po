@@ -11,10 +11,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+.HEAD.he\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-01 15:31+0200\n"
-"PO-Revision-Date: 2016-03-01 15:51+0200\n"
-"Last-Translator: Yosef Or Boczko <yoseforb@gnome.org>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk"
+"%2B\n"
+"POT-Creation-Date: 2016-09-10 22:50+0300\n"
+"PO-Revision-Date: 2016-09-10 23:43+0300\n"
+"Last-Translator: Yosef Or Boczko <yoseforb@gmail.com>\n"
 "Language-Team: עברית <>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
@@ -25,22 +26,18 @@ msgstr ""
 "X-Project-Style: default\n"
 
 #: gtk/updateiconcache.c:1390
-#, c-format
 msgid "Failed to write header\n"
 msgstr "Failed to write header\n"
 
 #: gtk/updateiconcache.c:1396
-#, c-format
 msgid "Failed to write hash table\n"
 msgstr "Failed to write hash table\n"
 
 #: gtk/updateiconcache.c:1402
-#, c-format
 msgid "Failed to write folder index\n"
 msgstr "Failed to write folder index\n"
 
 #: gtk/updateiconcache.c:1410
-#, c-format
 msgid "Failed to rewrite header\n"
 msgstr "Failed to rewrite header\n"
 
@@ -55,7 +52,6 @@ msgid "Failed to write cache file: %s\n"
 msgstr "Failed to write cache file: %s\n"
 
 #: gtk/updateiconcache.c:1552
-#, c-format
 msgid "The generated cache was invalid.\n"
 msgstr "The generated cache was invalid.\n"
 
@@ -75,7 +71,6 @@ msgid "Could not rename %s back to %s: %s.\n"
 msgstr "Could not rename %s back to %s: %s.\n"
 
 #: gtk/updateiconcache.c:1617
-#, c-format
 msgid "Cache file created successfully.\n"
 msgstr "Cache file created successfully.\n"
 
@@ -118,7 +113,6 @@ msgid "Not a valid icon cache: %s\n"
 msgstr "Not a valid icon cache: %s\n"
 
 #: gtk/updateiconcache.c:1748
-#, c-format
 msgid "No theme index file.\n"
 msgstr "No theme index file.\n"
 
