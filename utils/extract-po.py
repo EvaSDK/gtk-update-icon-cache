@@ -1,13 +1,14 @@
 #!/usr/bin/env python
 
+import io
 import sys 
 
 
 def extract_translations():
     """ Extract translation for updateiconcache. """
 
-    with open(sys.argv[1]) as orig_po, \
-         open(sys.argv[2], 'w+') as new_po:
+    with io.open(sys.argv[1]) as orig_po, \
+         io.open(sys.argv[2], 'w+', newline='\n') as new_po:
 
         lines = []
         relevant = True
