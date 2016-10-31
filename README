@@ -17,6 +17,24 @@ gtk-update-icon-cache requires GLib >= 2.45 and gdk-pixbuf >= 2.30.
 
 See the file 'INSTALL' for more detailed information.
 
+Updating
+========
+
+* Clone gtk+ repository: `git clone git://git.gnome.org/gtk+`.
+* Checkout the sources of gtk+ at the required version.
+* Synchronize dependencies to glib and gdk-pixbuf, even if not strictly needed.
+* Copy `gtkiconcachevalidator.c`, `gtkiconcachevalidator.h` and
+  `updateiconcache.c` to the `gtk/` folder.
+* Copy the locales from gtk+ `po/` directory to gtk-update-icon-cache `po/`
+  directory and remove unneeded translation using the script
+  `utils/extract-po.py`:
+
+    $ for po in ../gtk+/po/*.po ; do \
+        utils/extract-po.py ${po} ./po/$(basename ${po}; \
+      done
+
+Finally do a release using `make distcheck`.
+
 How to report bugs
 ==================
 
