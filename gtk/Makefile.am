@@ -1,5 +1,6 @@
-AM_CPPFLAGS =				\
-	-I$(top_builddir)		\
+AM_CPPFLAGS =							\
+	-I$(top_builddir)					\
+	-DGTK_LOCALEDIR=\"$(localedir)\"	\
 	$(UPDATE_ICON_CACHE_CFLAGS)
 
 bin_PROGRAMS = gtk-update-icon-cache

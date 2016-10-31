@@ -1,5 +1,5 @@
 AC_PREREQ([2.69])
-AC_INIT([gtk-update-icon-cache], [3.20.9],
+AC_INIT([gtk-update-icon-cache], [3.22.0],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=gtk%2B])
 
 AC_CONFIG_HEADERS([config.h])
@@ -10,7 +10,7 @@ AM_INIT_AUTOMAKE([1.13 -Wall foreign no-dist-gzip dist-xz])
 AM_MAINTAINER_MODE([enable])
 AM_SILENT_RULES([yes])
 
-m4_define([glib_required_version], [2.45.8])
+m4_define([glib_required_version], [2.49.4])
 m4_define([gdk_pixbuf_required_version], [2.30.0])
 
 AC_CANONICAL_HOST
@@ -29,14 +29,13 @@ LT_INIT([disable-static win32-dll])
 # Create libtool early, because it's used in configure
 LT_OUTPUT
 
+AM_GNU_GETTEXT([external])
+AM_GNU_GETTEXT_VERSION([0.19.7])
+
 GETTEXT_PACKAGE=gtk-update-icon-cache
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE",
                    [The prefix for our gettext translation domains.])
-
-IT_PROG_INTLTOOL([0.50.1])
-AM_GLIB_GNU_GETTEXT
-AM_GLIB_DEFINE_LOCALEDIR(GTK_LOCALEDIR)
 
 PKG_PROG_PKG_CONFIG
 
