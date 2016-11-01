@@ -1,5 +1,5 @@
 AC_PREREQ([2.69])
-AC_INIT([gtk-update-icon-cache], [3.22.0],
+AC_INIT([gtk-update-icon-cache], [3.22.1],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=gtk%2B])
 
 AC_CONFIG_HEADERS([config.h])

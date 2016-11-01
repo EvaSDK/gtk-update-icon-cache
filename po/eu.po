@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gtk+ master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-24 20:17+0100\n"
-"PO-Revision-Date: 2016-03-24 19:59+0100\n"
+"POT-Creation-Date: 2016-09-11 15:26+0000\n"
+"PO-Revision-Date: 2016-09-17 20:05+0100\n"
 "Last-Translator: dooteo <dooteo@zundan.com>\n"
 "Language-Team: Basque <librezale@librezale.org>\n"
 "Language: eu\n"
@@ -19,105 +19,105 @@ msgstr ""
 "X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../gtk/updateiconcache.c:1390
+#: gtk/updateiconcache.c:1390
 #, c-format
 msgid "Failed to write header\n"
 msgstr "Huts egin du goiburukoa idaztean\n"
 
-#: ../gtk/updateiconcache.c:1396
+#: gtk/updateiconcache.c:1396
 #, c-format
 msgid "Failed to write hash table\n"
 msgstr "Huts egin du 'hash' taula idaztean\n"
 
-#: ../gtk/updateiconcache.c:1402
+#: gtk/updateiconcache.c:1402
 #, c-format
 msgid "Failed to write folder index\n"
 msgstr "Huts egin du karpetaren indizea idaztean\n"
 
-#: ../gtk/updateiconcache.c:1410
+#: gtk/updateiconcache.c:1410
 #, c-format
 msgid "Failed to rewrite header\n"
 msgstr "Huts egin du goiburukoa berridaztean\n"
 
-#: ../gtk/updateiconcache.c:1504
+#: gtk/updateiconcache.c:1504
 #, c-format
 msgid "Failed to open file %s : %s\n"
 msgstr "Huts egin du '%s' fitxategia irekitzean: %s\n"
 
-#: ../gtk/updateiconcache.c:1512 ../gtk/updateiconcache.c:1542
+#: gtk/updateiconcache.c:1512 gtk/updateiconcache.c:1542
 #, c-format
 msgid "Failed to write cache file: %s\n"
 msgstr "Ezin izan da cache fitxategian idatzi: %s\n"
 
-#: ../gtk/updateiconcache.c:1552
+#: gtk/updateiconcache.c:1552
 #, c-format
 msgid "The generated cache was invalid.\n"
 msgstr "Sortutako cache-a baliogabea da.\n"
 
-#: ../gtk/updateiconcache.c:1566
+#: gtk/updateiconcache.c:1566
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
 msgstr "%s ezin izan da %s izenagatik aldatu: %s, %s kentzen orduan.\n"
 
-#: ../gtk/updateiconcache.c:1580
+#: gtk/updateiconcache.c:1580
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "%s ezin izan da %s izenagatik aldatu: %s\n"
 
-#: ../gtk/updateiconcache.c:1590
+#: gtk/updateiconcache.c:1590
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "%s ezin izan da jatorriko %s izenera aldatu: %s\n"
 
-#: ../gtk/updateiconcache.c:1617
+#: gtk/updateiconcache.c:1617
 #, c-format
 msgid "Cache file created successfully.\n"
 msgstr "Cache fitxategia ongi sortu da.\n"
 
-#: ../gtk/updateiconcache.c:1656
+#: gtk/updateiconcache.c:1656
 msgid "Overwrite an existing cache, even if up to date"
 msgstr "Gainidatzi existitzen den cache-a, nahiz eta eguneratuta egon"
 
-#: ../gtk/updateiconcache.c:1657
+#: gtk/updateiconcache.c:1657
 msgid "Don't check for the existence of index.theme"
 msgstr "Ez egiaztatu index.theme dagoen edo ez"
 
-#: ../gtk/updateiconcache.c:1658
+#: gtk/updateiconcache.c:1658
 msgid "Don't include image data in the cache"
 msgstr "Ez txertatu irudiaren daturik cache-an"
 
-#: ../gtk/updateiconcache.c:1659
+#: gtk/updateiconcache.c:1659
 msgid "Include image data in the cache"
 msgstr "Txertatu irudiaren datuak cache-an"
 
-#: ../gtk/updateiconcache.c:1660
+#: gtk/updateiconcache.c:1660
 msgid "Output a C header file"
 msgstr "Kanporatu C goiburuko fitxategia"
 
-#: ../gtk/updateiconcache.c:1661
+#: gtk/updateiconcache.c:1661
 msgid "Turn off verbose output"
 msgstr "Desaktibatu hitzez hitzeko irteera"
 
-#: ../gtk/updateiconcache.c:1662
+#: gtk/updateiconcache.c:1662
 msgid "Validate existing icon cache"
 msgstr "Balidatu ikonoen cache-a"
 
-#: ../gtk/updateiconcache.c:1729
+#: gtk/updateiconcache.c:1729
 #, c-format
 msgid "File not found: %s\n"
 msgstr "Ezin da fitxategia aurkitu: %s\n"
 
-#: ../gtk/updateiconcache.c:1735
+#: gtk/updateiconcache.c:1735
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "Ez da baliozko ikonoen cache-a: %s\n"
 
-#: ../gtk/updateiconcache.c:1748
+#: gtk/updateiconcache.c:1748
 #, c-format
 msgid "No theme index file.\n"
 msgstr "Ez dago gaiaren indize-fitxategirik.\n"
 
-#: ../gtk/updateiconcache.c:1752
+#: gtk/updateiconcache.c:1752
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"
