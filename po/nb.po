@@ -5,10 +5,10 @@
 # Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: gtk+ 3.20.x\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-19 15:26+0000\n"
-"PO-Revision-Date: 2016-05-23 18:55+0200\n"
+"Project-Id-Version: gtk+ 3.22.x\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk%2B\n"
+"POT-Creation-Date: 2016-10-15 16:24+0200\n"
+"PO-Revision-Date: 2016-10-18 07:50+0200\n"
 "Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
 "Language-Team: Norwegian bokmål <i18n-nb@lister.ping.uio.no>\n"
 "Language: nb\n"
@@ -18,22 +18,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: gtk/updateiconcache.c:1390
-#, c-format
 msgid "Failed to write header\n"
 msgstr "Klarte ikke å skrive hode\n"
 
 #: gtk/updateiconcache.c:1396
-#, c-format
 msgid "Failed to write hash table\n"
 msgstr "Klarte ikke å skrive hash-tabell\n"
 
 #: gtk/updateiconcache.c:1402
-#, c-format
 msgid "Failed to write folder index\n"
 msgstr "Klarte ikke å skrive mappeindeks\n"
 
 #: gtk/updateiconcache.c:1410
-#, c-format
 msgid "Failed to rewrite header\n"
 msgstr "Klarte ikke skrive om hode\n"
 
@@ -48,7 +44,6 @@ msgid "Failed to write cache file: %s\n"
 msgstr "Klarte ikke å skrive bufferfil: %s\n"
 
 #: gtk/updateiconcache.c:1552
-#, c-format
 msgid "The generated cache was invalid.\n"
 msgstr "Generert buffer var ugyldig.\n"
 
@@ -68,7 +63,6 @@ msgid "Could not rename %s back to %s: %s.\n"
 msgstr "Klarte ikke å endre navn på %s tilbake til %s: %s\n"
 
 #: gtk/updateiconcache.c:1617
-#, c-format
 msgid "Cache file created successfully.\n"
 msgstr "Oppretting av bufferfil fullført.\n"
 
@@ -111,7 +105,6 @@ msgid "Not a valid icon cache: %s\n"
 msgstr "Ikke en gyldig ikonbuffer: %s\n"
 
 #: gtk/updateiconcache.c:1748
-#, c-format
 msgid "No theme index file.\n"
 msgstr "Ingen indeksfil for tema.\n"
 

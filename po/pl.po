@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gtk+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-22 15:03+0000\n"
-"PO-Revision-Date: 2016-09-22 18:15+0200\n"
+"POT-Creation-Date: 2016-10-06 11:53+0000\n"
+"PO-Revision-Date: 2016-10-12 19:48+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -50,7 +50,7 @@ msgstr "Przepisanie nagłówka się nie powiodło\n"
 #: gtk/updateiconcache.c:1504
 #, c-format
 msgid "Failed to open file %s : %s\n"
-msgstr "Otworzenie pliku %s się nie powiodło: %s\n"
+msgstr "Otwarcie pliku „%s” się nie powiodło: %s\n"
 
 #: gtk/updateiconcache.c:1512 gtk/updateiconcache.c:1542
 #, c-format
