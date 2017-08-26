@@ -9,122 +9,126 @@
 # Mahesh subedi <submanesh@hotmail.com>, 2006.
 msgid ""
 msgstr ""
-"Project-Id-Version: gtk.gnome-2-14.ne\n"
+"Project-Id-Version: Gnome Nepali Translation Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-01 15:41-0400\n"
-"PO-Revision-Date: 2006-07-07 14:33+0545\n"
-"Last-Translator: Mahesh subedi <submanesh@hotmail.com>\n"
-"Language-Team: Nepali <info@mpp.org.np>\n"
+"POT-Creation-Date: 2017-08-11 20:20+0000\n"
+"PO-Revision-Date: 2017-08-21 04:28+0545\n"
+"Last-Translator: Pawan Chitrakar <chautari@gmail.com>\n"
+"Language-Team: Nepali Translation Team <chautari@gmail.com>\n"
 "Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.10.2\n"
-"Plural-Forms: nplurals=2;plural=(n!=1)\n"
+"X-Generator: Poedit 2.0.3\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
 
-#: gtk/updateiconcache.c:492 gtk/updateiconcache.c:552
-#, c-format
-msgid "different idatas found for symlinked '%s' and '%s'\n"
-msgstr ""
-
-#: gtk/updateiconcache.c:1374
+#: gtk/updateiconcache.c:1390
 #, c-format
 msgid "Failed to write header\n"
-msgstr ""
+msgstr "हेडर लेख्न असफल भयो\n"
 
-#: gtk/updateiconcache.c:1380
+#: gtk/updateiconcache.c:1396
 #, c-format
 msgid "Failed to write hash table\n"
-msgstr ""
+msgstr "ह्यास तालिका लेख्न असफल भयो\n"
 
-#: gtk/updateiconcache.c:1386
-#, fuzzy, c-format
+#: gtk/updateiconcache.c:1402
+#, c-format
 msgid "Failed to write folder index\n"
-msgstr "अस्थायी फाइलबाट पढ्न असफल"
+msgstr "फोल्डर अनुक्रमाणिका लेख्न असफल भयो\n"
 
-#: gtk/updateiconcache.c:1394
+#: gtk/updateiconcache.c:1410
 #, c-format
 msgid "Failed to rewrite header\n"
-msgstr ""
+msgstr "हेडर पुन: लेख्न असफल भयो\n"
 
-#: gtk/updateiconcache.c:1463
+#: gtk/updateiconcache.c:1504
 #, fuzzy, c-format
 msgid "Failed to open file %s : %s\n"
 msgstr "फाइल '%s' खोल्न असफल: %s"
 
-#: gtk/updateiconcache.c:1471
-#, fuzzy, c-format
+#: gtk/updateiconcache.c:1512 gtk/updateiconcache.c:1542
+#, c-format
 msgid "Failed to write cache file: %s\n"
-msgstr "फाइल '%s' खोल्न असफल: %s"
+msgstr "क्यास फाइल लेख्न असफल भयो: %s\n"
 
-#: gtk/updateiconcache.c:1507
+#: gtk/updateiconcache.c:1552
 #, c-format
 msgid "The generated cache was invalid.\n"
-msgstr ""
+msgstr "सिर्जना गरिएको क्यास अवैध थियो ।\n"
 
-#: gtk/updateiconcache.c:1521
+#: gtk/updateiconcache.c:1566
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
-msgstr ""
+msgstr "%s लाई %s मा पुन: नामाकरण गर्न सकेन: %s, %s हटाउँदै त्यसपछि ।\n"
 
-#: gtk/updateiconcache.c:1535
-#, fuzzy, c-format
+#: gtk/updateiconcache.c:1580
+#, c-format
 msgid "Could not rename %s to %s: %s\n"
-msgstr "\"%s\"बाट\"%s\" मा फाइलको नाम फेर्दा त्रुटि: %s"
+msgstr "%s लाई %s पुन: नामाकरण गर्न सकेन: %s\n"
 
-#: gtk/updateiconcache.c:1545
-#, fuzzy, c-format
+#: gtk/updateiconcache.c:1590
+#, c-format
 msgid "Could not rename %s back to %s: %s.\n"
-msgstr "%s का लागि मौज्दात प्रतिमा प्राप्त गर्न सकेन"
+msgstr "%s लाई फेरि %s मा पुन: नामाकरण गर्न सकेन: %s.\n"
 
-#: gtk/updateiconcache.c:1572
+#: gtk/updateiconcache.c:1617
 #, c-format
 msgid "Cache file created successfully.\n"
-msgstr ""
+msgstr "क्याश फाइल सफलतापूर्वक सिर्जना गरियो ।\n"
 
-#: gtk/updateiconcache.c:1611
+#: gtk/updateiconcache.c:1656
 msgid "Overwrite an existing cache, even if up to date"
-msgstr ""
+msgstr "एउटा अवस्थित क्याशलाई अधिलेखन गर्नुहोस्, यदि अद्यावधिक भए पनि"
 
-#: gtk/updateiconcache.c:1612
+#: gtk/updateiconcache.c:1657
 msgid "Don't check for the existence of index.theme"
-msgstr ""
+msgstr "अवस्थित index.theme को लागि जाँच नगर्नुहोस्"
 
-#: gtk/updateiconcache.c:1613
+#: gtk/updateiconcache.c:1658
 msgid "Don't include image data in the cache"
-msgstr ""
+msgstr "क्याशमा छवि डेटा समावेश नगर्नुहोस्"
 
-#: gtk/updateiconcache.c:1614
+#: gtk/updateiconcache.c:1659
+#, fuzzy
+msgid "Include image data in the cache"
+msgstr "क्याशमा छवि डेटा समावेश नगर्नुहोस्"
+
+#: gtk/updateiconcache.c:1660
 msgid "Output a C header file"
-msgstr ""
+msgstr "सी हेडर फाइल निर्गत गर्नुहोस्"
 
-#: gtk/updateiconcache.c:1615
+#: gtk/updateiconcache.c:1661
 msgid "Turn off verbose output"
-msgstr ""
+msgstr "भरबोस निर्गत बन्द गर्नुहोस्"
 
-#: gtk/updateiconcache.c:1616
+#: gtk/updateiconcache.c:1662
 msgid "Validate existing icon cache"
-msgstr ""
+msgstr "अवस्थित प्रतिमा क्याश प्रमाणीत गर्नुहोस्"
 
-#: gtk/updateiconcache.c:1683
-#, fuzzy, c-format
+#: gtk/updateiconcache.c:1729
+#, c-format
 msgid "File not found: %s\n"
-msgstr "%s माउण्ट गर्न सकेन"
+msgstr "फाइल फेला परेन: %s\n"
 
-#: gtk/updateiconcache.c:1689
+#: gtk/updateiconcache.c:1735
 #, c-format
 msgid "Not a valid icon cache: %s\n"
-msgstr ""
+msgstr "वैध प्रतिमा क्याश होइन: %s\n"
 
-#: gtk/updateiconcache.c:1702
-#, c-format
+#: gtk/updateiconcache.c:1748
+#, fuzzy, c-format
 msgid "No theme index file.\n"
 msgstr ""
+"'%s' मा विषयवस्तु अनुक्रमाणिका फाइल छैन ।\n"
+"यदि तपाईँ यहाँ साँच्चै एउटा प्रतिमा क्याश सिर्जना गर्न चाहनुहुन्छ भने, --ignore-theme-index प्रयोग गर्नुहोस् ।\n"
 
-#: gtk/updateiconcache.c:1706
+#: gtk/updateiconcache.c:1752
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"
 "If you really want to create an icon cache here, use --ignore-theme-index.\n"
 msgstr ""
+"'%s' मा विषयवस्तु अनुक्रमाणिका फाइल छैन ।\n"
+"यदि तपाईँ यहाँ साँच्चै एउटा प्रतिमा क्याश सिर्जना गर्न चाहनुहुन्छ भने, --ignore-theme-index प्रयोग गर्नुहोस् ।\n"
 
