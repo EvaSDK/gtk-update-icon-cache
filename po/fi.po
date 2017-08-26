@@ -9,14 +9,14 @@
 # Tommi Vainikainen <thv@iki.fi>, 2009-2010.
 # Timo Jyrinki <timo.jyrinki@iki.fi>, 2010.
 # Lasse Liehu <lasse.liehu@gmail.com>, 2014.
-# Jiri Grönroos <jiri.gronroos+l10n@iki.fi>, 2009, 2012, 2013, 2014, 2015, 2016.
+# Jiri Grönroos <jiri.gronroos+l10n@iki.fi>, 2009, 2012, 2013, 2014, 2015, 2016, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-11 15:26+0000\n"
-"PO-Revision-Date: 2016-09-12 20:25+0300\n"
+"POT-Creation-Date: 2017-08-03 09:24+0000\n"
+"PO-Revision-Date: 2017-08-03 12:50+0300\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos+l10n@iki.fi>\n"
 "Language-Team: suomi <lokalisointi-lista@googlegroups.com>\n"
 "Language: fi\n"
