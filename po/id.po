@@ -5,15 +5,15 @@
 # Mohammad DAMT <mdamt@bisnisweb.com>, 2003, 2004, 2005.
 # Ahmad Riza H Nst  <rizahnst@gnome.org>, 2006.
 # Muhammad Hilman <hilman09121991@yahoo.com>, 2008.
-# Andika Triwidada <andika@gmail.com>, 2010, 2011, 2012, 2013, 2014.
+# Andika Triwidada <andika@gmail.com>, 2010-2014, 2017.
 # Dirgita <dirgitadevina@yahoo.co.id>, 2010.
 # Dirgita Devina <dirgitadevina@yahoo.co.id>, 2010, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: gtk+ master\n"
+"Project-Id-Version: gtk+ gtk-3-22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-10 10:47+0000\n"
-"PO-Revision-Date: 2016-08-15 13:27+0700\n"
+"POT-Creation-Date: 2017-03-10 06:39+0000\n"
+"PO-Revision-Date: 2017-03-11 15:49+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <gnome@i15n.org>\n"
 "Language: id\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #: gtk/updateiconcache.c:1390
 #, c-format
