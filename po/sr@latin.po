@@ -1,17 +1,17 @@
 # Serbian translation of gtk+
-# Courtesy of Prevod.org team (http://prevod.org/) -- 2003—2016.
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2003—2017.
 # This file is distributed under the same license as the gtk package.
 # Translators:
 # Danilo Šegan <dsegan@gmx.net>, 2004—2005.
 # Miloš Popović <gpopac@gmail.com>, 2010—2015.
-# Miroslav Nikolić <miroslavnikolic@rocketmail.com>, 2011—2016.
+# Miroslav Nikolić <miroslavnikolic@rocketmail.com>, 2011—2017.
 # Marko M. Kostić (Marko M. Kostić) <marko.m.kostic@gmail.com>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+ 2.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-17 18:56+0000\n"
-"PO-Revision-Date: 2016-11-18 09:13+0200\n"
+"POT-Creation-Date: 2017-04-30 06:25+0000\n"
+"PO-Revision-Date: 2017-04-30 08:44+0200\n"
 "Last-Translator: Miroslav Nikolić <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: srpski <gnome-sr@googlegroups.org>\n"
 "Language: sr\n"
