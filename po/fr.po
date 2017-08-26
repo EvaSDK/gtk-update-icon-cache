@@ -15,12 +15,13 @@
 # Laurent Coudeur <laurentc@iol.ie>, 2009
 # Bruno Brouard <annoa.b@gmail.com>, 2011-13
 # Charles Monzat <superboa@hotmail.fr>, 2016.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+ master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-22 15:03+0000\n"
-"PO-Revision-Date: 2016-09-25 21:45+0200\n"
+"POT-Creation-Date: 2016-11-16 03:53+0000\n"
+"PO-Revision-Date: 2016-11-16 12:36+0100\n"
 "Last-Translator: Charles Monzat <superboa@hotmail.fr>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
 "Language: fr\n"
@@ -28,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n>1;\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Gtranslator 2.91.7\n"
 
 #: gtk/updateiconcache.c:1390
 #, c-format

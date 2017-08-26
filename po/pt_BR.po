@@ -25,8 +25,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Gtk+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-22 15:03+0000\n"
-"PO-Revision-Date: 2016-09-22 22:00-0200\n"
+"POT-Creation-Date: 2016-11-16 12:08+0000\n"
+"PO-Revision-Date: 2016-11-17 02:17-0200\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
@@ -59,7 +59,7 @@ msgstr "Falha ao regravar cabeçalho\n"
 #: gtk/updateiconcache.c:1504
 #, c-format
 msgid "Failed to open file %s : %s\n"
-msgstr "Falha ao abrir o arquivo \"%s\": %s\n"
+msgstr "Falha ao abrir o arquivo “%s”: %s\n"
 
 #: gtk/updateiconcache.c:1512 gtk/updateiconcache.c:1542
 #, c-format
@@ -140,7 +140,7 @@ msgid ""
 "No theme index file in '%s'.\n"
 "If you really want to create an icon cache here, use --ignore-theme-index.\n"
 msgstr ""
-"Sem arquivo de índice de tema em \"%s\".\n"
+"Sem arquivo de índice de tema em “%s”.\n"
 "Se você realmente quiser criar um cache de ícones aqui, use --ignore-theme-"
 "index.\n"
 
