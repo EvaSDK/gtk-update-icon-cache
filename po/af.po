@@ -6,119 +6,118 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+ 2.6-branch\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk%2b&"
-"keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-02-27 22:17+0000\n"
-"PO-Revision-Date: 2015-02-28 18:42+0200\n"
-"Last-Translator: F Wolff <friedel@translate.org.za>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-21 22:49+0000\n"
+"PO-Revision-Date: 2018-01-24 13:34+0200\n"
+"Last-Translator: Pieter Schoeman <pieter@sonbesie.co.za>\n"
 "Language-Team: translate-discuss-af@lists.sourceforge.net\n"
 "Language: af\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.9.0-beta1\n"
+"X-Generator: Poedit 2.0.3\n"
 "X-Project-Style: gnome\n"
 
-#: ../gtk/updateiconcache.c:1386
+#: gtk/updateiconcache.c:1388
 #, c-format
 msgid "Failed to write header\n"
 msgstr "Kon nie kop skryf nie\n"
 
-#: ../gtk/updateiconcache.c:1392
+#: gtk/updateiconcache.c:1394
 #, c-format
 msgid "Failed to write hash table\n"
 msgstr "Kon nie hutstabel skryf nie\n"
 
-#: ../gtk/updateiconcache.c:1398
+#: gtk/updateiconcache.c:1400
 #, c-format
 msgid "Failed to write folder index\n"
 msgstr "Kon nie gidsindeks skryf nie\n"
 
-#: ../gtk/updateiconcache.c:1406
+#: gtk/updateiconcache.c:1408
 #, c-format
 msgid "Failed to rewrite header\n"
 msgstr "Kon nie kop herskryf nie\n"
 
-#: ../gtk/updateiconcache.c:1500
+#: gtk/updateiconcache.c:1502
 #, c-format
 msgid "Failed to open file %s : %s\n"
 msgstr "Kon nie lêer '%s' open nie: %s\n"
 
-#: ../gtk/updateiconcache.c:1508 ../gtk/updateiconcache.c:1538
+#: gtk/updateiconcache.c:1510 gtk/updateiconcache.c:1540
 #, c-format
 msgid "Failed to write cache file: %s\n"
 msgstr "Kon nie kaslêer skryf nie: %s\n"
 
-#: ../gtk/updateiconcache.c:1548
+#: gtk/updateiconcache.c:1550
 #, c-format
 msgid "The generated cache was invalid.\n"
 msgstr "Die gegenereerde kas was ongeldig.\n"
 
-#: ../gtk/updateiconcache.c:1562
+#: gtk/updateiconcache.c:1564
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
 msgstr "Kon nie %s hernoem na %s nie: %s, verwyder nou maar %s.\n"
 
-#: ../gtk/updateiconcache.c:1576
+#: gtk/updateiconcache.c:1578
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "Kon nie %s hernoem na %s nie: %s\n"
 
-#: ../gtk/updateiconcache.c:1586
+#: gtk/updateiconcache.c:1588
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "Kon nie %s terug hernoem na %s nie: %s.\n"
 
-#: ../gtk/updateiconcache.c:1613
+#: gtk/updateiconcache.c:1615
 #, c-format
 msgid "Cache file created successfully.\n"
 msgstr "Kaslêer suksesvol geskep.\n"
 
-#: ../gtk/updateiconcache.c:1652
+#: gtk/updateiconcache.c:1654
 msgid "Overwrite an existing cache, even if up to date"
 msgstr "Oorskryf 'n bestaande kas, selfs as dit op datum is"
 
-#: ../gtk/updateiconcache.c:1653
+#: gtk/updateiconcache.c:1655
 msgid "Don't check for the existence of index.theme"
 msgstr "Moenie kontroleer vir die bestaan van index.theme nie"
 
-#: ../gtk/updateiconcache.c:1654
+#: gtk/updateiconcache.c:1656
 msgid "Don't include image data in the cache"
 msgstr "Moenie beelddata insluit in die kas nie"
 
-#: ../gtk/updateiconcache.c:1655
+#: gtk/updateiconcache.c:1657
 msgid "Include image data in the cache"
 msgstr "Sluit beelddata in by die kas"
 
-#: ../gtk/updateiconcache.c:1656
+#: gtk/updateiconcache.c:1658
 msgid "Output a C header file"
-msgstr ""
+msgstr "Afvoer van die C koplêer"
 
-#: ../gtk/updateiconcache.c:1657
+#: gtk/updateiconcache.c:1659
 msgid "Turn off verbose output"
 msgstr "Skakel spraaksame afvoer af"
 
-#: ../gtk/updateiconcache.c:1658
+#: gtk/updateiconcache.c:1660
 msgid "Validate existing icon cache"
 msgstr "Valideer bestaande ikoonkas"
 
-#: ../gtk/updateiconcache.c:1725
+#: gtk/updateiconcache.c:1727
 #, c-format
 msgid "File not found: %s\n"
 msgstr "Lêer nie gevind nie: %s\n"
 
-#: ../gtk/updateiconcache.c:1731
+#: gtk/updateiconcache.c:1733
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "Nie 'n geldige ikoonkas nie: %s\n"
 
-#: ../gtk/updateiconcache.c:1744
+#: gtk/updateiconcache.c:1746
 #, c-format
 msgid "No theme index file.\n"
 msgstr "Geen indekslêer vir tema nie.\n"
 
-#: ../gtk/updateiconcache.c:1748
+#: gtk/updateiconcache.c:1750
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"

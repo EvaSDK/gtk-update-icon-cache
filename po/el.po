@@ -18,120 +18,120 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gtk+ 2.20.1.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-06 14:27+0000\n"
-"PO-Revision-Date: 2017-04-08 19:35+0300\n"
-"Last-Translator: Tom Tryfonidis <tomtryf@gnome.org>\n"
+"POT-Creation-Date: 2018-06-18 21:58+0000\n"
+"PO-Revision-Date: 2018-09-03 13:45+0300\n"
+"Last-Translator: Efstathios Iosifidis <iosifidis@opensuse.org>\n"
 "Language-Team: www.gnome.gr\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 2.1.1\n"
 "X-Project-Style: gnome\n"
 
-#: gtk/updateiconcache.c:1390
+#: gtk/updateiconcache.c:1383
 #, c-format
 msgid "Failed to write header\n"
 msgstr "Αποτυχία εγγραφής κεφαλίδας\n"
 
-#: gtk/updateiconcache.c:1396
+#: gtk/updateiconcache.c:1389
 #, c-format
 msgid "Failed to write hash table\n"
 msgstr "Αποτυχία εγγραφής πίνακα κατακερματισμού\n"
 
-#: gtk/updateiconcache.c:1402
+#: gtk/updateiconcache.c:1395
 #, c-format
 msgid "Failed to write folder index\n"
 msgstr "Αποτυχία εγγραφής ευρετηρίου φακέλου\n"
 
-#: gtk/updateiconcache.c:1410
+#: gtk/updateiconcache.c:1403
 #, c-format
 msgid "Failed to rewrite header\n"
 msgstr "Αποτυχία επανεγγραφής κεφαλίδας\n"
 
-#: gtk/updateiconcache.c:1504
+#: gtk/updateiconcache.c:1497
 #, c-format
 msgid "Failed to open file %s : %s\n"
 msgstr "Αποτυχία ανοίγματος αρχείου %s : %s\n"
 
-#: gtk/updateiconcache.c:1512 gtk/updateiconcache.c:1542
+#: gtk/updateiconcache.c:1505 gtk/updateiconcache.c:1535
 #, c-format
 msgid "Failed to write cache file: %s\n"
 msgstr "Αποτυχία εγγραφής αρχείου κρυφής μνήμης: %s\n"
 
-#: gtk/updateiconcache.c:1552
+#: gtk/updateiconcache.c:1545
 #, c-format
 msgid "The generated cache was invalid.\n"
 msgstr "Η δημιουργημένη κρυφή μνήμη ήταν άκυρη.\n"
 
-#: gtk/updateiconcache.c:1566
+#: gtk/updateiconcache.c:1559
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
 msgstr "Αδυναμία μετονομασίας του %s σε %s: %s· άρα, αφαιρείται το %s.\n"
 
-#: gtk/updateiconcache.c:1580
+#: gtk/updateiconcache.c:1573
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "Αδυναμία μετονομασίας του %s σε %s: %s\n"
 
-#: gtk/updateiconcache.c:1590
+#: gtk/updateiconcache.c:1583
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "Αδυναμία μετονομασίας του %s πάλι σε %s: %s.\n"
 
-#: gtk/updateiconcache.c:1617
+#: gtk/updateiconcache.c:1610
 #, c-format
 msgid "Cache file created successfully.\n"
 msgstr "Επιτυχής δημιουργία αρχείου κρυφής μνήμης.\n"
 
-#: gtk/updateiconcache.c:1656
+#: gtk/updateiconcache.c:1649
 msgid "Overwrite an existing cache, even if up to date"
 msgstr "Αντικατάσταση υπάρχουσας κρυφής μνήμης, ακόμη κι αν είναι ενημερωμένη"
 
-#: gtk/updateiconcache.c:1657
-msgid "Don't check for the existence of index.theme"
+#: gtk/updateiconcache.c:1650
+msgid "Don’t check for the existence of index.theme"
 msgstr "Να μη γίνεται έλεγχος για την ύπαρξη του index.theme"
 
-#: gtk/updateiconcache.c:1658
-msgid "Don't include image data in the cache"
+#: gtk/updateiconcache.c:1651
+msgid "Don’t include image data in the cache"
 msgstr "Να μη συμπεριλαμβάνονται δεδομένα εικόνων στην κρυφή μνήμη"
 
-#: gtk/updateiconcache.c:1659
+#: gtk/updateiconcache.c:1652
 msgid "Include image data in the cache"
 msgstr "Να συμπεριλαμβάνονται δεδομένα στην κρυφή μνήμη"
 
-#: gtk/updateiconcache.c:1660
+#: gtk/updateiconcache.c:1653
 msgid "Output a C header file"
 msgstr "Έξοδος σε αρχείο κεφαλίδας C"
 
-#: gtk/updateiconcache.c:1661
+#: gtk/updateiconcache.c:1654
 msgid "Turn off verbose output"
 msgstr "Απενεργοποίηση αναλυτικής εξόδου μηνυμάτων"
 
-#: gtk/updateiconcache.c:1662
+#: gtk/updateiconcache.c:1655
 msgid "Validate existing icon cache"
 msgstr "Επαλήθευση υπάρχουσας κρυφής μνήμης εικονιδίων"
 
-#: gtk/updateiconcache.c:1729
+#: gtk/updateiconcache.c:1722
 #, c-format
 msgid "File not found: %s\n"
 msgstr "Δε βρέθηκε το αρχείο: %s\n"
 
-#: gtk/updateiconcache.c:1735
+#: gtk/updateiconcache.c:1728
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "Δεν είναι έγκυρη κρυφή μνήμη εικονιδίων: %s\n"
 
-#: gtk/updateiconcache.c:1748
+#: gtk/updateiconcache.c:1741
 #, c-format
 msgid "No theme index file.\n"
 msgstr "Χωρίς αρχείο ευρετηρίου θέματος.\n"
 
-#: gtk/updateiconcache.c:1752
+#: gtk/updateiconcache.c:1745
 #, c-format
 msgid ""
-"No theme index file in '%s'.\n"
+"No theme index file in “%s”.\n"
 "If you really want to create an icon cache here, use --ignore-theme-index.\n"
 msgstr ""
 "Χωρίς αρχείο ευρετηρίου θέματος στο «%s».\n"

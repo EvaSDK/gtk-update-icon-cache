@@ -7,14 +7,15 @@
 # Djihed Afifi <djihed@gmail.com>, 2006.
 # Seba Barto <nanoosaamar@yahoo.com>, 2006.
 # Anas Afif Emad <anas.e87@gmail.com>, 2008.
-# Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016.
+# Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017.
 # Abderrahim Kitouni <a.kitouni@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+.master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-11 15:26+0000\n"
-"PO-Revision-Date: 2016-09-21 09:05+0200\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk%"
+"2B\n"
+"POT-Creation-Date: 2017-11-03 11:40+0200\n"
+"PO-Revision-Date: 2017-11-03 11:45+0200\n"
 "Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
 "Language: ar\n"
@@ -26,105 +27,98 @@ msgstr ""
 "X-Generator: Virtaal 1.0.0-beta1\n"
 "X-Project-Style: gnome\n"
 
-#: gtk/updateiconcache.c:1390
-#, c-format
+#: gtk/updateiconcache.c:1388
 msgid "Failed to write header\n"
 msgstr "فشلت كتابة الترويسة\n"
 
-#: gtk/updateiconcache.c:1396
-#, c-format
+#: gtk/updateiconcache.c:1394
 msgid "Failed to write hash table\n"
 msgstr "فشلت كتابة جدول التلبيد\n"
 
-#: gtk/updateiconcache.c:1402
-#, c-format
+#: gtk/updateiconcache.c:1400
 msgid "Failed to write folder index\n"
 msgstr "فشلت كتابة فهرس المجلدات\n"
 
-#: gtk/updateiconcache.c:1410
-#, c-format
+#: gtk/updateiconcache.c:1408
 msgid "Failed to rewrite header\n"
 msgstr "فشلت إعادة كتابة الترويسة\n"
 
-#: gtk/updateiconcache.c:1504
+#: gtk/updateiconcache.c:1502
 #, c-format
 msgid "Failed to open file %s : %s\n"
 msgstr "فشل فتح الملف %s : %s\n"
 
-#: gtk/updateiconcache.c:1512 gtk/updateiconcache.c:1542
+#: gtk/updateiconcache.c:1510 gtk/updateiconcache.c:1540
 #, c-format
 msgid "Failed to write cache file: %s\n"
 msgstr "فشلت الكتابة في الملف: %s\n"
 
-#: gtk/updateiconcache.c:1552
-#, c-format
+#: gtk/updateiconcache.c:1550
 msgid "The generated cache was invalid.\n"
 msgstr "المخزن المنتج غير صحيح.\n"
 
-#: gtk/updateiconcache.c:1566
+#: gtk/updateiconcache.c:1564
 #, c-format
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
 msgstr "تعذّر تغيير اسم %s إلى %s: %s، سيُحذف %s إذن.\n"
 
-#: gtk/updateiconcache.c:1580
+#: gtk/updateiconcache.c:1578
 #, c-format
 msgid "Could not rename %s to %s: %s\n"
 msgstr "تعذّر تغيير اسم %s إلى %s: %s\n"
 
-#: gtk/updateiconcache.c:1590
+#: gtk/updateiconcache.c:1588
 #, c-format
 msgid "Could not rename %s back to %s: %s.\n"
 msgstr "تعذّر تغيير اسم %s إلى %s: %s.\n"
 
-#: gtk/updateiconcache.c:1617
-#, c-format
+#: gtk/updateiconcache.c:1615
 msgid "Cache file created successfully.\n"
 msgstr "تم إنشاء ملف الخزن (Cache) بنجاح.\n"
 
-#: gtk/updateiconcache.c:1656
+#: gtk/updateiconcache.c:1654
 msgid "Overwrite an existing cache, even if up to date"
 msgstr "اكتب فوق ملف cache (خزن) موجود، حتى إذا كان محدّثا"
 
-#: gtk/updateiconcache.c:1657
+#: gtk/updateiconcache.c:1655
 msgid "Don't check for the existence of index.theme"
 msgstr "لا تتحقق من وجود index.theme"
 
-#: gtk/updateiconcache.c:1658
+#: gtk/updateiconcache.c:1656
 msgid "Don't include image data in the cache"
 msgstr "لا تضع بيانات الصور في المخزن"
 
-#: gtk/updateiconcache.c:1659
+#: gtk/updateiconcache.c:1657
 msgid "Include image data in the cache"
 msgstr "تضع بيانات الصور في المخزن"
 
-#: gtk/updateiconcache.c:1660
+#: gtk/updateiconcache.c:1658
 msgid "Output a C header file"
 msgstr "اخرج ملف ترويسة C"
 
-#: gtk/updateiconcache.c:1661
+#: gtk/updateiconcache.c:1659
 msgid "Turn off verbose output"
 msgstr "اغلق الخرْج المطنب"
 
-#: gtk/updateiconcache.c:1662
+#: gtk/updateiconcache.c:1660
 msgid "Validate existing icon cache"
 msgstr "تصحيح مخزن الإيقونات الموجود"
 
-#: gtk/updateiconcache.c:1729
+#: gtk/updateiconcache.c:1727
 #, c-format
 msgid "File not found: %s\n"
 msgstr "الملفّ غير موجود: %s\n"
 
-#: gtk/updateiconcache.c:1735
+#: gtk/updateiconcache.c:1733
 #, c-format
 msgid "Not a valid icon cache: %s\n"
 msgstr "مخزن إيقونات غير سليم: %s\n"
 
-#: gtk/updateiconcache.c:1748
-#, c-format
+#: gtk/updateiconcache.c:1746
 msgid "No theme index file.\n"
 msgstr "لا ملف فهرس للسمة.\n"
 
-#: gtk/updateiconcache.c:1752
+#: gtk/updateiconcache.c:1750
 #, c-format
 msgid ""
 "No theme index file in '%s'.\n"
