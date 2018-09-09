@@ -33,6 +33,8 @@ Updating
     $ for po in ../gtk+/po/*.po ; do \
         utils/extract-po.py ${po} ./po/$(basename ${po}; \
       done
+* Compare and update po/LINGUAS if needed. If a language has been removed, remove
+  the corresponding *.po file in addition to the LINGUAS entry.
 
 Finally do a release using `make distcheck`.
 
@@ -40,7 +42,7 @@ How to report bugs
 ==================
 
 Bugs should be reported to the Gentoo bug tracking system
-(http://bus.gentoo.org, product Gentoo Linux, component GNOME).
+(http://bugs.gentoo.org, product Gentoo Linux, component Current packages).
 You will need to create an account for yourself.
 
 In the bug report, please include:
