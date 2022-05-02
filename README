@@ -8,8 +8,8 @@ to co-exist better by extracting the single conflicting tool.
 
 Official sources of this tool are located at:
 
-    https://github.com/GNOME/gtk/blob/master/gtk/updateiconcache.c
-
+    https://gitlab.gnome.org/GNOME/gtk/-/blob/main/tools/updateiconcache.c
+    
 Installation
 ============
 
