@@ -1,3 +1,9 @@
+Repository moved
+================
+
+__This repository has been moved to https://gitlab.gnome.org/Community/gentoo/gtk-update-icon-cache and this one here is not updated anymore.__
+
+
 General Information
 ===================
 
